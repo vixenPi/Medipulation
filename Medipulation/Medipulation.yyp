@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"ReadIn","path":"scripts/ReadIn/ReadIn.yy",},"order":0,},
+    {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},"order":1,},
     {"id":{"name":"Game","path":"rooms/Game/Game.yy",},"order":0,},
   ],
   "Options": [
@@ -15,6 +16,7 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},
     {"name":"Game","path":"rooms/Game/Game.yy",},
   ],
   "Folders": [
