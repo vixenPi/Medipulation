@@ -1,7 +1,15 @@
 {
   "resources": [
+    {"id":{"name":"NextStory","path":"scripts/NextStory/NextStory.yy",},"order":1,},
     {"id":{"name":"ReadIn","path":"scripts/ReadIn/ReadIn.yy",},"order":0,},
+    {"id":{"name":"Obj_Channel1_Button","path":"objects/Obj_Channel1_Button/Obj_Channel1_Button.yy",},"order":0,},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},"order":1,},
+    {"id":{"name":"ChoiceMade","path":"scripts/ChoiceMade/ChoiceMade.yy",},"order":2,},
+    {"id":{"name":"Obj_StartGame","path":"objects/Obj_StartGame/Obj_StartGame.yy",},"order":2,},
+    {"id":{"name":"Obj_Story","path":"objects/Obj_Story/Obj_Story.yy",},"order":0,},
+    {"id":{"name":"Obj_News_Button","path":"objects/Obj_News_Button/Obj_News_Button.yy",},"order":1,},
+    {"id":{"name":"SpriteChannel1","path":"sprites/SpriteChannel1/SpriteChannel1.yy",},"order":0,},
+    {"id":{"name":"SpriteStartGame","path":"sprites/SpriteStartGame/SpriteStartGame.yy",},"order":1,},
     {"id":{"name":"Game","path":"rooms/Game/Game.yy",},"order":0,},
   ],
   "Options": [
@@ -34,6 +42,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/News Buttons.yy","order":4,"resourceVersion":"1.0","name":"News Buttons","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -41,7 +50,10 @@
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":153157610357391598,"filePath":"datafiles","resourceVersion":"1.0","name":"NewCycles.txt","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":".DS_Store","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "2.3.0.529",
   },

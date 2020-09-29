@@ -2,28 +2,32 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function ReadIn(){
 
-global.totalCycle = 10;
-global.currentCycle = 0;
-global.stories = ds_map_create();
-global.Story = function(headline, body) constructor
-    {
-    Headline = headline;
-    Body = body;
-    }
+var fileId = file_text_open_read(working_directory+ "\\NewCycles.txt");
 
-fileId = file_text_open_read(working_directory + "\headlines.txt");
-
-var num, id, headline, body;
 num = file_text_read_real(fileId);
 file_text_readln(fileId);
 for(var i=0; i < num; i++){
-	id = file_text_real_real(fileId);
+	var StoryId = file_text_read_real(fileId);
 	file_text_readln(fileId);
-	headline = file_text_real_string(fileId);
+	var channel = file_text_read_real(fileId);
 	file_text_readln(fileId);
-	body = file_text_real_string(fileId);
+	var headline = file_text_read_string(fileId);
 	file_text_readln(fileId);
-	global.stories[? id] = new global.Story(headline, body);
+	var body = file_text_read_string(fileId);
+	file_text_readln(fileId);
+	var childNum = file_text_read_real(fileId);
+	file_text_readln(fileId);
+	obj = new Obj_Story();
+	obj.HeadLine = headline;
+	obj.StoryBody = body;
+	obj.Channel = channel;
+	for(var j =0; j < childNum; j++){
+		var childNumID = file_text_read_real(fileId);
+		file_text_readln(fileId);
+		ds_list_add(obj.Children, childNumID);
+	}
+	
+	global.stories[? StoryId] = obj;
 }
 file_text_close(fileId);
 }
