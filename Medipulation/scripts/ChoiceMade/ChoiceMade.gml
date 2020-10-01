@@ -2,4 +2,5 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function ChoiceMade(choiceNum){
 	global.choices = (global.choices * 10) + choiceNum;
+	
 }

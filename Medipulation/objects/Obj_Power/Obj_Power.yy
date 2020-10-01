@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sprite_Power",
+    "path": "sprites/Sprite_Power/Sprite_Power.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Power","path":"objects/Obj_Power/Obj_Power.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "News Buttons",
-    "path": "folders/Objects/News Buttons.yy",
+    "name": "Phone Buttons",
+    "path": "folders/Objects/Phone Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_News_Button",
+  "name": "Obj_Power",
   "tags": [],
   "resourceType": "GMObject",
 }

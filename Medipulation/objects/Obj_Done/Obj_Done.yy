@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SpriteChannel1",
-    "path": "sprites/SpriteChannel1/SpriteChannel1.yy",
+    "name": "Sprite_Done",
+    "path": "sprites/Sprite_Done/Sprite_Done.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Channel1_Button","path":"objects/Obj_Channel1_Button/Obj_Channel1_Button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Done","path":"objects/Obj_Done/Obj_Done.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "News Buttons",
-    "path": "folders/Objects/News Buttons.yy",
+    "name": "News",
+    "path": "folders/Objects/News.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Channel1_Button",
+  "name": "Obj_Done",
   "tags": [],
   "resourceType": "GMObject",
 }
