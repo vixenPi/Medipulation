@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SpriteChannel1",
-    "path": "sprites/SpriteChannel1/SpriteChannel1.yy",
+    "name": "Sprite_TextBox",
+    "path": "sprites/Sprite_TextBox/Sprite_TextBox.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Channel1_Button","path":"objects/Obj_Channel1_Button/Obj_Channel1_Button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "News Buttons",
-    "path": "folders/Objects/News Buttons.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Channel1_Button",
+  "name": "Obj_TextBox",
   "tags": [],
   "resourceType": "GMObject",
 }
