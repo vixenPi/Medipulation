@@ -8,6 +8,9 @@ function ChoiceMade(choiceType, choiceValue){
 	case 1:
 		switch(choiceValue){
 			case 1:
+			if(global.currentCycle == 1){
+				ds_map_set(global.flags, "flag1", true);
+			}
 			break;
 
 			case 2:

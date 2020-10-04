@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(global.currentCycle > global.numNewsCycle - 1){
+if(global.currentCycle >= global.numNewsCycle ){
 	room_goto(Ending);
 	global.currentCycle ++;
 }else{
