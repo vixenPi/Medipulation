@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_TextBox",
-    "path": "sprites/Sprite_TextBox/Sprite_TextBox.yy",
+    "name": "fact",
+    "path": "sprites/fact/fact.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_TextBox","path":"objects/Obj_TextBox/Obj_TextBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Fact","path":"objects/Obj_Fact/Obj_Fact.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Static",
-    "path": "folders/Objects/Static.yy",
+    "name": "Phone Buttons",
+    "path": "folders/Objects/Phone Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_TextBox",
+  "name": "Obj_Fact",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,16 +1,34 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function ChoiceMade(choiceNum, choiceValue){
-	//ds_map_add_value(global.choices, choiceNum, choiceValue);
-	/* switch(choiceNum){
-		case 1:
+function ChoiceMade(choiceType, choiceValue){
+	global.currentChoice = choiceValue;
+	//set needed flaggs here
+	switch(choiceType){
+	//news story selection
+	case 1:
+		switch(choiceValue){
+			case 1:
 			break;
-		case 2:
+
+			case 2:
 			break;
-		case 3:
+
+			case 3:
 			break;
-		case 4:
+
+			case 4:
 			break;
+		}
+		break;
+	//factCheck Selection
+	case 2:
+		break;
+	//social selection
+	case 3:
+		break;
+	//message selection
+	case 4:
+		break;
 	}
-	*/
+
 }

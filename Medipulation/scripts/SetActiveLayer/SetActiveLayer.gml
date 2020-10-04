@@ -4,7 +4,6 @@ function SetActiveLayer(SetLayer, setActive){
 	
 if(setActive){
 
-
 switch(SetLayer){
 	case 1:
 		instance_activate_layer(layer_get_id("UI_1"));
@@ -26,6 +25,9 @@ switch(SetLayer){
 		break;
 	case 7:
 		instance_activate_layer(layer_get_id("Room_7"));
+		break;
+	case 8:
+		instance_activate_layer(layer_get_id("ChooseFact_8"));
 		break;
 	
 	}
@@ -53,6 +55,9 @@ switch(SetLayer){
 		break;
 	case 7:
 		instance_deactivate_layer(layer_get_id("Room_7"));
+		break;
+	case 8:
+		instance_deactivate_layer(layer_get_id("ChooseFact_8"));
 		break;
 	
 	}
