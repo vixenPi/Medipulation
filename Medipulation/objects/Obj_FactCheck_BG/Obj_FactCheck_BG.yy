@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "FactCheck",
-    "path": "folders/Objects/FactCheck.yy",
+    "name": "Static",
+    "path": "folders/Objects/Static.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_FactCheck_BG",

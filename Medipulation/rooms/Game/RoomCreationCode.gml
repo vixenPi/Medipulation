@@ -1,9 +1,10 @@
-layer_set_visible(layer_get_id("News"), false );
-layer_set_visible(layer_get_id("Social"), false );
-layer_set_visible(layer_get_id("Messages"), false );
-layer_set_visible(layer_get_id("FactCheck"), false );
-layer_set_visible(layer_get_id("Phone"), false );
-layer_set_visible(layer_get_id("Room"), true );
+SetActiveLayer(1, true);
+SetActiveLayer(2, false);
+SetActiveLayer(3, false);
+SetActiveLayer(4, false);
+SetActiveLayer(5, false);
+SetActiveLayer(6, false);
+SetActiveLayer(7, true);
 
 //global.totalCycle = 10;
 //global.currentCycle = 0;
