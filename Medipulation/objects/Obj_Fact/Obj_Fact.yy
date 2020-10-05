@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "fact",
-    "path": "sprites/fact/fact.yy",
+    "name": "Sprite_Fact",
+    "path": "sprites/Sprite_Fact/Sprite_Fact.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,8 +22,11 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Fact","path":"objects/Obj_Fact/Obj_Fact.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_Fact","path":"objects/Obj_Fact/Obj_Fact.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":1,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"index","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "Phone Buttons",
