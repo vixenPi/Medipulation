@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function DisplayNews(headline, body){
-	var sprWidth = sprite_get_height(sprite_index);
+	var sprWidth = sprite_get_width(sprite_index);
 	var sprHeight = sprite_get_height(sprite_index);
 	var margin = 8;
 	var innerWidth = sprite_width - (2 * margin) - (2 * sprWidth/3);

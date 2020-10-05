@@ -9,6 +9,7 @@
     {"id":{"name":"Load","path":"scripts/Load/Load.yy",},"order":4,},
     {"id":{"name":"NextStory","path":"scripts/NextStory/NextStory.yy",},"order":1,},
     {"id":{"name":"Obj_NewsScreen","path":"objects/Obj_NewsScreen/Obj_NewsScreen.yy",},"order":1,},
+    {"id":{"name":"DisplayText","path":"scripts/DisplayText/DisplayText.yy",},"order":12,},
     {"id":{"name":"Sprite_Fact","path":"sprites/Sprite_Fact/Sprite_Fact.yy",},"order":14,},
     {"id":{"name":"Sprite_FactCheck","path":"sprites/Sprite_FactCheck/Sprite_FactCheck.yy",},"order":11,},
     {"id":{"name":"Save","path":"scripts/Save/Save.yy",},"order":3,},

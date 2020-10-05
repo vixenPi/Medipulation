@@ -48,16 +48,44 @@ switch(TextType){
 		break;
 	//factCheck Selection
 	case 2:
-			switch(choiceValue){
+		switch(choiceValue){
 			case 1:
-				return "testing text1";
+				DisplayText("testing: Fact 1, cycle1 text");
+				break;
 			case 2:
-				return "testing text2";
+				DisplayText("testing: Fact 2, cycle1 text");
+				break;
 			case 3:
-				return "testing text3";
+				DisplayText("testing: Fact 3, cycle1 text");
+				break;
 			case 4:
-				return "testing text4";
-			}
+				DisplayText("testing: Fact 4, cycle1 text");
+				break;
+			case 5:
+				DisplayText("testing: Fact 5, cycle1 text");
+				break;
+			case 6:
+				DisplayText("testing: Fact 6, cycle1 text");
+				break;
+			case 7:
+				DisplayText("testing: Fact 7, cycle1 text");
+				break;
+			case 8:
+				DisplayText("testing: Fact 8, cycle1 text");
+				break;
+			case 9:
+				DisplayText("testing: Fact 9, cycle1 text");
+				break;
+			case 10:
+				DisplayText("testing: Fact 10, cycle1 text");
+				break;
+			case 11:
+				DisplayText("testing: Fact 11, cycle1 text");
+				break;
+			case 12:
+				DisplayText("testing: Fact 12, cycle1 text");
+				break;
+		}
 		break;
 	//social selection
 	case 3:
@@ -65,5 +93,22 @@ switch(TextType){
 	//message selection
 	case 4:
 		break;
-}
+	//fact check titles 
+	case 5:
+		switch(choiceValue){
+			case 1:
+				DisplayText("testing: Fact 1, cycle1 text");
+				break;
+			case 2:
+				DisplayText("testing: Fact 1, cycle1 text");
+				break;
+			case 3:
+				DisplayText("testing: Fact 1, cycle1 text");
+				break;
+			case 4:
+				DisplayText("testing: Fact 1, cycle1 text");
+				break;
+			}
+		break;
+	}
 }
