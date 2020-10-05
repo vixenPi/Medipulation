@@ -9,7 +9,7 @@ if(global.currentCycle >= global.numNewsCycle ){
 	SetActiveLayer(4, false);
 	SetActiveLayer(3, false);
 	SetActiveLayer(7, true);
-
+	SetActiveLayer(9, false);
 	inst_5E743A1F.AppOpen = false;
 	inst_16BD0C72.AppOpen = false;
 	global.currentCycle ++;

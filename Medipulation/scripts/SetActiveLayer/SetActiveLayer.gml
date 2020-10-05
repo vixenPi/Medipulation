@@ -29,6 +29,9 @@ switch(SetLayer){
 	case 8:
 		instance_activate_layer(layer_get_id("ChooseFact_8"));
 		break;
+	case 9:
+		instance_activate_layer(layer_get_id("PhoneFrame_9"));
+		break;
 	
 	}
 }else {
@@ -58,6 +61,9 @@ switch(SetLayer){
 		break;
 	case 8:
 		instance_deactivate_layer(layer_get_id("ChooseFact_8"));
+		break;
+	case 9:
+		instance_deactivate_layer(layer_get_id("PhoneFrame_9"));
 		break;
 	
 	}

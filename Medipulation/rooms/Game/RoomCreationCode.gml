@@ -6,7 +6,7 @@ SetActiveLayer(5, false);
 SetActiveLayer(6, false);
 SetActiveLayer(7, true);
 SetActiveLayer(8, false);
-
+SetActiveLayer(9, false);
 
 ds_map_set(global.flags, "flag1", false);
 ds_map_set(global.flags, "flag2", false);
