@@ -89,6 +89,44 @@ switch(TextType){
 		break;
 	//social selection
 	case 3:
+			switch(choiceValue){
+			case 1:
+				DisplayText(" Fact 1 truth, cycle1 text");
+				break;
+			case 2:
+				DisplayText("Fact 2 truth, cycle1 text");
+				break;
+			case 3:
+				DisplayText("Fact 3, cycle1 text");
+				break;
+			case 4:
+				DisplayText("testing: Fact 4, cycle1 text");
+				break;
+			case 5:
+				DisplayText("testing: Fact 5, cycle1 text");
+				break;
+			case 6:
+				DisplayText("testing: Fact 6, cycle1 text");
+				break;
+			case 7:
+				DisplayText("testing: Fact 7, cycle1 text");
+				break;
+			case 8:
+				DisplayText("testing: Fact 8, cycle1 text");
+				break;
+			case 9:
+				DisplayText("testing: Fact 9, cycle1 text");
+				break;
+			case 10:
+				DisplayText("testing: Fact 10, cycle1 text");
+				break;
+			case 11:
+				DisplayText("testing: Fact 11, cycle1 text");
+				break;
+			case 12:
+				DisplayText("testing: Fact 12, cycle1 text");
+				break;
+		}
 		break;
 	//message selection
 	case 4:

@@ -17,3 +17,4 @@ ds_map_set(global.flags, "flag5", false);
 global.currentCycle = 1;
 global.choiceNum = 0;
 global.choices = ds_map_create();
+

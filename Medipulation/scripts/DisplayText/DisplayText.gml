@@ -15,5 +15,7 @@ function DisplayText(Text){
 	draw_set_font(fnt_News_Body);
 	draw_set_halign(fa_left);
 	draw_text_ext(x +margin+3, y+20, Text, lineHeight,innerWidth);
+	
+	collision_rectangle(x, y, x + screenWidth, y + height, mouse_button, false, true);
 
 }

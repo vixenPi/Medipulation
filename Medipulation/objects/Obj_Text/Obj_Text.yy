@@ -22,12 +22,13 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Phone Buttons",
-    "path": "folders/Objects/Phone Buttons.yy",
+    "name": "Static",
+    "path": "folders/Objects/Static.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_Text",

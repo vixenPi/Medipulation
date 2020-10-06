@@ -3,3 +3,4 @@
 
 	SetActiveLayer(8, false);
 	SetActiveLayer(7, true);
+	SetActiveLayer(9, false);

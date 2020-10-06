@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Static",
-    "path": "folders/Objects/Static.yy",
+    "name": "Phone Buttons",
+    "path": "folders/Objects/Phone Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_Phone_BG",
