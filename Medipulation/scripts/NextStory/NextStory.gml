@@ -3,6 +3,4 @@
 function NextStory(){
 SetActiveLayer(7, false);
 SetActiveLayer(2, true);
-	
-//return ds_map_find_value(global.stories, global.choices);
 }

@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Scroll",
-    "path": "folders/Objects/Scroll.yy",
+    "name": "Messages",
+    "path": "folders/Objects/Scroll/Messages.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_BarMessage",

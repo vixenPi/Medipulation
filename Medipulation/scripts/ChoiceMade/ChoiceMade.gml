@@ -2,25 +2,29 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function ChoiceMade(choiceType, choiceValue){
 	global.currentChoice = choiceValue;
+	
 	//set needed flaggs here
 	switch(choiceType){
 	//news story selection
 	case 1:
+		global.story[global.currentCycle] =  true;
+		global.facts[global.num] = global.currentCycle;
+		global.num++;
+		ds_map_add(global.choices, global.currentCycle , choiceValue );
 		switch(choiceValue){
 			case 1:
-			if(global.currentCycle == 1){
-				ds_map_set(global.flags, "flag1", true);
-			}
-			break;
-
+				if(global.currentCycle == 1){
+					ds_map_set(global.flags, "flag1", true);
+				}
+				break;
 			case 2:
-			break;
-
+				break;
 			case 3:
-			break;
-
+				break;
 			case 4:
-			break;
+				break;
+			case 5:
+				break;
 		}
 		break;
 	//factCheck Selection

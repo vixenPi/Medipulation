@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Scroll",
-    "path": "folders/Objects/Scroll.yy",
+    "name": "DisplayNews",
+    "path": "folders/Objects/Scroll/DisplayNews.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_SliderNews",

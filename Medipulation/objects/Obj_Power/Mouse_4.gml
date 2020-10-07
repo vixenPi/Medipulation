@@ -3,7 +3,6 @@
 
 if(global.currentCycle >= global.numNewsCycle ){
 	room_goto(Ending);
-	global.currentCycle ++;
 }else{
 	SetActiveLayer(6, false);
 	SetActiveLayer(4, false);

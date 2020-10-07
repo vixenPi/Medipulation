@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Scroll",
-    "path": "folders/Objects/Scroll.yy",
+    "name": "DisplayFact",
+    "path": "folders/Objects/Scroll/DisplayFact.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_SliderFact",

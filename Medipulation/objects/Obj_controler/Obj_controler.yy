@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Scroll",
-    "path": "folders/Objects/Scroll.yy",
+    "name": "ChooseFact",
+    "path": "folders/Objects/Scroll/ChooseFact.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_controler",

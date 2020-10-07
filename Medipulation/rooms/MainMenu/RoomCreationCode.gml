@@ -1,4 +1,5 @@
 global.flags = ds_map_create();
+global.choices = ds_map_create();
 global.numAchivment = 10;
 global.numNewsCycle = 5;
 global.currentCycle = 1;

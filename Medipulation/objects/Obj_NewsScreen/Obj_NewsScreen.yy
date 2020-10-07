@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "News",
-    "path": "folders/Objects/News.yy",
+    "name": "Static",
+    "path": "folders/Objects/Static.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_NewsScreen",

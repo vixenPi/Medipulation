@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Scroll",
-    "path": "folders/Objects/Scroll.yy",
+    "name": "Social",
+    "path": "folders/Objects/Scroll/Social.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_controlerSocial",

@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function DisplayText(Text){
+function DisplayText(Text, TextType){
+	text = Text;
 	var screenWidth = 200;
 	var sprWidth = sprite_get_width(sprite_index);
 	var sprHeight = sprite_get_height(sprite_index);
@@ -16,6 +17,13 @@ function DisplayText(Text){
 	draw_set_halign(fa_left);
 	draw_text_ext(x +margin+3, y+20, Text, lineHeight,innerWidth);
 	
-	collision_rectangle(x, y, x + screenWidth, y + height, mouse_button, false, true);
+	switch(TextType){
+		case 1:
+			global.areaheightFactRead = height;
+			break;
+		case 2:
+			break;
+	}
+	
 
 }
