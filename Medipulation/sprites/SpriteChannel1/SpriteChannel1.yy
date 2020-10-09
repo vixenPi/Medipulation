@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8ad31e0d-7f76-45ae-9ff0-37c6da17ff1f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Temp Art",
+    "path": "folders/Sprites/Temp Art.yy",
   },
   "resourceVersion": "1.0",
   "name": "SpriteChannel1",

@@ -1,0 +1,1 @@
+Narative(2, index);

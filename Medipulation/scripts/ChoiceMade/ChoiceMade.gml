@@ -10,11 +10,10 @@ function ChoiceMade(choiceType, choiceValue){
 		global.story[global.currentCycle] =  true;
 		global.facts[global.num] = global.currentCycle;
 		global.num++;
-		ds_map_add(global.choices, global.currentCycle , choiceValue );
 		switch(choiceValue){
 			case 1:
 				if(global.currentCycle == 1){
-					ds_map_set(global.flags, "flag1", true);
+					global.flags[1] = true;
 				}
 				break;
 			case 2:

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_TextBack",
-    "path": "sprites/Sprite_TextBack/Sprite_TextBack.yy",
+    "name": "messagebutton",
+    "path": "sprites/messagebutton/messagebutton.yy",
   },
   "solid": false,
   "visible": true,

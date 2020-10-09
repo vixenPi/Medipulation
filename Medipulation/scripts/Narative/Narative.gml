@@ -15,7 +15,7 @@ switch(TextType){
 						DisplayNews("testing: channel 1, cycle1 text", "this is the body of the text, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis quis dui ac placerat. Pellentesque et libero dui. Nunc congue et mi vitae accumsan. Morbi eu tristique urna, quis faucibus velit. Donec fringilla erat vehicula eros bibendum viverra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed in mi sit amet risus mattis bibendum ac ac libero. Curabitur in sagittis ex. Donec viverra augue eget est blandit, at pulvinar velit maximus. Morbi in nulla at justo condimentum commodo at a velit. Mauris arcu mi, bibendum nec faucibus nec, scelerisque et massa. Cras a felis a dolor pellentesque placerat ut non magna. In nibh nisi, ultrices vel luctus non, sollicitudin eget magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum finibus sapien, vitae aliquam diam ultrices vitae. Nam ultricies, enim non faucibus faucibus, neque est viverra lorem, non pulvinar tortor massa at nisl.Duis tincidunt, lorem a");
 						break;
 					case 2:
-						if(ds_map_find_value(global.flags, "flag1")){
+						if(global.flags[1]){
 							SetScreen(Sprite_Achivments);
 							DisplayNews( "testing: channel 1, cycle2 text, flag 1 true", "testing");
 							break;
@@ -128,8 +128,46 @@ switch(TextType){
 				break;
 		}
 		break;
-	//message selection
+	//message recieved
 	case 4:
+		switch(choiceValue){
+			case 1:
+				DisplayText("Message 1 hello",2);
+				break;
+			case 2:
+				DisplayText("Message 2 hello",2);
+				break;
+			case 3:
+				DisplayText("Message 3 hello",2);
+				break;
+			case 4:
+				DisplayText("Message 4 hello",2);
+				break;
+			case 5:
+				DisplayText("Message 5 hello",2);
+				break;
+			case 6:
+				DisplayText("Message 6 hello",2);
+				break;
+			case 7:
+				DisplayText("7",2);
+				break;
+			case 8:
+				DisplayText("Fact 8 truth, cycle1 text",1);
+				break;
+			case 9:
+				DisplayText("Fact 9 truth, cycle1 text",1);
+				break;
+			case 10:
+				DisplayText("Fact 10 truth, cycle1 text",1);
+				break;
+			case 11:
+				DisplayText("Fact 11 truth, cycle1 text",1);
+				break;
+			case 12:
+				DisplayText("Fact 12 truth, cycle1 text",1);
+				break;
+		}
 		break;
 	//fact check titles 
 	case 5:
@@ -148,5 +186,28 @@ switch(TextType){
 				break;
 			}
 		break;
-	}
+	case 6:
+		switch(global.currentCycle){
+			case 1:
+				switch(choiceValue){
+					case 1:
+						DisplayText("Hey mom", 2);
+						break;
+					case 2:
+						DisplayText("How is it going mom? I am texting you to make a longer message to test how the spacing works.How is it going mom? I am texting you to make a longer message to test how the spacing works.How is it going mom? I am texting you to make a longer message to test how the spacing works.", 2);
+						break;
+					case 3:
+						DisplayText("Who's this?", 2);
+						break;
+				}
+			break;
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			break;
+		
+		}
+	break;
+}
 }

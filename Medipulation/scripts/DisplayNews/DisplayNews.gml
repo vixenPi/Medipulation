@@ -4,7 +4,7 @@ function DisplayNews(headline, body){
 	var sprWidth = sprite_get_width(sprite_index);
 	var sprHeight = sprite_get_height(sprite_index);
 	var margin = 8;
-	var boxWidth = 400;
+	var boxWidth = 600;
 	var innerWidth = boxWidth - (2 * margin) - (2 * sprWidth/3);
 	var lineHeight = 40;
 	var innerHeightHeadLine = string_height_ext(headline , lineHeight, innerWidth);

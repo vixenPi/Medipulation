@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_Post",
-    "path": "sprites/Sprite_Post/Sprite_Post.yy",
+    "name": "tweetbutton",
+    "path": "sprites/tweetbutton/tweetbutton.yy",
   },
   "solid": false,
   "visible": true,

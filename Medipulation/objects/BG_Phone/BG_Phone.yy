@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_Phone_BackGround",
-    "path": "sprites/Sprite_Phone_BackGround/Sprite_Phone_BackGround.yy",
+    "name": "phonescreen",
+    "path": "sprites/phonescreen/phonescreen.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Phone Buttons",
-    "path": "folders/Objects/Phone Buttons.yy",
+    "name": "BackGrounds",
+    "path": "folders/Objects/BackGrounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Phone_BG",
+  "name": "BG_Phone",
   "tags": [],
   "resourceType": "GMObject",
 }

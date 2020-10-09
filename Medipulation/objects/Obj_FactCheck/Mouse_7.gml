@@ -4,3 +4,4 @@
 SetActiveLayer(9, true);
 SetActiveLayer(8, true);
 SetActiveLayer(7, false);
+open = true;

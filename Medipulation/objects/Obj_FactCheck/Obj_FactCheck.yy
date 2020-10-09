@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_FactCheck",
-    "path": "sprites/Sprite_FactCheck/Sprite_FactCheck.yy",
+    "name": "factcheckbutton",
+    "path": "sprites/factcheckbutton/factcheckbutton.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,7 +23,9 @@
   "eventList": [
     {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_FactCheck","path":"objects/Obj_FactCheck/Obj_FactCheck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"open","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "News Buttons",
