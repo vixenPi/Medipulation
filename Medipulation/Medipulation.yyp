@@ -130,7 +130,7 @@
     {"folderPath":"folders/Objects/Phone Buttons.yy","order":1,"resourceVersion":"1.0","name":"Phone Buttons","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/UI Buttons.yy","order":2,"resourceVersion":"1.0","name":"UI Buttons","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/News.yy","order":3,"resourceVersion":"1.0","name":"News","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/Static.yy","order":5,"resourceVersion":"1.0","name":"Static","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/TextBoxes.yy","order":5,"resourceVersion":"1.0","name":"TextBoxes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Scroll.yy","order":6,"resourceVersion":"1.0","name":"Scroll","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Scroll/ChooseFact.yy","order":17,"resourceVersion":"1.0","name":"ChooseFact","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Scroll/DisplayFact.yy","order":18,"resourceVersion":"1.0","name":"DisplayFact","tags":[],"resourceType":"GMFolder",},

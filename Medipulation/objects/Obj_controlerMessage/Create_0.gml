@@ -1,1 +1,1 @@
-global.areaheightMessage = 500;
+global.areaheightMessage = 0;

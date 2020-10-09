@@ -1,5 +1,5 @@
 
-y = ystart +(global.areaheightMessage/100 * Obj_SliderMessage.percentage) - global.areaheightMessage;
+y = ystart +(global.areaheightMessage/100 * Obj_SliderMessage.percentage) ;
 
 var width = 200;
 
@@ -11,5 +11,5 @@ var lineHeight = 20;
 var innerHeight = string_height_ext(text, lineHeight, innerWidth);
 var height = innerHeight + 2*margin + (2*sprHeight/3);
 
-image_yscale = -height / sprHeight;
+image_yscale = height / sprHeight;
 	

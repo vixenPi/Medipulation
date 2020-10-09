@@ -32,8 +32,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Static",
-    "path": "folders/Objects/Static.yy",
+    "name": "TextBoxes",
+    "path": "folders/Objects/TextBoxes.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_Fact",
