@@ -12,7 +12,8 @@ function DisplayNews(headline, body){
 	var gap = 20;
 	var height = innerHeightHeadLine + gap+ innerHeightBody + 2 * margin + (2*sprHeight/3);
 	
-	DrawNineSlice(sprite_index, 0, x, y, x+boxWidth, y+height);
+	DrawNineSlice(sprite_index, curFrame, x, y, x+boxWidth, y+height);
+	
 	draw_set_color(c_black);
 	draw_set_font(fnt_News_Headline);
 	draw_set_halign(fa_center);

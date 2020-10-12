@@ -28,21 +28,26 @@
         {"FrameId":{"name":"bba87e0c-748c-4f2e-a672-1be776f694c2","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":{"name":"7c2fa32a-ee54-4926-bfe6-ef3bbfbef0a0","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"bba87e0c-748c-4f2e-a672-1be776f694c2","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":{"name":"fc5edb35-bcb7-4543-9e00-259051a92892","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"tweetbutton","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"bba87e0c-748c-4f2e-a672-1be776f694c2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"99418efd-8911-475b-8baf-a271cc5dc751","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"99418efd-8911-475b-8baf-a271cc5dc751","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":{"name":"fc5edb35-bcb7-4543-9e00-259051a92892","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"99418efd-8911-475b-8baf-a271cc5dc751","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":{"name":"7c2fa32a-ee54-4926-bfe6-ef3bbfbef0a0","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"tweetbutton","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"99418efd-8911-475b-8baf-a271cc5dc751","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"tweetbutton","path":"sprites/tweetbutton/tweetbutton.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"566e51b7-9b41-4c5c-974a-48c948a1be99","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bba87e0c-748c-4f2e-a672-1be776f694c2","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7319199e-7f06-4b2c-bf67-e990ee901b55","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"99418efd-8911-475b-8baf-a271cc5dc751","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

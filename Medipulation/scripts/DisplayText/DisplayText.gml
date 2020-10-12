@@ -12,7 +12,7 @@ function DisplayText(Text, TextType){
 	var innerHeight = string_height_ext(Text , lineHeight, innerWidth);
 	var height = innerHeight+ 2 * margin + (2*sprHeight/3);
 	
-	DrawNineSlice(sprite_index, 0, x, y, x+screenWidth, y+height);
+	DrawNineSlice(sprite_index, curFrame, x, y, x+screenWidth, y+height);
 	draw_set_color(c_black);
 	draw_set_font(fnt_News_Body);
 	draw_set_halign(fa_left);
@@ -30,7 +30,7 @@ function DisplayText(Text, TextType){
 	var innerHeight = string_height_ext(Text , lineHeight, innerWidth);
 	var height = innerHeight+ 2 * margin + (2*sprHeight/3);
 	
-	DrawNineSlice(sprite_index, 0, x, y, x+screenWidth, y+height);
+	DrawNineSlice(sprite_index, curFrame, x, y, x+screenWidth, y+height);
 	draw_set_color(c_black);
 	draw_set_font(fnt_News_Body);
 	draw_set_halign(fa_left);

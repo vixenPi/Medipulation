@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "MasterButton",
+    "path": "objects/MasterButton/MasterButton.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
