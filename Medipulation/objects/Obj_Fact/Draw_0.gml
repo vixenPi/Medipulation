@@ -8,4 +8,4 @@
 		exit;
 	}
 
-Narative(2, global.facts[index], curFrame);
+Narative(2, global.facts[index]);

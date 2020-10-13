@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 23,
-  "bbox_right": 37,
-  "bbox_top": 21,
-  "bbox_bottom": 35,
+  "bbox_left": 0,
+  "bbox_right": 9,
+  "bbox_top": 0,
+  "bbox_bottom": 9,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 10,
+  "height": 10,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -27,9 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"b2caa0fd-0893-47e4-8907-247363095c72","path":"sprites/messagebutton/messagebutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"b2caa0fd-0893-47e4-8907-247363095c72","path":"sprites/messagebutton/messagebutton.yy",},"LayerId":{"name":"c5aa183c-7b98-46e1-93b1-1f0da0afe3b2","path":"sprites/messagebutton/messagebutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"messagebutton","path":"sprites/messagebutton/messagebutton.yy",},"resourceVersion":"1.0","name":"b2caa0fd-0893-47e4-8907-247363095c72","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8dc44bc0-5f95-4ba4-be9a-819d6b170ee8","path":"sprites/messagebutton/messagebutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8dc44bc0-5f95-4ba4-be9a-819d6b170ee8","path":"sprites/messagebutton/messagebutton.yy",},"LayerId":{"name":"c5aa183c-7b98-46e1-93b1-1f0da0afe3b2","path":"sprites/messagebutton/messagebutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"messagebutton","path":"sprites/messagebutton/messagebutton.yy",},"resourceVersion":"1.0","name":"8dc44bc0-5f95-4ba4-be9a-819d6b170ee8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"12160861-da7e-4aed-b12a-9ab501b369e4","path":"sprites/messagebutton/messagebutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"12160861-da7e-4aed-b12a-9ab501b369e4","path":"sprites/messagebutton/messagebutton.yy",},"LayerId":{"name":"c5aa183c-7b98-46e1-93b1-1f0da0afe3b2","path":"sprites/messagebutton/messagebutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"messagebutton","path":"sprites/messagebutton/messagebutton.yy",},"resourceVersion":"1.0","name":"12160861-da7e-4aed-b12a-9ab501b369e4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"messagebutton","path":"sprites/messagebutton/messagebutton.yy",},
@@ -45,7 +45,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d10d3f7c-333f-4da1-a080-adda72671b1b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b2caa0fd-0893-47e4-8907-247363095c72","path":"sprites/messagebutton/messagebutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"56ed462e-ff6f-4cfe-acd9-838c40dd3feb","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8dc44bc0-5f95-4ba4-be9a-819d6b170ee8","path":"sprites/messagebutton/messagebutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"abf018cd-d008-4e8a-8084-855ef9910e4c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"12160861-da7e-4aed-b12a-9ab501b369e4","path":"sprites/messagebutton/messagebutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

@@ -12,37 +12,37 @@ switch(TextType){
 				switch(global.currentCycle){
 					case 1:
 						SetScreen(Sprite_Fact);
-						DisplayNews("testing: channel 1, cycle1 text", "this is the body of the text, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis quis dui ac placerat. Pellentesque et libero dui. Nunc congue et mi vitae accumsan. Morbi eu tristique urna, quis faucibus velit. Donec fringilla erat vehicula eros bibendum viverra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed in mi sit amet risus mattis bibendum ac ac libero. Curabitur in sagittis ex. Donec viverra augue eget est blandit, at pulvinar velit maximus. Morbi in nulla at justo condimentum commodo at a velit. Mauris arcu mi, bibendum nec faucibus nec, scelerisque et massa. Cras a felis a dolor pellentesque placerat ut non magna. In nibh nisi, ultrices vel luctus non, sollicitudin eget magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum finibus sapien, vitae aliquam diam ultrices vitae. Nam ultricies, enim non faucibus faucibus, neque est viverra lorem, non pulvinar tortor massa at nisl.Duis tincidunt, lorem a");
+						DisplayNews( "this is the body of the text, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis quis dui ac placerat. Pellentesque et libero dui. Nunc congue et mi vitae accumsan. Morbi eu tristique urna, quis faucibus velit. Donec fringilla erat vehicula eros bibendum viverra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed in mi sit amet risus mattis bibendum ac ac libero. Curabitur in sagittis ex. Donec viverra augue eget est blandit, at pulvinar velit maximus. Morbi in nulla at justo condimentum commodo at a velit. Mauris arcu mi, bibendum nec faucibus nec, scelerisque et massa. Cras a felis a dolor pellentesque placerat ut non magna. In nibh nisi, ultrices vel luctus non, sollicitudin eget magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum finibus sapien, vitae aliquam diam ultrices vitae. Nam ultricies, enim non faucibus faucibus, neque est viverra lorem, non pulvinar tortor massa at nisl.Duis tincidunt, lorem a");
 						break;
 					case 2:
 						if(global.flags[1]){
 							SetScreen(Sprite_Achivments);
-							DisplayNews( "testing: channel 1, cycle2 text, flag 1 true", "testing");
+							DisplayNews( "testing");
 							break;
 						}else{
 							SetScreen(Sprite_Help);
-							DisplayNews( "testing: channel 1, cycle2 text, flag 1 false", "testing more stuff");
+							DisplayNews( "testing more stuff");
 							break;
 						}
 					case 3:
-						DisplayNews( "testing: channel 1, cycle3 text", "test");
+						DisplayNews( "testing: channel 1, cycle3 text");
 						break;
 					case 4:
-						DisplayNews( "testing: channel 1, cycle4 text", "test");
+						DisplayNews( "testing: channel 1, cycle4 text");
 						break;
 					case 5:
-						DisplayNews( "testing: channel 1, cycle5 text", "test");
+						DisplayNews( "testing: channel 1, cycle5 text");
 						break;
 				}
 				break;
 			case 2:
-				DisplayNews( "news testing text2", "test");
+				DisplayNews( "news testing text2");
 				break;
 			case 3:
-				DisplayNews( "news testing text3", "test");
+				DisplayNews( "news testing text3");
 				break;
 			case 4:
-				DisplayNews( "news testing text4", "test");
+				DisplayNews( "news testing text4");
 				break;
 		}
 		break;

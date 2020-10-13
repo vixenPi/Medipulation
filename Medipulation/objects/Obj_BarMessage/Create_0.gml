@@ -1,5 +1,5 @@
 topLimit = y ;
-bottomLimit = y + sprite_height - (sprite_get_height(Sprite_ScroleGrab) * image_yscale);
+bottomLimit = y + sprite_height - (sprite_get_height(Sprite_ScroleGrab));
 
 a = instance_create_layer(x, bottomLimit, layer, Obj_SliderMessage);
 a.image_yscale = image_yscale;

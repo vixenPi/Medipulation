@@ -7,4 +7,3 @@ var yy = 640;
 instance_create_layer(xx, yy, layer, Obj_TextBox);
 
 
-global.areaheightNews= yy;

@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if(!slected){
 ChoiceMade(3,index);
-
-SetActiveLayer(4, false);
-SetActiveLayer(6, true);
-inst_16BD0C72.AppOpen = false;
+curFrame = 2;
+slected = true;
+}

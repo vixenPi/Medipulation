@@ -1,0 +1,1 @@
+DisplayText(global.currentCycle, 0);

@@ -1,1 +1,3 @@
-Narative(2, index);
+Narative(6, index);
+
+

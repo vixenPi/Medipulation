@@ -1,5 +1,13 @@
 
-y = ystart +(global.areaheightMessage/100 * Obj_SliderMessage.percentage) ;
+//y = ystart +(global.areaheightMessage/100 * Obj_SliderMessage.percentage) - global.areaheightMessage;
+
+if(index == 2){
+	y = ystart - 20 - offset -(global.areaheightMessage/100 * Obj_SliderMessage.percentage) + global.areaheightMessage;
+}else if(index == 3){
+	y = ystart -  40 - Text2.offset - offset -(global.areaheightMessage/100 * Obj_SliderMessage.percentage) +global.areaheightMessage;
+}else {
+y = ystart -(global.areaheightMessage/100 * Obj_SliderMessage.percentage) + global.areaheightMessage;
+}
 
 var width = 200;
 
@@ -12,4 +20,5 @@ var innerHeight = string_height_ext(text, lineHeight, innerWidth);
 var height = innerHeight + 2*margin + (2*sprHeight/3);
 
 image_yscale = height / sprHeight;
+image_xscale = 200 / sprWidth;
 	
