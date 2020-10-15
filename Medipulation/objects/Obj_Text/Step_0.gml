@@ -6,7 +6,7 @@ if(index == 2){
 }else if(index == 3){
 	y = ystart -  40 - Text2.offset - offset -(global.areaheightMessage/100 * Obj_SliderMessage.percentage) +global.areaheightMessage;
 }else {
-y = ystart -(global.areaheightMessage/100 * Obj_SliderMessage.percentage) + global.areaheightMessage;
+	y = ystart -(global.areaheightMessage/100 * Obj_SliderMessage.percentage) + global.areaheightMessage;
 }
 
 var width = 200;

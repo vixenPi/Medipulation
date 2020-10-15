@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_BackTV",
-    "path": "sprites/Sprite_BackTV/Sprite_BackTV.yy",
+    "name": "NewsA",
+    "path": "sprites/NewsA/NewsA.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(!slected){
-ChoiceMade(3,index);
+if(select){
+select = false; 
+curFrame = 1;
+}
+else if(!Text1.select && !Text2.select && !Text3.select){
+//ChoiceMade(3,index);
 curFrame = 2;
-slected = true;
+select = true;
 }

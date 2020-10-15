@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//Narative(1,global.currentChoice);
+SetText("");
 
 var width = sprite_width;
 
@@ -41,4 +41,5 @@ draw_text_ext(margin, margin + scrollOffset, text, lineHeight, innerWidth);
 surface_reset_target();
 
 draw_surface(clip_surface, x + borderWidth, y + borderHeight);
+
 
