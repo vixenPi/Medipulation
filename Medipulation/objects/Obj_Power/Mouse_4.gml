@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 //fact Select
 if(inst_38248749.open){
 	SetActiveLayer(8, false);
@@ -40,5 +39,10 @@ SetActiveLayer(6, false);
 SetActiveLayer(7, true);
 SetActiveLayer(9, false);
 global.currentCycle ++;
-global.areaheightMessage = 0;
 global.areaheightSocial = 0;
+Text1.select = false;
+Text1.curFrame = 0;
+Text2.curFrame = 0;
+Text3.curFrame = 0;
+Text2.select = false;
+Text3.select = false;

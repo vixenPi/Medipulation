@@ -2,11 +2,11 @@
 //y = ystart +(global.areaheightMessage/100 * Obj_SliderMessage.percentage) - global.areaheightMessage;
 
 if(index == 2){
-	y = ystart - 20 - offset -(global.areaheightMessage/100 * Obj_SliderMessage.percentage) + global.areaheightMessage;
+	y = ystart - 20 - Text1.offset -offset -(global.areaheightMessage/100 * Obj_SliderMessage.percentage) + global.areaheightMessage;
 }else if(index == 3){
-	y = ystart -  40 - Text2.offset - offset -(global.areaheightMessage/100 * Obj_SliderMessage.percentage) +global.areaheightMessage;
+	y = ystart -  40 - Text2.offset -Text1.offset- offset -(global.areaheightMessage/100 * Obj_SliderMessage.percentage) +global.areaheightMessage;
 }else {
-	y = ystart -(global.areaheightMessage/100 * Obj_SliderMessage.percentage) + global.areaheightMessage;
+	y = ystart- offset -(global.areaheightMessage/100 * Obj_SliderMessage.percentage) + global.areaheightMessage;
 }
 
 var width = 200;

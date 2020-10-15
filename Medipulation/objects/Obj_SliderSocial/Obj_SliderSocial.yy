@@ -28,6 +28,8 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_SliderSocial","path":"objects/Obj_SliderSocial/Obj_SliderSocial.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_SliderSocial","path":"objects/Obj_SliderSocial/Obj_SliderSocial.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_SliderSocial","path":"objects/Obj_SliderSocial/Obj_SliderSocial.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":60,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_SliderSocial","path":"objects/Obj_SliderSocial/Obj_SliderSocial.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":61,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_SliderSocial","path":"objects/Obj_SliderSocial/Obj_SliderSocial.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

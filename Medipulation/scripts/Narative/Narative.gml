@@ -173,15 +173,17 @@ switch(TextType){
 			case 2:
 				switch(choiceValue){
 					case 1:
-						DisplayText("2Hey mom", 2);
+						DisplayText("2How is it going mom? I am texting you to make a longer message to test how the spacing works.How is it going mom? I am texting you to make a longer message to test how the spacing works.How is it going mom? I am texting you to make a longer message to test how the spacing works.", 2);
+						
 						break;
 					case 2:
-						DisplayText("2How is it going mom? I am texting you to make a longer message to test how the spacing works.How is it going mom? I am texting you to make a longer message to test how the spacing works.How is it going mom? I am texting you to make a longer message to test how the spacing works.", 2);
+						DisplayText("2Hey mom", 2);
 						break;
 					case 3:
 						DisplayText("2Who's this?", 2);
 						break;
 				}
+			break;
 			case 3:
 				switch(choiceValue){
 					case 1:
@@ -194,6 +196,7 @@ switch(TextType){
 						DisplayText("3Who's this?", 2);
 						break;
 				}
+				break;
 			case 4:
 				switch(choiceValue){
 					case 1:
@@ -206,6 +209,7 @@ switch(TextType){
 						DisplayText("4Who's this?", 2);
 						break;
 				}
+				break;
 			case 5:
 				switch(choiceValue){
 					case 1:

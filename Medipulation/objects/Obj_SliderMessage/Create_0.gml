@@ -1,3 +1,3 @@
 yy = 0;
 grab = false;
-percentage = 0;
+percentage = 100;
