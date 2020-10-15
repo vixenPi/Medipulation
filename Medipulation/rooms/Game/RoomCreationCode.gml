@@ -16,6 +16,7 @@ global.num = 1;
 global.flags= [ false, false, false, false, false, false, false];
 
 global.areaheightMessage = 500;
+global.areaheightSocial = 500;
 global.currentCycle = 1;
 global.choiceNum = 0;
 

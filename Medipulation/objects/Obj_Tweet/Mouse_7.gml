@@ -1,4 +1,8 @@
-
-	SetActiveLayer(3, false);
-	SetActiveLayer(6, true);
-	inst_5E743A1F.AppOpen = false;
+if(select){
+select = false; 
+curFrame = 0;
+}
+else if(!Tweet1.select && !Tweet2.select && !Tweet3.select){
+curFrame = 2;
+select = true;
+}
