@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "Sprite_Back",
-    "path": "sprites/Sprite_Back/Sprite_Back.yy",
+    "name": "menuBack",
+    "path": "sprites/menuBack/menuBack.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "MasterButton",
-    "path": "objects/MasterButton/MasterButton.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
