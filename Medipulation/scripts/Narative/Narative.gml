@@ -279,5 +279,21 @@ switch(TextType){
 		
 		}
 	break;
+	//endings
+	case 7:
+		switch(choiceValue){
+					case 1:
+						return"ending 1";
+						break;
+					case 2:
+						return "ending 2 I am texting you to make a longer message to test how the spacing works.How is it going mom? I am texting you to make a longer message to test how the spacing works.How is it going mom? I am texting you to make a longer message to test how the spacing works.";
+						break;
+					case 3:
+						return "ending 3";
+						break;
+				}
+			break;
+		
+	
 }
 }
