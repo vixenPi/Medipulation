@@ -5,7 +5,7 @@ function DisplayNews(story){
 
 	var sprWidth = sprite_get_width(sprite_index);
 	var sprHeight = sprite_get_height(sprite_index);
-	var margin = 8;
+	var margin = global.margin;
 	var borderHeight = sprHeight/3;
 	var innerWidth = width - (2 * margin) - (2 * sprWidth/3);
 	var lineHeight = 40;

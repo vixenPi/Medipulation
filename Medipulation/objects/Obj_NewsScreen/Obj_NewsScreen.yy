@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "TextBoxes",
-    "path": "folders/Objects/TextBoxes.yy",
+    "name": "News Buttons",
+    "path": "folders/Objects/News Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_NewsScreen",

@@ -146,7 +146,7 @@ switch(TextType){
 						DisplayText("tweet 1:1", 2);
 						break;
 					case 2:
-						DisplayText("tweet 1:2", 2);
+						DisplayText("4How is it going mom? I am texting you to make a longer message to test how the spacing works.How is it going mom? I am texting you to make a longer message to test how the spacing works.How is it going mom? I am texting you to make a longer message to test how the spacing works.", 2);
 						break;
 					case 3:
 						DisplayText("tweet 1:3", 2);

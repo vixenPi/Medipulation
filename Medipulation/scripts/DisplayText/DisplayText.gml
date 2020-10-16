@@ -4,12 +4,12 @@ function DisplayText(Text, TextType){
 	//type 0 is calander
 	//type 1
 	//type 2 is text messages 
-	var screenWidth = 200;
+	var screenWidth = global.screenSize;
 	text = Text;
 	draw_set_halign(fa_left);
 	draw_set_color(c_black);
 	draw_set_font(fnt_News_Body);
-	var margin = 8;
+	var margin = global.margin;
 	if(TextType == 0){
 		screenWidth = 64;
 	}
@@ -18,7 +18,7 @@ function DisplayText(Text, TextType){
 	var sprHeight = sprite_get_height(sprite_index);
 
 	var innerWidth = screenWidth - (2 * margin) - (2 * sprWidth/3);
-	var lineHeight = 20;
+	var lineHeight = global.lineHeight;
 	var innerHeight = string_height_ext(Text , lineHeight, innerWidth);
 	var height = innerHeight+ 2 * margin + (2*sprHeight/3);
 	
@@ -29,7 +29,7 @@ function DisplayText(Text, TextType){
 		draw_text_ext(x + 30, y+20, Text, lineHeight,innerWidth);
 	}
 	else {
-		draw_text_ext(x +margin+3, y+20, Text, lineHeight,innerWidth);
+		draw_text_ext(x +margin+3, y+global.textGap, Text, lineHeight,innerWidth);
 	}
 	
 

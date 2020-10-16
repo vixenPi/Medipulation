@@ -6,17 +6,17 @@ maxHeight = sprite_height;
 
 SetText = function(newText) {
 	
-	text = Narative(7,global.currentChoice);
+	text = Narative(7,1);
 	
 	var width = sprite_width;
 
 	var sprWidth = sprite_get_width(sprite_index);
 	var sprHeight = sprite_get_height(sprite_index);
-	var margin = 8;
+	var margin = global.margin;
 
 	var borderHeight = sprHeight/3;
 	var innerWidth = width - (2 * margin) - (2 * sprWidth/3);
-	var lineHeight = 40;
+	var lineHeight = global.lineHeight;
 	
 	draw_set_font(fnt_News_Body);
 	draw_set_halign(fa_center);
