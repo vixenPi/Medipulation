@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_Done",
-    "path": "sprites/Sprite_Done/Sprite_Done.yy",
+    "name": "closeText",
+    "path": "sprites/closeText/closeText.yy",
   },
   "solid": false,
   "visible": true,

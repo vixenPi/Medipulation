@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_Help",
-    "path": "sprites/Sprite_Help/Sprite_Help.yy",
+    "name": "help",
+    "path": "sprites/help/help.yy",
   },
   "solid": false,
   "visible": true,

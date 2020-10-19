@@ -24,9 +24,9 @@
   "gridX": 8,
   "gridY": 8,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"babe1cd9-eb17-45a1-8359-40ccd63f0baa","path":"sprites/Sprite_TextBox/Sprite_TextBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"babe1cd9-eb17-45a1-8359-40ccd63f0baa","path":"sprites/Sprite_TextBox/Sprite_TextBox.yy",},"LayerId":{"name":"889e4d6f-1f09-4c81-9d45-8359615e4e92","path":"sprites/Sprite_TextBox/Sprite_TextBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite_TextBox","path":"sprites/Sprite_TextBox/Sprite_TextBox.yy",},"resourceVersion":"1.0","name":"babe1cd9-eb17-45a1-8359-40ccd63f0baa","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"42e04b7c-8edd-42f4-a1e8-18aa9b2190bb","path":"sprites/Sprite_TextBox/Sprite_TextBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"42e04b7c-8edd-42f4-a1e8-18aa9b2190bb","path":"sprites/Sprite_TextBox/Sprite_TextBox.yy",},"LayerId":{"name":"679ea3f8-7efc-46f3-8b0b-b40cd16d4227","path":"sprites/Sprite_TextBox/Sprite_TextBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite_TextBox","path":"sprites/Sprite_TextBox/Sprite_TextBox.yy",},"resourceVersion":"1.0","name":"42e04b7c-8edd-42f4-a1e8-18aa9b2190bb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Sprite_TextBox","path":"sprites/Sprite_TextBox/Sprite_TextBox.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"65e27df4-870e-450a-9ca2-866cd66dfed0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"babe1cd9-eb17-45a1-8359-40ccd63f0baa","path":"sprites/Sprite_TextBox/Sprite_TextBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"727596ab-1c09-402c-8b1a-d774bd62f821","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"42e04b7c-8edd-42f4-a1e8-18aa9b2190bb","path":"sprites/Sprite_TextBox/Sprite_TextBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,11 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"889e4d6f-1f09-4c81-9d45-8359615e4e92","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"679ea3f8-7efc-46f3-8b0b-b40cd16d4227","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Temp Art",
-    "path": "folders/Sprites/Temp Art.yy",
+    "name": "Assests",
+    "path": "folders/Sprites/Assests.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite_TextBox",

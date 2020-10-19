@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SpriteChannel1",
-    "path": "sprites/SpriteChannel1/SpriteChannel1.yy",
+    "name": "SpriteChannel2",
+    "path": "sprites/SpriteChannel2/SpriteChannel2.yy",
   },
   "solid": false,
   "visible": true,

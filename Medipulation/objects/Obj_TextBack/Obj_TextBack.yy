@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Phone Buttons",
-    "path": "folders/Objects/Phone Buttons.yy",
+    "path": "folders/Objects/News Buttons/Phone Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_TextBack",

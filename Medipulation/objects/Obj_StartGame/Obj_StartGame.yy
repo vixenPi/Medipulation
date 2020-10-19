@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SpriteStartGame",
-    "path": "sprites/SpriteStartGame/SpriteStartGame.yy",
+    "name": "playGame",
+    "path": "sprites/playGame/playGame.yy",
   },
   "solid": false,
   "visible": true,
