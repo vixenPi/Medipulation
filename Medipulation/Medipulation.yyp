@@ -80,6 +80,10 @@
     {"id":{"name":"Obj_Done","path":"objects/Obj_Done/Obj_Done.yy",},"order":0,},
     {"id":{"name":"ArrowBack","path":"sprites/ArrowBack/ArrowBack.yy",},"order":15,},
     {"id":{"name":"MasterButton","path":"objects/MasterButton/MasterButton.yy",},"order":7,},
+<<<<<<< HEAD
+=======
+    {"id":{"name":"Obj_BarSocial","path":"objects/Obj_BarSocial/Obj_BarSocial.yy",},"order":0,},
+>>>>>>> parent of f566380... Menu Icons Update
     {"id":{"name":"Sprite_TextBack","path":"sprites/Sprite_TextBack/Sprite_TextBack.yy",},"order":14,},
     {"id":{"name":"Achivments","path":"rooms/Achivments/Achivments.yy",},"order":4,},
     {"id":{"name":"background","path":"sprites/background/background.yy",},"order":0,},
