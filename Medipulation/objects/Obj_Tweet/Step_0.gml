@@ -1,3 +1,8 @@
+if(mouse_y < global.screenBottom && mouse_y > global.screenTop && mouse_x > x && mouse_x < x +sprite_width &&mouse_y > y && mouse_y < y +sprite_height ){
+	curFrame = 1;
+}else{
+curFrame = 0;
+}
 
 if(index == 2){
 	y = ystart - 20 - Tweet1.offset - offset + yScroll;

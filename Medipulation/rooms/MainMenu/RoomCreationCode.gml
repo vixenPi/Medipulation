@@ -11,7 +11,7 @@ global.margin = 8
 global.textGap = 15;
 global.lineHeight = 30;
 global.screenTop = 150;
-global.screnBottom = 850;
+global.screenBottom = 850;
 
 instance_deactivate_layer(layer_get_id("Achivments"));
 

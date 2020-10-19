@@ -1,3 +1,0 @@
-
-
-global.areaheightSocial = 500;

@@ -1,4 +1,15 @@
-y = ystart +(global.areaheightFact/100 * Obj_Slider.percentage) - global.areaheightFact;
+if(mouse_y < global.screenBottom && mouse_y > global.screenTop && mouse_x > x && mouse_x < x +sprite_width &&mouse_y > y && mouse_y < y +sprite_height ){
+	curFrame = 1;
+}else{
+curFrame = 0;
+}
+shift = 0;
+for(var i = 0; i < index -1; i++){
+	shift += global.factsButton[i].offset + global.textGap;
+}
+y = ystart + yScroll - shift - offset - global.textGap;
+
+
 
 var width = global.screenSize;
 
@@ -11,4 +22,5 @@ var innerHeight = string_height_ext(text, lineHeight, innerWidth);
 var height = innerHeight + 2*margin + (2*sprHeight/3);
 
 image_yscale = height / sprHeight;
+image_xscale = global.screenSize/ sprWidth;
 	

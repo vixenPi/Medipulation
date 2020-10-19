@@ -33,16 +33,7 @@ function DisplayText(Text, TextType){
 	}
 	
 
-	
-	switch(TextType){
-		case 1:
-			global.areaheightFactRead = height;
-			break;
-		case 2:
-			offset = height;
-			break;
+	offset = height;
 
-	}
-	
 
 }
