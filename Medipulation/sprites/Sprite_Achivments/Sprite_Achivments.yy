@@ -27,6 +27,12 @@
     {"compositeImage":{"FrameId":{"name":"b12f8238-4d34-40b1-9d16-0d7c54ef6417","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"b12f8238-4d34-40b1-9d16-0d7c54ef6417","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"LayerId":{"name":"105a1b3e-c0ff-4a69-963f-873478c746f5","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Sprite_Achivments","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"resourceVersion":"1.0","name":"b12f8238-4d34-40b1-9d16-0d7c54ef6417","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7df8c149-d7b6-4fb5-8762-1012fe6473e0","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7df8c149-d7b6-4fb5-8762-1012fe6473e0","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"LayerId":{"name":"105a1b3e-c0ff-4a69-963f-873478c746f5","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite_Achivments","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"resourceVersion":"1.0","name":"7df8c149-d7b6-4fb5-8762-1012fe6473e0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8309908c-25d1-4379-8d3f-d2ce63f2e2a1","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8309908c-25d1-4379-8d3f-d2ce63f2e2a1","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"LayerId":{"name":"105a1b3e-c0ff-4a69-963f-873478c746f5","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite_Achivments","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"resourceVersion":"1.0","name":"8309908c-25d1-4379-8d3f-d2ce63f2e2a1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Sprite_Achivments","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},
@@ -36,12 +42,14 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 3.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8ad37a64-d0cf-4d4d-997b-9b0547fa5daa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b12f8238-4d34-40b1-9d16-0d7c54ef6417","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8ce56e5f-2914-4ed7-8269-018d40c777f7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7df8c149-d7b6-4fb5-8762-1012fe6473e0","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"51a304fa-1566-4684-b449-6b682ba80a32","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8309908c-25d1-4379-8d3f-d2ce63f2e2a1","path":"sprites/Sprite_Achivments/Sprite_Achivments.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

@@ -1,7 +1,9 @@
-if(mouse_y < global.screenBottom && mouse_y > global.screenTop && mouse_x > x && mouse_x < x +sprite_width &&mouse_y > y && mouse_y < y +sprite_height ){
+if(mouse_y < global.screenBottom && mouse_y > global.screenTop && mouse_x > x && mouse_x < x +sprite_width &&mouse_y > y && mouse_y < y +sprite_height && !select){
 	curFrame = 1;
+}else if(select){
+curFrame = 2;
 }else{
-curFrame = 0;
+curFrame =0;
 }
 
 if(index == 2){
