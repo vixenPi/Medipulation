@@ -1,4 +1,3 @@
-
 SetActiveLayer(1, true);
 SetActiveLayer(2, false);
 SetActiveLayer(3, false);
@@ -18,5 +17,3 @@ global.flags= [ false, false, false, false, false, false, false];
 
 global.currentCycle = 1;
 global.choiceNum = 0;
-
-

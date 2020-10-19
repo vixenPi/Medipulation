@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "menuBack",
-    "path": "sprites/menuBack/menuBack.yy",
+    "name": "Sprite_Back",
+    "path": "sprites/Sprite_Back/Sprite_Back.yy",
   },
   "solid": false,
   "visible": true,

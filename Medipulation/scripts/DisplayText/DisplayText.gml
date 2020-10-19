@@ -1,9 +1,7 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function DisplayText(Text, TextType){
 	//type 0 is calander
 	//type 1
-	//type 2 is text messages 
+	//type 2 is text messages
 	var screenWidth = global.screenSize;
 	text = Text;
 	draw_set_halign(fa_left);
@@ -21,7 +19,7 @@ function DisplayText(Text, TextType){
 	var lineHeight = global.lineHeight;
 	var innerHeight = string_height_ext(Text , lineHeight, innerWidth);
 	var height = innerHeight+ 2 * margin + (2*sprHeight/3);
-	
+
 	DrawNineSlice(sprite_index, curFrame, x, y, x+screenWidth, y+height);
 
 	if(TextType == 0){
@@ -31,7 +29,7 @@ function DisplayText(Text, TextType){
 	else {
 		draw_text_ext(x +margin+3, y+global.textGap, Text, lineHeight,innerWidth);
 	}
-	
+
 
 	offset = height;
 

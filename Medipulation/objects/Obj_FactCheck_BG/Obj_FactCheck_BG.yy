@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_FactCheck_BackGround",
-    "path": "sprites/Sprite_FactCheck_BackGround/Sprite_FactCheck_BackGround.yy",
+    "name": "TextBock",
+    "path": "sprites/TextBock/TextBock.yy",
   },
   "solid": false,
   "visible": true,

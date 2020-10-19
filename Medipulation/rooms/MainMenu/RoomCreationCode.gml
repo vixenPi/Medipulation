@@ -20,5 +20,3 @@ ds_map_add(global.flags, "flag2", false);
 ds_map_add(global.flags, "flag3", false);
 ds_map_add(global.flags, "flag4", false);
 ds_map_add(global.flags, "flag5", false);
-
-//Load();

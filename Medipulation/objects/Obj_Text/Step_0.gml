@@ -1,4 +1,3 @@
-
 if(mouse_y < global.screenBottom && mouse_y > global.screenTop && mouse_x > x && mouse_x < x +sprite_width &&mouse_y > y && mouse_y < y +sprite_height ){
 	curFrame = 1;
 }else{
@@ -25,4 +24,3 @@ var height = innerHeight + 2*margin + (2*sprHeight/3);
 
 image_yscale = height / sprHeight;
 image_xscale = global.screenSize/ sprWidth;
-	

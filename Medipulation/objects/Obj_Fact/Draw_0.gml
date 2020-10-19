@@ -1,3 +1,4 @@
+
 	if(index > global.currentCycle){
 		exit;
 	}

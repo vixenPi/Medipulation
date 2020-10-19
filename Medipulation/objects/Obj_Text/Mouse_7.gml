@@ -1,5 +1,5 @@
 if(select){
-select = false; 
+select = false;
 curFrame = 1;
 }
 else if(!Text1.select && !Text2.select && !Text3.select){

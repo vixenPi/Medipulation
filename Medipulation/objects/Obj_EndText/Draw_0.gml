@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 SetText("");
 
 var width = sprite_width;
@@ -12,14 +9,14 @@ var borderWidth = sprWidth/3;
 var borderHeight = sprHeight/3;
 var innerWidth = width - (2 * margin) - (2 * sprWidth/3);
 var lineHeight = global.lineHeight;
-	
+
 draw_set_font(fnt_News_Body);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-	
+
 var textHeight = string_height_ext(text, lineHeight, innerWidth);
 var innerHeight = textHeight + 2*margin;
-	
+
 var height = innerHeight + 2*borderHeight ;
 height = min(maxHeight, height);
 
@@ -41,5 +38,3 @@ draw_text_ext(margin, margin + scrollOffset, text, lineHeight, innerWidth);
 surface_reset_target();
 
 draw_surface(clip_surface, x + borderWidth, y + borderHeight);
-
-

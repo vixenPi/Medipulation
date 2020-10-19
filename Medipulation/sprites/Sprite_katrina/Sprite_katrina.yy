@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a6a2f10b-ca45-4143-83f1-5c323036cb74","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Temp Art",
-    "path": "folders/Sprites/Temp Art.yy",
+    "name": "Assests",
+    "path": "folders/Sprites/Assests.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite_katrina",

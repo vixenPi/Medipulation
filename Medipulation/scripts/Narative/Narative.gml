@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Narative(TextType, choiceValue){
 	if(choiceValue == -1){
 		return "default text";
@@ -226,7 +224,7 @@ switch(TextType){
 				switch(choiceValue){
 					case 1:
 						DisplayText("2How is it going mom? I am texting you to make a longer message to test how the spacing works.How is it going mom? I am texting you to make a longer message to test how the spacing works.How is it going mom? I am texting you to make a longer message to test how the spacing works.", 2);
-						
+
 						break;
 					case 2:
 						DisplayText("2Hey mom", 2);
@@ -275,7 +273,7 @@ switch(TextType){
 						break;
 				}
 			break;
-		
+
 		}
 	break;
 	//endings
@@ -292,7 +290,7 @@ switch(TextType){
 						break;
 				}
 			break;
-		
-	
+
+
 }
 }

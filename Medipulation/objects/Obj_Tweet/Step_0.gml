@@ -24,5 +24,3 @@ var height = innerHeight + 2*margin + (2*sprHeight/3);
 
 image_yscale = height / sprHeight;
 image_xscale = 200 / sprWidth;
-	
-	

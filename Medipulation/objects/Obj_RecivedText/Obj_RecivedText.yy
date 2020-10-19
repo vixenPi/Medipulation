@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "Sprite_RecievedText",
-    "path": "sprites/Sprite_RecievedText/Sprite_RecievedText.yy",
+    "name": "TextBock",
+    "path": "sprites/TextBock/TextBock.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "TextBock",
+    "path": "sprites/TextBock/TextBock.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "MasterOBJ",
