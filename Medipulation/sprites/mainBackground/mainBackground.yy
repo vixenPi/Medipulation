@@ -26,7 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"a92f5fd0-50ab-4d88-872a-bd7dc8203ca2","path":"sprites/mainBackground/mainBackground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"a92f5fd0-50ab-4d88-872a-bd7dc8203ca2","path":"sprites/mainBackground/mainBackground.yy",},"LayerId":{"name":"5b19bff5-f200-4168-b8cf-da4c8b41ac40","path":"sprites/mainBackground/mainBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"a92f5fd0-50ab-4d88-872a-bd7dc8203ca2","path":"sprites/mainBackground/mainBackground.yy",},"LayerId":{"name":"d5e1d428-21fa-4c46-b3e7-6421fdd331d2","path":"sprites/mainBackground/mainBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a92f5fd0-50ab-4d88-872a-bd7dc8203ca2","path":"sprites/mainBackground/mainBackground.yy",},"LayerId":{"name":"mainBackground","path":"sprites/mainBackground/mainBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"mainBackground","path":"sprites/mainBackground/mainBackground.yy",},"resourceVersion":"1.0","name":"a92f5fd0-50ab-4d88-872a-bd7dc8203ca2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
