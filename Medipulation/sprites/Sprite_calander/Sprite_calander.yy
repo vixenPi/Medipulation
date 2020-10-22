@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 23,
+  "bbox_right": 15,
   "bbox_top": 0,
-  "bbox_bottom": 23,
+  "bbox_bottom": 15,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 24,
-  "height": 24,
+  "width": 16,
+  "height": 16,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 8,
   "gridY": 8,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9d13746f-8296-4348-bfee-f65865602790","path":"sprites/Sprite_calander/Sprite_calander.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9d13746f-8296-4348-bfee-f65865602790","path":"sprites/Sprite_calander/Sprite_calander.yy",},"LayerId":{"name":"51c77660-abed-4dcf-af27-7fa7387fc3b2","path":"sprites/Sprite_calander/Sprite_calander.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite_calander","path":"sprites/Sprite_calander/Sprite_calander.yy",},"resourceVersion":"1.0","name":"9d13746f-8296-4348-bfee-f65865602790","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"36f08e52-c87a-4b05-b4e9-92d536266708","path":"sprites/Sprite_calander/Sprite_calander.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"36f08e52-c87a-4b05-b4e9-92d536266708","path":"sprites/Sprite_calander/Sprite_calander.yy",},"LayerId":{"name":"bd381400-47f5-4c66-a933-7b3949608f4a","path":"sprites/Sprite_calander/Sprite_calander.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite_calander","path":"sprites/Sprite_calander/Sprite_calander.yy",},"resourceVersion":"1.0","name":"36f08e52-c87a-4b05-b4e9-92d536266708","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Sprite_calander","path":"sprites/Sprite_calander/Sprite_calander.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"077f3c2a-68ce-4523-9782-25c9b43455a3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9d13746f-8296-4348-bfee-f65865602790","path":"sprites/Sprite_calander/Sprite_calander.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4a89a529-43bf-48fe-9fc4-b38f633d0be3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"36f08e52-c87a-4b05-b4e9-92d536266708","path":"sprites/Sprite_calander/Sprite_calander.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,11 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"51c77660-abed-4dcf-af27-7fa7387fc3b2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bd381400-47f5-4c66-a933-7b3949608f4a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Temp Art",
-    "path": "folders/Sprites/Temp Art.yy",
+    "name": "Assests",
+    "path": "folders/Sprites/Assests.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite_calander",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "TextBock",
-    "path": "sprites/TextBock/TextBock.yy",
+    "name": "Sprite_TextRed",
+    "path": "sprites/Sprite_TextRed/Sprite_TextRed.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "NewsA",
-    "path": "sprites/NewsA/NewsA.yy",
+    "name": "Sprite_NewsA",
+    "path": "sprites/Sprite_NewsA/Sprite_NewsA.yy",
   },
   "solid": false,
   "visible": true,

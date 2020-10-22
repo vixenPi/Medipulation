@@ -9,7 +9,7 @@ switch(TextType){
 		//tv channel
 		switch(choiceValue){
 			case 1:
-				SetScreen(NewsA);
+				SetScreen(Sprite_NewsA);
 				//current cycle
 				switch(global.currentCycle){
 					case 1:
@@ -25,7 +25,7 @@ switch(TextType){
 				}
 				break;
 			case 2:
-				SetScreen(NewsB);
+				SetScreen(Sprite_NewsB);
 				//current cycle
 				switch(global.currentCycle){
 					case 1:
@@ -41,7 +41,7 @@ switch(TextType){
 				}
 
 			case 3:
-				SetScreen(messagebutton);
+				SetScreen(Sprite_NewsGlobal);
 				//current cycle
 				switch(global.currentCycle){
 					case 1:
@@ -57,7 +57,7 @@ switch(TextType){
 				}
 
 			case 4:
-				SetScreen(mainBackground);
+				SetScreen(Sprite_NewsLocal);
 				//current cycle
 				switch(global.currentCycle){
 					case 1:

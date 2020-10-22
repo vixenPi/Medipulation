@@ -76,8 +76,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ee163985-79e7-4544-a8e6-12b6dd5000ce","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "TextBubbles",
+    "path": "folders/Sprites/Assests/TextBubbles.yy",
   },
   "resourceVersion": "1.0",
   "name": "TextBock",
