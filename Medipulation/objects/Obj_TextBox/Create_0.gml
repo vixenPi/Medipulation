@@ -13,7 +13,7 @@ SetText = function(newText) {
 	var margin = global.margin;
 
 	var borderHeight = sprHeight/3;
-	var innerWidth = width - (2 * margin) - (2 * sprWidth/3);
+	var innerWidth = width - (1 * margin) - (2 * sprWidth/3);
 	var lineHeight = 40;
 
 	draw_set_font(fnt_News_Body);

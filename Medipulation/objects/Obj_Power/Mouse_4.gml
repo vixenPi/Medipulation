@@ -35,6 +35,8 @@ if(global.currentCycle >= global.numNewsCycle ){
 	exit;
 }
 
+NewsText.scrollValue = 0;
+FactText.scrollValue = 0;
 SetActiveLayer(6, false);
 SetActiveLayer(7, true);
 SetActiveLayer(9, false);

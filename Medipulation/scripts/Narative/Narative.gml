@@ -134,6 +134,21 @@ switch(TextType){
 			case 5:
 				DisplayText("Fact 5, temporary text", 2);
 				break;
+			case 6:
+				DisplayText("Fact 6, temporary text", 2);
+				break;
+			case 7:
+				DisplayText("Fact 7, temporary text", 2);
+				break;
+			case 8:
+				DisplayText("Fact 8, temporary text", 2);
+				break;
+			case 9:
+				DisplayText("Fact 9, temporary text", 2);
+				break;
+			case 10:
+				DisplayText("Fact 10, temporary text", 2);
+				break;
 		}
 		break;
 	//display fact
@@ -141,19 +156,24 @@ switch(TextType){
 			switch(choiceValue){
 			case 1:
 				return "Fact 1 truth, temporary text";
-				break;
 			case 2:
 				return "Fact 2 truth, temporary text";
-				break;
 			case 3:
 				return "Fact 3 truth, temporary text";
-
 			case 4:
 				return "Fact 4 truth, temporary text";
-
 			case 5:
 				return "Fact 5 truth, temporary text";
-
+			case 6:
+				return "Fact 6 truth, temporary text";
+			case 7:
+				return "Fact 7 truth, temporary text";
+			case 8:
+				return "Fact 8 truth, temporary text";
+			case 9:
+				return "Fact 9 truth, temporary text";
+			case 10:
+				return "Fact 10 truth, temporary text";
 		}
 		break;
 	//message recieved
@@ -173,6 +193,21 @@ switch(TextType){
 				break;
 			case 5:
 				DisplayText("Message 5, temporary text",2);
+				break;
+			case 6:
+				DisplayText("Message 6, temporary text",2);
+				break;
+			case 7:
+				DisplayText("Message 7, temporary text",2);
+				break;
+			case 8:
+				DisplayText("Message 8, temporary text",2);
+				break;
+			case 9:
+				DisplayText("Message 9, temporary text",2);
+				break;
+			case 10:
+				DisplayText("Message 10, temporary text",2);
 				break;
 		}
 		break;
@@ -243,6 +278,71 @@ switch(TextType){
 						DisplayText("tweet 5:3, temporary text", 2);
 						break;
 				}
+				break;
+			case 6:
+				switch(choiceValue){
+					case 1:
+						DisplayText("tweet 6:1, temporary text", 2);
+						break;
+					case 2:
+						DisplayText("tweet 6:2, temporary text", 2);
+						break;
+					case 3:
+						DisplayText("tweet 6:3, temporary text", 2);
+						break;
+				}
+			break;
+			case 7:
+				switch(choiceValue){
+					case 1:
+						DisplayText("tweet 7:1, temporary text", 2);
+						break;
+					case 2:
+						DisplayText("tweet 7:2, temporary text", 2);
+						break;
+					case 3:
+						DisplayText("tweet 7:3, temporary text", 2);
+						break;
+				}
+			break;
+			case 8:
+				switch(choiceValue){
+					case 1:
+						DisplayText("tweet 8:1, temporary text", 2);
+						break;
+					case 2:
+						DisplayText("tweet 8:2, temporary text", 2);
+						break;
+					case 3:
+						DisplayText("tweet 8:3, temporary text", 2);
+						break;
+				}
+				break;
+			case 9:
+				switch(choiceValue){
+					case 1:
+						DisplayText("tweet 9:1, temporary text", 2);
+						break;
+					case 2:
+						DisplayText("tweet 9:2, temporary text", 2);
+						break;
+					case 3:
+						DisplayText("tweet 9:3, temporary text", 2);
+						break;
+				}
+				break;
+			case 10:
+				switch(choiceValue){
+					case 1:
+						DisplayText("tweet 10:1, temporary text", 2);
+						break;
+					case 2:
+						DisplayText("tweet 10:2, temporary text", 2);
+						break;
+					case 3:
+						DisplayText("tweet 10:3, temporary text", 2);
+						break;
+				}
 			break;
 		}
 		break;
@@ -261,7 +361,7 @@ switch(TextType){
 						DisplayText("Responce 1:3, temporary text", 2);
 						break;
 				}
-			break;
+				break;
 			case 2:
 				switch(choiceValue){
 					case 1:
@@ -274,7 +374,7 @@ switch(TextType){
 						DisplayText("Responce 2:3, temporary text", 2);
 						break;
 				}
-			break;
+				break;
 			case 3:
 				switch(choiceValue){
 					case 1:
@@ -313,6 +413,71 @@ switch(TextType){
 						DisplayText("Responce 5:3, temporary text", 2);
 						break;
 				}
+				break;
+			case 6:
+				switch(choiceValue){
+					case 1:
+						DisplayText("Responce 6:1, temporary text", 2);
+						break;
+					case 2:
+						DisplayText("Responce 6:2, temporary text", 2);
+						break;
+					case 3:
+						DisplayText("Responce 6:3, temporary text", 2);
+						break;
+				}
+				break;
+			case 7:
+				switch(choiceValue){
+					case 1:
+						DisplayText("Responce 7:1, temporary text", 2);
+						break;
+					case 2:
+						DisplayText("Responce 7:2, temporary text", 2);
+						break;
+					case 3:
+						DisplayText("Responce 7:3, temporary text", 2);
+						break;
+				}
+				break;
+			case 8:
+				switch(choiceValue){
+					case 1:
+						DisplayText("Responce 8:1, temporary text", 2);
+						break;
+					case 2:
+						DisplayText("Responce 8:2, temporary text", 2);
+						break;
+					case 3:
+						DisplayText("Responce 8:3, temporary text", 2);
+						break;
+				}
+				break;
+			case 9:
+				switch(choiceValue){
+					case 1:
+						DisplayText("Responce 9:1, temporary text", 2);
+						break;
+					case 2:
+						DisplayText("Responce 9:2, temporary text", 2);
+						break;
+					case 3:
+						DisplayText("Responce 9:3, temporary text", 2);
+						break;
+				}
+				break;
+			case 10:
+				switch(choiceValue){
+					case 1:
+						DisplayText("Responce 10:1, temporary text", 2);
+						break;
+					case 2:
+						DisplayText("Responce 10:2, temporary text", 2);
+						break;
+					case 3:
+						DisplayText("Responce 10:3, temporary text", 2);
+						break;
+				}
 			break;
 
 		}
@@ -322,7 +487,7 @@ switch(TextType){
 		switch(choiceValue){
 			case 1:
 				//end A
-				return"ending A";
+				return "ending A";
 			case 2:
 				//end B
 				return "ending B"

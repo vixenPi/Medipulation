@@ -1,13 +1,13 @@
 global.flags = ds_map_create();
 global.choices = ds_map_create();
 global.numAchivment = 10;
-global.numNewsCycle = 5;
+global.numNewsCycle = 10;
 global.currentCycle = 1;
 global.choiceNum = 0;
 global.currentChoice = -1;
 
 global.screenSize = 400;
-global.margin = 8
+global.margin = 8;
 global.textGap = 15;
 global.lineHeight = 30;
 global.screenTop = 150;
