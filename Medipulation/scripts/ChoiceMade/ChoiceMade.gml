@@ -10,15 +10,16 @@ function ChoiceMade(choiceType, choiceValue){
 		global.num++;
 		switch(choiceValue){
 			case 1:
-				if(global.currentCycle == 1){
-					global.flags[1] = true;
-				}
+				global.NewsA++;
 				break;
 			case 2:
+				global.NewsB++;
 				break;
 			case 3:
+				global.NewsG++;
 				break;
 			case 4:
+				global.NewsL++;
 				break;
 			case 5:
 				break;

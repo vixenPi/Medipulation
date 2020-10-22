@@ -5,7 +5,7 @@ maxHeight = sprite_height;
 
 SetText = function(newText) {
 
-	text = Narative(7,1);
+	text = FindEnd();
 
 	var width = sprite_width;
 

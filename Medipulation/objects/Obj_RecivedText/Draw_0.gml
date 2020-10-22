@@ -1,1 +1,1 @@
-Narative(4,global.currentCycle);
+Narative(4, global.currentCycle);
