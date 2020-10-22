@@ -1,4 +1,3 @@
-
-if(Text1.y+ Text1.offset +5 > global.screenBottom){
-	yScroll -=5;
+if(TextR.y + 5 < global.screenTop){
+	yScroll +=5;
 }
