@@ -110,7 +110,8 @@ switch(TextType){
 					case 9:
 						return "Good evening, ThisLand. I am your host, Laura Ficklesticks. ThisLand, as our streets are no longer safe, local law enforcement is encouraging all residents to please stay in doors for the safety of you and your families lives. Downtown is now a war zone that seems to have started with an explosion outside the Party D Headquarters. As the body count continues to rise with no indication of decline, local business owners are seen fleeing their establishments that have become collateral damage in a riot that has never before been documented in the history of ThisLand. We the Local NewsCaster plead with you our loyal audience, please remain safe and sound and continue to hope for a light in these dark times.";
 					case 10:
-						return "Just a black screen. There seems to be text scrolling along the bottom: We the Local NewsCasters proclaim...The end is near.";
+						SetScreen(Sprite_NewsBlack);
+						return "There seems to be text scrolling along the bottom: We the Local NewsCasters proclaim...The end is near.";
 
 				}
 
