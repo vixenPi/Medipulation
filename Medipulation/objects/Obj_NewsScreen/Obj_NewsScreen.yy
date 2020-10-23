@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "Sprite_NewsA",
-    "path": "sprites/Sprite_NewsA/Sprite_NewsA.yy",
+    "name": "Sprite_NewsBlack",
+    "path": "sprites/Sprite_NewsBlack/Sprite_NewsBlack.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "MasterOBJ",
-    "path": "objects/MasterOBJ/MasterOBJ.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_NewsScreen","path":"objects/Obj_NewsScreen/Obj_NewsScreen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

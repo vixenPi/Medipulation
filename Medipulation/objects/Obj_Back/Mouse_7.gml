@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-var roomNum = room;
+
 if(room == 4){
 	room_goto(MainMenu);
 }else if(global.inGame){

@@ -19,6 +19,7 @@
     {"id":{"name":"Obj_End","path":"objects/Obj_End/Obj_End.yy",},"order":13,},
     {"id":{"name":"Sprite_katrina","path":"sprites/Sprite_katrina/Sprite_katrina.yy",},"order":24,},
     {"id":{"name":"Sprite_FactCheck","path":"sprites/Sprite_FactCheck/Sprite_FactCheck.yy",},"order":6,},
+    {"id":{"name":"Icon","path":"sprites/Icon/Icon.yy",},"order":2,},
     {"id":{"name":"Save","path":"scripts/Save/Save.yy",},"order":2,},
     {"id":{"name":"Obj_Channel1_Button","path":"objects/Obj_Channel1_Button/Obj_Channel1_Button.yy",},"order":0,},
     {"id":{"name":"Sprite_Bar","path":"sprites/Sprite_Bar/Sprite_Bar.yy",},"order":3,},
