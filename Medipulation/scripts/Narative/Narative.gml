@@ -181,10 +181,10 @@ switch(TextType){
 	case 4:
 		switch(choiceValue){
 			case 1:
-				DisplayText("Message 1, temporary text",2);
+				DisplayText("Did you see the news about the earthquakes in Otherland? Your aunt and uncle are ok but their house was damaged :( \n -mom",2);
 				break;
 			case 2:
-				DisplayText("Message 2, temporary text",2);
+				DisplayText("Have you guys seen Bungies and Bunnies yet? It’s so funny lol \n -Sally",2);
 				break;
 			case 3:
 				DisplayText("Message 3, temporary text",2);
@@ -218,7 +218,7 @@ switch(TextType){
 			case 1:
 				switch(choiceValue){
 					case 1:
-						DisplayText("tweet 1:1, temporary text", 2);
+						DisplayText("tweet 1:2, temporary text", 2);
 						break;
 					case 2:
 						DisplayText("tweet 1:2, temporary text", 2);
@@ -353,13 +353,21 @@ switch(TextType){
 			case 1:
 				switch(choiceValue){
 					case 1:
-						DisplayText("Responce 1:1, temporary text", 2);
-						break;
+						if(global.currentChoice == 3){
+							DisplayText("I saw that on the news earlier! I'll give them a call later and see how they're doing", 2);
+						}else {
+							DisplayText("No, I didn't see that. I'm glad they're ok", 2);
+						}
+						break; 
 					case 2:
-						DisplayText("Responce 1:2, temporary text", 2);
+						if(global.currentChoice == 3){
+							DisplayText("I was just watching the footage of the earthquake. I'm going to donate to the relief fund", 2);
+						}else{
+							DisplayText("Oh, I wasn't paying attention to the global news. Otherland is always dealing with earthquakes, I'm sure they'll be fine", 2);
+						}
 						break;
 					case 3:
-						DisplayText("Responce 1:3, temporary text", 2);
+						DisplayText("Well, they have a change to remodel now", 2);
 						break;
 				}
 				break;

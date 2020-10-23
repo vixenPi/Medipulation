@@ -9,14 +9,4 @@ SetActiveLayer(8, false);
 SetActiveLayer(9, false);
 
 
-global.story = [ false, false, false, false, false, false, false, false, false, false, false];
-global.facts = [ 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0];
-global.factsButton = [Fact1, Fact2, Fact3, Fact4, Fact5, Fact6, Fact7, Fact8];
-global.num = 1;
-global.flags= [ false, false, false, false, false, false, false];
-global.NewsA = 0;
-global.NewsB = 0;
-global.NewsG = 0;
-global.NewsL = 0;
-global.currentCycle = 1;
-global.choiceNum = 0;
+

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_SideArrow",
-    "path": "sprites/Sprite_SideArrow/Sprite_SideArrow.yy",
+    "name": "Sprite_Done",
+    "path": "sprites/Sprite_Done/Sprite_Done.yy",
   },
   "solid": false,
   "visible": true,
