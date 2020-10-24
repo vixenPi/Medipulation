@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 307,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 216,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 308,
+  "height": 217,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3ee284b5-7203-4a20-a32a-4ce544dd6581","path":"sprites/Sprite_NewsGlobal/Sprite_NewsGlobal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3ee284b5-7203-4a20-a32a-4ce544dd6581","path":"sprites/Sprite_NewsGlobal/Sprite_NewsGlobal.yy",},"LayerId":{"name":"1b7ee07a-fc38-46b1-810c-25dbefbd9bea","path":"sprites/Sprite_NewsGlobal/Sprite_NewsGlobal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite_NewsGlobal","path":"sprites/Sprite_NewsGlobal/Sprite_NewsGlobal.yy",},"resourceVersion":"1.0","name":"3ee284b5-7203-4a20-a32a-4ce544dd6581","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"77a56ed7-084b-47d4-9f8f-46faa94a94bf","path":"sprites/Sprite_NewsGlobal/Sprite_NewsGlobal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"77a56ed7-084b-47d4-9f8f-46faa94a94bf","path":"sprites/Sprite_NewsGlobal/Sprite_NewsGlobal.yy",},"LayerId":{"name":"7283622a-b654-4674-8eba-9a3127ea3b5c","path":"sprites/Sprite_NewsGlobal/Sprite_NewsGlobal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite_NewsGlobal","path":"sprites/Sprite_NewsGlobal/Sprite_NewsGlobal.yy",},"resourceVersion":"1.0","name":"77a56ed7-084b-47d4-9f8f-46faa94a94bf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Sprite_NewsGlobal","path":"sprites/Sprite_NewsGlobal/Sprite_NewsGlobal.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d4f0e1b7-b417-4ab0-a22e-5230f83f1206","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ee284b5-7203-4a20-a32a-4ce544dd6581","path":"sprites/Sprite_NewsGlobal/Sprite_NewsGlobal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"42fcde77-f1e4-4424-a230-33a5da52dc55","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"77a56ed7-084b-47d4-9f8f-46faa94a94bf","path":"sprites/Sprite_NewsGlobal/Sprite_NewsGlobal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1b7ee07a-fc38-46b1-810c-25dbefbd9bea","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7283622a-b654-4674-8eba-9a3127ea3b5c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Assests",
