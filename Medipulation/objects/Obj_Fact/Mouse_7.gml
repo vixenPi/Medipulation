@@ -8,6 +8,6 @@ if(mouse_y > global.screenBottom || mouse_y < global.screenTop){
 	exit;
 }
 //ChoiceMade(2, global.facts[index]);
-SetActiveLayer(8, false);
-SetActiveLayer(5, true);
+global.state = 5;
+SetGameState();
 inst_38248749.open = false;
