@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_BackTV",
-    "path": "sprites/Sprite_BackTV/Sprite_BackTV.yy",
+    "name": "sprite_nextDay",
+    "path": "sprites/sprite_nextDay/sprite_nextDay.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_TV","path":"objects/Obj_TV/Obj_TV.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_NextDay","path":"objects/Obj_NextDay/Obj_NextDay.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Phone Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_TV",
+  "name": "Obj_NextDay",
   "tags": [],
   "resourceType": "GMObject",
 }

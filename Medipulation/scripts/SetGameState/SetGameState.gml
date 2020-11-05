@@ -73,11 +73,12 @@ function SetGameState(){
 			SetActiveLayer(2, false);
 			SetActiveLayer(3, false);
 			SetActiveLayer(4, false);
-			SetActiveLayer(5, false);
 			SetActiveLayer(6, false);
 			SetActiveLayer(7, false);
-			SetActiveLayer(8, true);
+			SetActiveLayer(8, false);
 			SetActiveLayer(9, true);
+			//out of order to make sure back ground stays active 
+			SetActiveLayer(5, true);
 		break;
 		case 6:
 			//display social
