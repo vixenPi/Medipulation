@@ -11,6 +11,7 @@ global.NewsG = 0;
 global.NewsL = 0;
 global.currentCycle = 1;
 global.choiceNum = 0;
+global.state = 1;
 
 room_goto(Game);
 
