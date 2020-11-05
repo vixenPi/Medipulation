@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8b780ab7-7246-41ce-aafc-0a302a82bb87","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Temp Art",
+    "path": "folders/Sprites/Temp Art.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprite_nextDay",
