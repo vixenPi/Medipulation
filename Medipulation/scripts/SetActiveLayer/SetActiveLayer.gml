@@ -5,6 +5,10 @@ function SetActiveLayer(SetLayer, setActive){
 if(setActive){
 
 switch(SetLayer){
+	case 0:
+		instance_activate_layer(layer_get_id("Start_0"));
+		instance_activate_layer(layer_get_id("BlackBackGround"));
+		break;
 	case 1:
 		instance_activate_layer(layer_get_id("UI_1"));
 		break;
@@ -44,6 +48,10 @@ switch(SetLayer){
 	
 	
 	switch(SetLayer){
+	case 0:
+		instance_deactivate_layer(layer_get_id("Start_0"));
+		instance_deactivate_layer(layer_get_id("BlackBackGround"));
+		break;
 	case 1:
 		instance_deactivate_layer(layer_get_id("UI_1"));
 		break;

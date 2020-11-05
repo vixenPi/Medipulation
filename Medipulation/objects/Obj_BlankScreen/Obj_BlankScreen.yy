@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "Sprite_Title",
-    "path": "sprites/Sprite_Title/Sprite_Title.yy",
+    "name": "sprite_Black",
+    "path": "sprites/sprite_Black/sprite_Black.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "MasterButton",
-    "path": "objects/MasterButton/MasterButton.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
     "path": "folders/Objects/BackGrounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Title",
+  "name": "Obj_BlankScreen",
   "tags": [],
   "resourceType": "GMObject",
 }

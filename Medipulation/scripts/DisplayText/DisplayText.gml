@@ -10,6 +10,8 @@ function DisplayText(Text, TextType){
 	var margin = global.margin;
 	if(TextType == 0){
 		screenWidth = 64;
+	}else if (TextType ==1){
+		screenWidth = sprite_width;
 	}
 
 	var sprWidth = sprite_get_width(sprite_index);
@@ -26,8 +28,12 @@ function DisplayText(Text, TextType){
 		draw_set_halign(fa_center);
 		draw_text_ext(x + 30, y+20, Text, lineHeight,innerWidth);
 	}
+	else if(TextType == 1){
+		draw_set_halign(fa_center);
+		draw_text_ext(x + (screenWidth /2 ), y + global.textGap, Text, lineHeight, innerWidth);
+	}
 	else {
-		draw_text_ext(x +margin+3, y+global.textGap, Text, lineHeight,innerWidth);
+		draw_text_ext(x +margin+3, y+global.textGap, Text, lineHeight, innerWidth);
 	}
 
 

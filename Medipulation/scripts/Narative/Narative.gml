@@ -545,5 +545,36 @@ switch(TextType){
 				return"Times are tough. Your country is now at war and you're not sure what to do. You're not going to risk your life to fight on either side, but you don't want to leave your home either. You suppose you'll just wait it out.";
 		}
 	break;
+	case 8:
+		switch(global.currentCycle){
+		case 1:
+			DisplayText("Intro to game", 1);
+		break;
+		case 2:
+			DisplayText("Day 2", 1);
+		break;
+		case 3:
+			DisplayText("Day 3", 1);
+		break;
+		case 4:
+			DisplayText("Day 4", 1);
+		break;
+		case 5:
+			DisplayText("Day 5", 1);
+		break;
+		case 6:
+			DisplayText("Day 6", 1);
+		break;
+		case 7:
+			DisplayText("Day 7", 1);
+		break;
+		case 8:
+			DisplayText("Day 8", 1);
+		break;
+		case 9:
+			DisplayText("Day 9", 1);
+		break;
+		}
+	break;
 	}
 }

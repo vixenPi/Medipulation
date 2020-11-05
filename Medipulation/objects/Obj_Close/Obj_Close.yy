@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_Title",
-    "path": "sprites/Sprite_Title/Sprite_Title.yy",
+    "name": "sprite_close",
+    "path": "sprites/sprite_close/sprite_close.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,15 +23,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Close","path":"objects/Obj_Close/Obj_Close.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "BackGrounds",
-    "path": "folders/Objects/BackGrounds.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Title",
+  "name": "Obj_Close",
   "tags": [],
   "resourceType": "GMObject",
 }

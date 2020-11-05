@@ -36,7 +36,7 @@ if(global.currentCycle >= global.numNewsCycle ){
 
 NewsText.scrollValue = 0;
 FactText.scrollValue = 0;
-global.state = 1;
+global.state = 0;
 SetGameState();
 global.currentCycle ++;
 Text1.select = false;
