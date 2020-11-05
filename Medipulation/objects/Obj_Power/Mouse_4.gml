@@ -29,6 +29,7 @@ if(inst_16BD0C72.AppOpen){
 
 if(global.currentCycle >= global.numNewsCycle ){
 	global.state = -1;
+	global.inGame = false;
 	room_goto(Ending);
 	exit;
 }

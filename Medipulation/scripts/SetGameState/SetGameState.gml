@@ -86,10 +86,6 @@ function SetGameState(){
 			SetActiveLayer(8, false);
 			SetActiveLayer(9, true);
 		break;
-		
-
-
-		
 	}
 
 }

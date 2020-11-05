@@ -28,11 +28,11 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_68D8CF89","path":"rooms/Ending/Ending.yy",},
-    {"name":"inst_67619B29","path":"rooms/Ending/Ending.yy",},
     {"name":"inst_1410D8E","path":"rooms/Ending/Ending.yy",},
     {"name":"inst_619F6ED8","path":"rooms/Ending/Ending.yy",},
     {"name":"inst_449D901E","path":"rooms/Ending/Ending.yy",},
     {"name":"inst_35937B90","path":"rooms/Ending/Ending.yy",},
+    {"name":"inst_67619B29","path":"rooms/Ending/Ending.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

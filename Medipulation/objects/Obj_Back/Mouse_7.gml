@@ -6,6 +6,9 @@ if(room == 4){
 }else if(global.inGame && room == 3){
 	room_goto(Back);
 }
+else if(global.inGame && room == 1){
+	room_goto(Game);
+}
 else if(!global.inGame){
 	room_goto(MainMenu);
 }else{
