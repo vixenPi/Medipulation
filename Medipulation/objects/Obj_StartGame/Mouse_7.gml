@@ -2,6 +2,7 @@
 // You can write your code in this editor
 global.story = [ false, false, false, false, false, false, false, false, false, false, false];
 global.facts = [ 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0];
+global.factsChannel = [ 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0];
 global.factsButton = [Fact1, Fact2, Fact3, Fact4, Fact5, Fact6, Fact7, Fact8, Fact9, Fact10];
 global.num = 1;
 global.flags= [ false, false, false, false, false, false, false];

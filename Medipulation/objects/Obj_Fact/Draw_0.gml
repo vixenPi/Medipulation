@@ -6,4 +6,4 @@
 		exit;
 	}
 
-Narative(2, global.facts[index]);
+Narative(2, index);

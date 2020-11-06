@@ -7,6 +7,8 @@ function ChoiceMade(choiceType, choiceValue){
 	case 1:
 		global.story[global.currentCycle] =  true;
 		global.facts[global.num] = global.currentCycle;
+		global.factsChannel[global.num] = choiceValue;
+
 		global.num++;
 		break;
 	//text and social

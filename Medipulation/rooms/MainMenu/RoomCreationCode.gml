@@ -23,6 +23,7 @@ ds_map_add(global.flags, "flag5", false);
 
 global.story = [ false, false, false, false, false, false, false, false, false, false, false];
 global.facts = [ 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0];
+global.factsChannel = [ 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0];
 global.factsButton = [Fact1, Fact2, Fact3, Fact4, Fact5, Fact6, Fact7, Fact8, Fact9, Fact10];
 
 global.Alenght = [0, 4,5,5,4,5,1,1,1,1,1];
