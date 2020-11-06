@@ -15,34 +15,117 @@ switch(TextType){
 					case 1:
 						switch(global.segmentCounter){
 							case 1:
-								return "A 1, segment 1";
+								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
 							break;
-							case 2:
-								return "A1, segment 2";
+							case 2: 
+								return "A 20 acre fire has started in Overland. Several 911 calls were made at 10 o’clock this morning, alerting authorities to the fire. It started at a climate change rally that has been ongoing for 3 days.";
 							break;
 							case 3:
-								return "A1, segment 2";
+								return "Today was supposed to be the final day, but the demonstrations were unfortunately cut short by the fire. The cause of the fire is currently unknown, but we suspect it was caused by an anti-climate science individual who wanted to disrupt the rally.";
 							break;
-							
+							case 4:
+								return "Now for the weather.";
+							break;
 						}
 					case 2:
-						return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.\n\nToday marks to 50 year anniversary of Party C. Members of Party C are hosting a celebration tonight. Reporter Adam is on the scene. Adam, how is the celebration going?\n\nEverything is going well over here, Abigail. There are plenty of people eating, drinking, and overall enjoying themselves. In about 10 minutes, the head of Party C is going to make a speech. Our sources say they'll go over the party's future plans and policies. Many party members have high hopes that Party C will continue to push the progressive policies that benefit us all.\n\nThank you, Adam. We'll check in with you again once the speech starts. Before that, let's take a little commercial break.";
+						switch(global.segmentCounter){
+							case 1:
+								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							break;
+							case 2:
+								return "Today marks to 50 year anniversary of Party C. Members of Party C are hosting a celebration tonight. Reporter Adam is on the scene. Adam, how is the celebration going?";
+							break;
+							case 3:
+								return "Everything is going well over here, Abigail. There are plenty of people eating, drinking, and overall enjoying themselves. In about 10 minutes, the head of Party C is going to make a speech.";
+							break;
+							case 4:
+								return "Our sources say they’ll go over the party’s future plans and policies. Many party members have high hopes that Party C will continue to push the progressive policies that benefit us all.";
+							break;
+							case 5:
+								return "Thank you, Adam. We’ll check in with you again once the speech starts. Before that, let’s take a little commercial break.";
+							break;
+}
 					case 3:
-						return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News. \n\nLast night's celebrations with a fantastic speech from the Leader of Party C. The party plans to push forwards in a new, even more progressive direction. Members of Party C were ecstatic, while members of Party D were less than pleased. Today, Party D is holding a conference to reaffirm their stance and push back against Party C. Our experts expect them to double down on their outdated policies and old-fashioned ways of thinking. Party D continues to drag this country down and prevent us from working towards a brighter future. It's only a matter of time before their backwards ways will no longer be tolerated.\n\nWe'll continue our 24/7 news coverage after this brief commercial break.";
+						switch(global.segmentCounter){
+							case 1:
+								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							break;
+							case 2:
+								return "Last night’s celebrations with a fantastic speech from the Leader of Party C. The party plans to push forwards in a new, even more progressive direction. Members of Party C were ecstatic, while members of Party D were less than pleased.";
+							break;
+							case 3:
+								return "Today, Party D is holding a conference to reaffirm their stance and push back against Party C. Our experts expect them to double down on their outdated policies and old-fashioned ways of thinking.";
+							break;
+							case 4:
+								return "Party D continues to drag this country down and prevent us from working towards a brighter future. It’s only a matter of time before their backwards ways will no longer be tolerated.";
+							break;
+							case 5:
+								return "We’ll continue our 24/7 news coverage after this brief commercial break.";
+							break;
+						}
 					case 4:
-						return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News. \n\nEarlier today, the leader of Party D was accused of money laundering by an anonymous person. An investigation is currently underway. We here at A News reached out to Party D Leader for her side of the story, but she declined to comment on the situation. When our reporters asked her further questions, she became angry and started to verbally lash out. It seems that Party D Leader is currently in a very unstable state. We will keep you informed with all of the latest updates as this case develops. After this commercial break, we have a heartwarming story about a teacher who went above and beyond for her students. Stay tuned.";
+						switch(global.segmentCounter){
+							case 1:
+								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							break;
+							case 2:
+								return "Earlier today, the leader of Party D was accused of money laundering by an anonymous person. An investigation is currently underway. We here at A News reached out to Party D Leader for her side of the story, but she declined to comment on the situation.";
+							break
+							case 3:
+								return "When our reporters asked her further questions, she became angry and started to verbally lash out. It seems that Party D Leader is currently in a very unstable state. We will keep you informed with all of the latest updates as this case develops.";
+							break;
+							case 4:
+								return "After this commercial break, we have a heartwarming story about a teacher who went above and beyond for her students. Stay tuned.";
+							break;
+						}
 					case 5:
-						return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News. \n\nIn a shocking turn of events, the leader of Party C was revealed to be the anonymous source regarding the money laundering case involving the leader of Party D. Party D Leader released a statement today informing us of her intention of taking Party C Leader to court. Party D Leader intends to sue Party C Leader for defamation and emotional damages now that the accusations have been proven false. We reached out to Party C Leader for comment and he told our reporters that it was an honest mistake. He had seen evidence suggesting that Party D Leader was laundering money and felt it was his duty as a citizen of Thisland to report it. Everyone at A News would like to applaud Party C Leader for reporting this, even if he was ultimately mistaken. Remember everyone, if you see something, say something. \n\nWe'll get back to you with more news after this commercial break.";
+						switch(global.segmentCounter){
+							case 1:
+								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							break;
+							case 2:
+								return "In a shocking turn of events, the leader of Party C was revealed to be the anonymous source regarding the money laundering case involving the leader of Party D. Party D Leader released a statement today informing us of her intention of taking Party C Leader to court.";
+							break;
+							case 3:
+								return "Party D Leader intends to sue Party C Leader for defamation and emotional damages now that the accusations have been proven false. We reached out to Party C Leader for comment and he told our reporters that it was an honest mistake.";
+							break;
+							case 4:
+								return "He had seen evidence suggesting that Party D Leader was laundering money and felt it was his duty as a citizen of Thisland to report it. Everyone at A News would like to applaud Party C Leader for reporting this, even if he was ultimately mistaken.";
+							break;
+							case 5:
+								return "Remember everyone, if you see something, say something. We’ll get back to you with more news after this commercial break.";
+							break;
+						}
 					case 6:
-						return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News. \n\nToday is the day Party D Leader took Party C Leader to court for defamation and emotional damages. Many people gathered outside the courthouse to show their support for either Party D Leader or Party C Leader. While the hearing was ongoing, the supporters started to clash and a large fight broke out. Thankfully, police were already on the scene and the fight was broken up quickly. We currently don't know who started the fight, but according to our reporters, someone who was supporting Party Leader D began shouting slurs and pushing someone on Party Leader C's side. We'll continue to follow this case. \n\nThank you for tuning in to A News and we'll see you tomorrow.";
+						switch(global.segmentCounter){
+							case 1:
+								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							break;
+						}
 					case 7:
-						return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News. \n\nWe've been receiving reports of a supposed assassination attempt on Party D's leader. At 3 p.m. today, a suspicious package was delivered to her house. The authorities were contacted and the package was examined. They have confirmed that suspicious substances were found in the package, but they have to yet confirm what those substances are. Party D Leader has confirmed that she is shaken but in good health. There are no suspects at this time, but we suspect that this is an elaborate PR stunt. What better way to distract the public from the controversial lawsuit? \n\nWe'll continue to keep you updated on all the latest news after this commercial break.";
+						switch(global.segmentCounter){
+							case 1:
+								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							break;
+						}
 					case 8:
-						return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News. \n\nWe regret to inform you that the leader of Party C has been assassinated. He was shot twice while leaving his office and died instantly. The murderer has been caught and arrested. He is a self-proclaimed defender of freedom and longtime member of Party D. According to our sources, he committed this heinous crime due to the belief that Party C was responsible for the attempt on Party D Leader's life. I, for one, cannot believe that this is the kind of rhetoric that is spreading throughout Party D. How much further will they go? Will they continue to attack their political opponents with nothing but false rumors to go on? I am truly ashamed of the citizens in this country. This kind of behavior is beyond unacce- \n\n(cut to commercials)";
+						switch(global.segmentCounter){
+							case 1:
+								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							break;
+						}
 					case 9:
-						return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News. \n\nWe've just received reports of an explosion at Party D's headquarters. Emergency responders are already on the scene. We currently do not know how many deaths or injuries there are. The leader of Party D has been accounted for, as she was unfortunately not in the building at the time of the explosion. Some witnesses have already come forwards and stated that they saw some suspicious people run away from the building right before it exploded. According to them, the people shouted \"For Party C!\" as they ran. Folks, I can guarantee Party D will respond with more violence and more force. Be alert. Be prepared. Goodnight. \n\n(no commercials, screen goes black)";
+						switch(global.segmentCounter){
+							case 1:
+								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							break;
+						}
 					case 10:
-						return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News. \n\nBreaking news: Thisland is now in a civil war. Party C and Party D members started to clash in the streets after yesterday's attack. It is time to fight for a better future and leave Party D in the past, where they belong. \n\n(sound of glass breaking) \n\nFlee if you must. Stay if you wish to fight. \n\n(from off screen - DUCK! Cameras cut off)";
+						switch(global.segmentCounter){
+							case 1:
+								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							break;
+						}
 				}
 				break;
 			case 2:
