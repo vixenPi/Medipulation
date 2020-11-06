@@ -24,6 +24,11 @@ ds_map_add(global.flags, "flag5", false);
 global.story = [ false, false, false, false, false, false, false, false, false, false, false];
 global.facts = [ 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0];
 global.factsButton = [Fact1, Fact2, Fact3, Fact4, Fact5, Fact6, Fact7, Fact8, Fact9, Fact10];
+global.Alenght =[ 3,3,3,4,5,6,3,3,3,3];
+global.Blenght =[ 3,3,3,4,5,6,3,3,3,3];
+global.Glenght =[ 3,3,3,4,5,6,3,3,3,3];
+global.Llenght =[ 3,3,3,4,5,6,3,3,3,3];
+
 global.num = 1;
 global.flags= [ false, false, false, false, false, false, false];
 global.NewsA = 0;
@@ -33,4 +38,5 @@ global.NewsL = 0;
 global.currentCycle = 1;
 global.choiceNum = 0;
 global.inGame = false;
+global.segmentCounter =0;
 global.state = 0;

@@ -13,7 +13,18 @@ switch(TextType){
 				//current cycle
 				switch(global.currentCycle){
 					case 1:
-						return"Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News. \n\nA 20 acre fire has started in Overlan. Several 911 calls were made at 10 o'clock this morning, alerting authorities to the fire. It started at a climate change rally that has been ongoing for 3 days. Today was supposed to be the final day, but the demonstrations were unfortunately cut short by the fire. The cause of the fire is currently unknown, but we suspect it was caused by an anti-climate science individual who wanted to disrupt the rally.\n\nNow for the weather.";
+						switch(global.segmentCounter){
+							case 1:
+								return "A 1, segment 1";
+							break;
+							case 2:
+								return "A1, segment 2";
+							break;
+							case 3:
+								return "A1, segment 2";
+							break;
+							
+						}
 					case 2:
 						return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.\n\nToday marks to 50 year anniversary of Party C. Members of Party C are hosting a celebration tonight. Reporter Adam is on the scene. Adam, how is the celebration going?\n\nEverything is going well over here, Abigail. There are plenty of people eating, drinking, and overall enjoying themselves. In about 10 minutes, the head of Party C is going to make a speech. Our sources say they'll go over the party's future plans and policies. Many party members have high hopes that Party C will continue to push the progressive policies that benefit us all.\n\nThank you, Adam. We'll check in with you again once the speech starts. Before that, let's take a little commercial break.";
 					case 3:

@@ -3,3 +3,6 @@
 ChoiceMade(1, 1);
 global.state = 2;
 SetGameState();
+Obj_nextSegment.maxSegment = global.Alenght[global.currentCycle];
+global.segmentCounter = 1;
+Obj_prevSegment.curFrame = 2;
