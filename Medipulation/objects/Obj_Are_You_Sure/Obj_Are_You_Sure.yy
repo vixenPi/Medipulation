@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_FactCheck_BackGround",
-    "path": "sprites/Sprite_FactCheck_BackGround/Sprite_FactCheck_BackGround.yy",
+    "name": "sprite_sure",
+    "path": "sprites/sprite_sure/sprite_sure.yy",
   },
   "solid": false,
   "visible": true,

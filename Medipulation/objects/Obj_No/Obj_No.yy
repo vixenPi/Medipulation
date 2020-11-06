@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_FactCheck",
-    "path": "sprites/Sprite_FactCheck/Sprite_FactCheck.yy",
+    "name": "sprite_no",
+    "path": "sprites/sprite_no/sprite_no.yy",
   },
   "solid": false,
   "visible": true,
