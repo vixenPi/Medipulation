@@ -8,7 +8,10 @@ function ChoiceMade(choiceType, choiceValue){
 		global.story[global.currentCycle] =  true;
 		global.facts[global.num] = global.currentCycle;
 		global.num++;
-		switch(choiceValue){
+		break;
+	//text and social
+	case 2:
+			switch(choiceValue){
 			case 1:
 				global.NewsA++;
 				break;
@@ -24,9 +27,6 @@ function ChoiceMade(choiceType, choiceValue){
 			case 5:
 				break;
 		}
-		break;
-	//factCheck Selection
-	case 2:
 		break;
 	//social selection
 	case 3:

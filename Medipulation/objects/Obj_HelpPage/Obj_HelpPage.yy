@@ -34,8 +34,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "UI Buttons",
+    "path": "folders/Objects/UI Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_HelpPage",

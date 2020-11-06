@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "TextBoxes",
+    "path": "folders/Objects/TextBoxes.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_IntroText",
