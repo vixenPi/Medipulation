@@ -60,6 +60,7 @@
     {"id":{"name":"SetScreen","path":"scripts/SetScreen/SetScreen.yy",},"order":7,},
     {"id":{"name":"sprite_sure","path":"sprites/sprite_sure/sprite_sure.yy",},"order":42,},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},"order":1,},
+    {"id":{"name":"snd_memories","path":"sounds/snd_memories/snd_memories.yy",},"order":4,},
     {"id":{"name":"SetActiveLayer","path":"scripts/SetActiveLayer/SetActiveLayer.yy",},"order":5,},
     {"id":{"name":"Sprite_Post","path":"sprites/Sprite_Post/Sprite_Post.yy",},"order":6,},
     {"id":{"name":"ChoiceMade","path":"scripts/ChoiceMade/ChoiceMade.yy",},"order":1,},
