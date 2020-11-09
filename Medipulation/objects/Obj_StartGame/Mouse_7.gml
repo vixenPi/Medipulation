@@ -14,5 +14,8 @@ global.currentCycle = 1;
 global.choiceNum = 0;
 global.state = 0;
 
+
+audio_play_sound(snd_select, 1000, false);
+
 room_goto(Game);
 
