@@ -1,1 +1,1 @@
-Narative(4, global.currentCycle);
+DisplayText(Narative(4, global.currentCycle), 2);

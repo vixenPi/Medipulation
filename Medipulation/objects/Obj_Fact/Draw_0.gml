@@ -6,4 +6,4 @@
 		exit;
 	}
 
-Narative(2, index);
+DisplayText(Narative(2, index), 2);

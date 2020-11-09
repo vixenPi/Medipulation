@@ -8,7 +8,7 @@ if(mouse_y > global.screenBottom || mouse_y < global.screenTop){
 	exit;
 }
 
-//global.state = 5;
-//SetGameState();
-SetActiveLayer(10,true);
-alarm[0] = room_speed * 3;
+global.state = 5;
+SetGameState();
+//SetActiveLayer(10,true);
+//alarm[0] = room_speed * 3;

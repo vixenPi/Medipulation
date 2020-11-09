@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "MasterButton",
-    "path": "objects/MasterButton/MasterButton.yy",
+    "name": "MasterText",
+    "path": "objects/MasterText/MasterText.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,21 +23,12 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":10,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":60,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":61,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  "eventList": [],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"type","path":"objects/MasterText/MasterText.yy",},"objectId":{"name":"MasterText","path":"objects/MasterText/MasterText.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"narativeType","path":"objects/MasterText/MasterText.yy",},"objectId":{"name":"MasterText","path":"objects/MasterText/MasterText.yy",},"value":"6","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
-  "properties": [
-    {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"index","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"offset","tags":[],"resourceType":"GMObjectProperty",},
-  ],
-  "overriddenProperties": [],
   "parent": {
     "name": "TextBoxes",
     "path": "folders/Objects/TextBoxes.yy",

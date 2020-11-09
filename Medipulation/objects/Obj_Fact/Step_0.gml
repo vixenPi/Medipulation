@@ -18,7 +18,7 @@ var sprHeight = sprite_get_height(sprite_index);
 var margin = global.margin;
 var innerWidth = width - (2 * margin) - (2 * sprWidth/3);
 var lineHeight = global.lineHeight;
-var innerHeight = string_height_ext(text, lineHeight, innerWidth);
+var innerHeight = string_height_ext( Narative(2, 1), lineHeight, innerWidth);
 var height = innerHeight + 2*margin + (2*sprHeight/3);
 
 image_yscale = height / sprHeight;

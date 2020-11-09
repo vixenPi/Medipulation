@@ -11,6 +11,7 @@
     {"id":{"name":"Sprite_NewsBlack","path":"sprites/Sprite_NewsBlack/Sprite_NewsBlack.yy",},"order":37,},
     {"id":{"name":"sprite_help4","path":"sprites/sprite_help4/sprite_help4.yy",},"order":18,},
     {"id":{"name":"Obj_factCheckApp","path":"objects/Obj_factCheckApp/Obj_factCheckApp.yy",},"order":5,},
+    {"id":{"name":"MasterText","path":"objects/MasterText/MasterText.yy",},"order":20,},
     {"id":{"name":"Load","path":"scripts/Load/Load.yy",},"order":3,},
     {"id":{"name":"NextStory","path":"scripts/NextStory/NextStory.yy",},"order":0,},
     {"id":{"name":"Obj_NewsScreen","path":"objects/Obj_NewsScreen/Obj_NewsScreen.yy",},"order":5,},

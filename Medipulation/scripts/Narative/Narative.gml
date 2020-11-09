@@ -16,115 +16,87 @@ switch(TextType){
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
-							break;
 							case 2: 
 								return "A 20 acre fire has started in Overland. Several 911 calls were made at 10 o’clock this morning, alerting authorities to the fire. It started at a climate change rally that has been ongoing for 3 days.";
-							break;
 							case 3:
 								return "Today was supposed to be the final day, but the demonstrations were unfortunately cut short by the fire. The cause of the fire is currently unknown, but we suspect it was caused by an anti-climate science individual who wanted to disrupt the rally.";
-							break;
 							case 4:
 								return "Now for the weather.";
-							break;
 						}
 					case 2:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
-							break;
 							case 2:
 								return "Today marks to 50 year anniversary of Party C. Members of Party C are hosting a celebration tonight. Reporter Adam is on the scene. Adam, how is the celebration going?";
-							break;
 							case 3:
 								return "Everything is going well over here, Abigail. There are plenty of people eating, drinking, and overall enjoying themselves. In about 10 minutes, the head of Party C is going to make a speech.";
-							break;
 							case 4:
 								return "Our sources say they’ll go over the party’s future plans and policies. Many party members have high hopes that Party C will continue to push the progressive policies that benefit us all.";
-							break;
 							case 5:
 								return "Thank you, Adam. We’ll check in with you again once the speech starts. Before that, let’s take a little commercial break.";
-							break;
-}
+						}
 					case 3:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
-							break;
 							case 2:
 								return "Last night’s celebrations with a fantastic speech from the Leader of Party C. The party plans to push forwards in a new, even more progressive direction. Members of Party C were ecstatic, while members of Party D were less than pleased.";
-							break;
 							case 3:
 								return "Today, Party D is holding a conference to reaffirm their stance and push back against Party C. Our experts expect them to double down on their outdated policies and old-fashioned ways of thinking.";
-							break;
 							case 4:
 								return "Party D continues to drag this country down and prevent us from working towards a brighter future. It’s only a matter of time before their backwards ways will no longer be tolerated.";
-							break;
 							case 5:
 								return "We’ll continue our 24/7 news coverage after this brief commercial break.";
-							break;
 						}
 					case 4:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
-							break;
 							case 2:
 								return "Earlier today, the leader of Party D was accused of money laundering by an anonymous person. An investigation is currently underway. We here at A News reached out to Party D Leader for her side of the story, but she declined to comment on the situation.";
-							break
 							case 3:
 								return "When our reporters asked her further questions, she became angry and started to verbally lash out. It seems that Party D Leader is currently in a very unstable state. We will keep you informed with all of the latest updates as this case develops.";
-							break;
 							case 4:
 								return "After this commercial break, we have a heartwarming story about a teacher who went above and beyond for her students. Stay tuned.";
-							break;
 						}
 					case 5:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
-							break;
 							case 2:
 								return "In a shocking turn of events, the leader of Party C was revealed to be the anonymous source regarding the money laundering case involving the leader of Party D. Party D Leader released a statement today informing us of her intention of taking Party C Leader to court.";
-							break;
 							case 3:
 								return "Party D Leader intends to sue Party C Leader for defamation and emotional damages now that the accusations have been proven false. We reached out to Party C Leader for comment and he told our reporters that it was an honest mistake.";
-							break;
 							case 4:
 								return "He had seen evidence suggesting that Party D Leader was laundering money and felt it was his duty as a citizen of Thisland to report it. Everyone at A News would like to applaud Party C Leader for reporting this, even if he was ultimately mistaken.";
-							break;
 							case 5:
 								return "Remember everyone, if you see something, say something. We’ll get back to you with more news after this commercial break.";
-							break;
 						}
 					case 6:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
-							break;
 						}
 					case 7:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
-							break;
 						}
 					case 8:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
-							break;
 						}
 					case 9:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
-							break;
 						}
 					case 10:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
-							break;
 						}
 				}
 				break;
@@ -225,161 +197,121 @@ switch(TextType){
 			case 1:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						DisplayText("Fact 1-A, temporary text", 2);
-					break;
+						return "Fact 1-A, temporary text";
 					case 2:
-						DisplayText("Fact 1-B, temporary text", 2);
-					break;
+						return"Fact 1-B, temporary text";
 					case 3:
-						DisplayText("Fact 1-G, temporary text", 2);
-					break;
+						return "Fact 1-G, temporary text";
 					case 4:
-						DisplayText("Fact 1-L, temporary text", 2);
-					break;
+						return"Fact 1-L, temporary text";
 				}
 			break;
 			case 2:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						DisplayText("Fact 2-A, temporary text", 2);
-					break;
+						return "Fact 2-A, temporary text";
 					case 2:
-						DisplayText("Fact 2-B, temporary text", 2);
-					break;
+						return "Fact 2-B, temporary text";
 					case 3:
-						DisplayText("Fact 2-G, temporary text", 2);
-					break;
+						return "Fact 2-G, temporary text";
 					case 4:
-						DisplayText("Fact 2-L, temporary text", 2);
-					break;
+						return "Fact 2-L, temporary text";
 				}
-					break;
+				break;
 			case 3:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						DisplayText("Fact 3-A, temporary text", 2);
-					break;
+						return "Fact 3-A, temporary text";
 					case 2:
-						DisplayText("Fact 3-B, temporary text", 2);
-					break;
+						return "Fact 3-B, temporary text";
 					case 3:
-						DisplayText("Fact 3-G, temporary text", 2);
-					break;
+						return "Fact 3-G, temporary text";
 					case 4:
-						DisplayText("Fact 3-L, temporary text", 2);
-					break;
+						return "Fact 3-L, temporary text";
 				}
 					break;
 			case 4:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						DisplayText("Fact 4-A, temporary text", 2);
-					break;
+						return "Fact 4-A, temporary text";
 					case 2:
-						DisplayText("Fact 4-B, temporary text", 2);
-					break;
+						return "Fact 4-B, temporary text";
 					case 3:
-						DisplayText("Fact 4-G, temporary text", 2);
-					break;
+						return "Fact 4-G, temporary text"
 					case 4:
-						DisplayText("Fact 4-L, temporary text", 2);
-					break;
+						return "Fact 4-L, temporary text";
 				}
 					break;
 			case 5:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						DisplayText("Fact 5-A, temporary text", 2);
-					break;
+						return "Fact 5-A, temporary text";
 					case 2:
-						DisplayText("Fact 5-B, temporary text", 2);
-					break;
+						return "Fact 5-B, temporary text";
 					case 3:
-						DisplayText("Fact 5-G, temporary text", 2);
-					break;
+						return "Fact 5-G, temporary text";
 					case 4:
-						DisplayText("Fact 5-L, temporary text", 2);
-					break;
+						return"Fact 5-L, temporary text";
 				}
 					break;
 			case 6:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						DisplayText("Fact 6-A, temporary text", 2);
-					break;
+						return "Fact 6-A, temporary text";
 					case 2:
-						DisplayText("Fact 6-B, temporary text", 2);
-					break;
+						return "Fact 6-B, temporary text";
 					case 3:
-						DisplayText("Fact 6-G, temporary text", 2);
-					break;
+						return "Fact 6-G, temporary text";
 					case 4:
-						DisplayText("Fact 6-L, temporary text", 2);
-					break;
+						return "Fact 6-L, temporary text";
 				}
 					break;
 			case 7:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						DisplayText("Fact 7-A, temporary text", 2);
-					break;
+						return "Fact 7-A, temporary text";
 					case 2:
-						DisplayText("Fact 7-B, temporary text", 2);
-					break;
+						return "Fact 7-B, temporary text";
 					case 3:
-						DisplayText("Fact 7-G, temporary text", 2);
-					break;
+						return "Fact 7-G, temporary text";
 					case 4:
-						DisplayText("Fact 7-L, temporary text", 2);
-					break;
+						return "Fact 7-L, temporary text";
 				}
 					break;
 			case 8:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						DisplayText("Fact 8-A, temporary text", 2);
-					break;
+						return "Fact 8-A, temporary text";
 					case 2:
-						DisplayText("Fact 8-B, temporary text", 2);
-					break;
+						return "Fact 8-B, temporary text";
 					case 3:
-						DisplayText("Fact 8-G, temporary text", 2);
-					break;
+						return "Fact 8-G, temporary text";
 					case 4:
-						DisplayText("Fact 8-L, temporary text", 2);
-					break;
+						return"Fact 8-L, temporary text";
 				}
 					break;
 			case 9:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						DisplayText("Fact 9-A, temporary text", 2);
-					break;
+						return "Fact 9-A, temporary text";
 					case 2:
-						DisplayText("Fact 9-B, temporary text", 2);
-					break;
+						return "Fact 9-B, temporary text";
 					case 3:
-						DisplayText("Fact 9-G, temporary text", 2);
-					break;
+						return "Fact 9-G, temporary text";
 					case 4:
-						DisplayText("Fact 9-L, temporary text", 2);
-					break;
+						return "Fact 9-L, temporary text";
 				}
 					break;
 			case 10:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						DisplayText("Fact 10-A, temporary text", 2);
-					break;
+						return "Fact 10-A, temporary text";
 					case 2:
-						DisplayText("Fact 10-B, temporary text", 2);
-					break;
+						return "Fact 10-B, temporary text";
 					case 3:
-						DisplayText("Fact 10-G, temporary text", 2);
-					break;
+						return "Fact 10-G, temporary text";
 					case 4:
-						DisplayText("Fact 10-L, temporary text", 2);
-					break;
+						return "Fact 10-L, temporary text";
 				}
 					break;
 		}
@@ -503,35 +435,25 @@ switch(TextType){
 	case 4:
 		switch(choiceValue){
 			case 1:
-				DisplayText("Did you see the news about the earthquakes in Otherland? Your aunt and uncle are ok but their house was damaged :( \n -mom",2);
-				break;
+				return "Did you see the news about the earthquakes in Otherland? Your aunt and uncle are ok but their house was damaged :( \n -mom";
 			case 2:
-				DisplayText("Have you guys seen Bungies and Bunnies yet? It's so funny lol \n -Sally",2);
-				break;
+				return "Have you guys seen Bungies and Bunnies yet? It's so funny lol \n -Sally";
 			case 3:
-				DisplayText("Message 3, temporary text",2);
-				break;
+				return "Message 3, temporary text";
 			case 4:
-				DisplayText("I can't believe the accusations against Party D Leader! I know it's just baseless slander \n-Dad",2);
-				break;
+				return "I can't believe the accusations against Party D Leader! I know it's just baseless slander \n-Dad";
 			case 5:
-				DisplayText("Message 5, temporary text",2);
-				break;
+				return "Message 5, temporary text";
 			case 6:
-				DisplayText("Have you seen the new peace merch? I'm not sure what they're hoping to accomplish with that \n-Derek",2);
-				break;
+				return "Have you seen the new peace merch? I'm not sure what they're hoping to accomplish with that \n-Derek";
 			case 7:
-				DisplayText("Message 7, temporary text",2);
-				break;
+				return "Message 7, temporary text";
 			case 8:
-				DisplayText("Have you been watching the news? This entire country is falling apart! Your father and I are starting to pack up some of our stuff. We're going to stay with your aunt and uncle in Otherland. Please come with us -Mom",2);
-				break;
+				return "Have you been watching the news? This entire country is falling apart! Your father and I are starting to pack up some of our stuff. We're going to stay with your aunt and uncle in Otherland. Please come with us -Mom";
 			case 9:
-				DisplayText("Message 9, temporary text",2);
-				break;
+				return "Message 9, temporary text";
 			case 10:
-				DisplayText("Message 10, temporary text",2);
-				break;
+				return "Message 10, temporary text";
 		}
 		break;
 	//tweets
@@ -540,135 +462,105 @@ switch(TextType){
 			case 1:
 				switch(choiceValue){
 					case 1:
-						DisplayText("tweet 1:2, temporary text", 2);
-						break;
+						return "tweet 1:2, temporary text";
 					case 2:
-						DisplayText("tweet 1:2, temporary text", 2);
-						break;
+						return "tweet 1:2, temporary text";
 					case 3:
-						DisplayText("tweet 1:3, temporary text", 2);
-						break;
+						return "tweet 1:3, temporary text";
 				}
 			break;
 			case 2:
 				switch(choiceValue){
 					case 1:
-						DisplayText("tweet 2:1, temporary text", 2);
-						break;
+						return "tweet 2:1, temporary text";
 					case 2:
-						DisplayText("tweet 2:2, temporary text", 2);
-						break;
+						return "tweet 2:2, temporary text";
 					case 3:
-						DisplayText("tweet 2:3, temporary text", 2);
-						break;
+						return "tweet 2:3, temporary text";
 				}
 			break;
 			case 3:
 				switch(choiceValue){
 					case 1:
-						DisplayText("tweet 3:1, temporary text", 2);
-						break;
+						return "tweet 3:1, temporary text";
 					case 2:
-						DisplayText("tweet 3:2, temporary text", 2);
-						break;
+						return "tweet 3:2, temporary text";
 					case 3:
-						DisplayText("tweet 3:3, temporary text", 2);
-						break;
+						return "tweet 3:3, temporary text";
 				}
 				break;
 			case 4:
 				switch(choiceValue){
 					case 1:
-						DisplayText("tweet 4:1, temporary text", 2);
-						break;
+						return "tweet 4:1, temporary text";
 					case 2:
-						DisplayText("tweet 4:2, temporary text", 2);
-						break;
+						return "tweet 4:2, temporary text";
 					case 3:
-						DisplayText("tweet 4:3, temporary text", 2);
-						break;
+						return "tweet 4:3, temporary text";
 				}
 				break;
 			case 5:
 				switch(choiceValue){
 					case 1:
-						DisplayText("tweet 5:1, temporary text", 2);
-						break;
+						return "tweet 5:1, temporary text";
 					case 2:
-						DisplayText("tweet 5:2, temporary text", 2);
-						break;
+						return "tweet 5:2, temporary text";
 					case 3:
-						DisplayText("tweet 5:3, temporary text", 2);
-						break;
+						return "tweet 5:3, temporary text";
 				}
 				break;
 			case 6:
 				switch(choiceValue){
 					case 1:
-						DisplayText("tweet 6:1, temporary text", 2);
-						break;
+						return "tweet 6:1, temporary text";
 					case 2:
-						DisplayText("tweet 6:2, temporary text", 2);
-						break;
+						return "tweet 6:2, temporary text";
 					case 3:
-						DisplayText("tweet 6:3, temporary text", 2);
-						break;
+						return "tweet 6:3, temporary text";
 				}
 			break;
 			case 7:
 				switch(choiceValue){
 					case 1:
-						DisplayText("tweet 7:1, temporary text", 2);
-						break;
+						return "tweet 7:1, temporary text";
 					case 2:
-						DisplayText("tweet 7:2, temporary text", 2);
-						break;
+						return "tweet 7:2, temporary text";
 					case 3:
-						DisplayText("tweet 7:3, temporary text", 2);
-						break;
+						return "tweet 7:3, temporary text";
 				}
 			break;
 			case 8:
 				switch(choiceValue){
 					case 1:
-						DisplayText("tweet 8:1, temporary text", 2);
-						break;
+						return "tweet 8:1, temporary text";
 					case 2:
-						DisplayText("tweet 8:2, temporary text", 2);
-						break;
+						return "tweet 8:2, temporary text";
 					case 3:
-						DisplayText("tweet 8:3, temporary text", 2);
-						break;
+						return "tweet 8:3, temporary text";
 				}
 				break;
 			case 9:
 				switch(choiceValue){
 					case 1:
 						if(global.NewsA > global.NewsB){
-							DisplayText("If any of you want a better future, you should support side A", 2);
+							return "If any of you want a better future, you should support side A";
 						}else{
-							DisplayText("If you really care about Thisland, you'll support side B", 2);
+							return "If you really care about Thisland, you'll support side B";
 						}
-						break;
 					case 2:
-						DisplayText("Everyone in Thisland - make a plan in case of an emergency. Times are tough and we all need to be prepared.", 2);
-						break;
+						return "Everyone in Thisland - make a plan in case of an emergency. Times are tough and we all need to be prepared.";
 					case 3:
-						DisplayText("I'd like to encourage all of Thisland's citizens to flee if you can. Other countries can offer us safety. Go to www.fleeingthisland.com to get more information", 2);
-						break;
+						return "I'd like to encourage all of Thisland's citizens to flee if you can. Other countries can offer us safety. Go to www.fleeingthisland.com to get more information";
 				}
 				break;
 			case 10:
 				switch(choiceValue){
 					case 1:
-						DisplayText("tweet 10:1, temporary text", 2);
-						break;
+						return "tweet 10:1, temporary text";
 					case 2:
-						DisplayText("tweet 10:2, temporary text", 2);
-						break;
+						return "tweet 10:2, temporary text";
 					case 3:
-						DisplayText("tweet 10:3, temporary text", 2);
-						break;
+						return "tweet 10:3, temporary text";
 				}
 			break;
 		}
@@ -680,160 +572,131 @@ switch(TextType){
 				switch(choiceValue){
 					case 1:
 						if(global.currentChoice == 3){
-							DisplayText("I saw that on the news earlier! I'll give them a call later and see how they're doing", 2);
+							return "I saw that on the news earlier! I'll give them a call later and see how they're doing";
 						}else {
-							DisplayText("No, I didn't see that. I'm glad they're ok", 2);
+							return "No, I didn't see that. I'm glad they're ok";
 						}
-						break; 
 					case 2:
 						if(global.currentChoice == 3){
-							DisplayText("I was just watching the footage of the earthquake. I'm going to donate to the relief fund", 2);
+							return "I was just watching the footage of the earthquake. I'm going to donate to the relief fund";
 						}else{
-							DisplayText("Oh, I wasn't paying attention to the global news. Otherland is always dealing with earthquakes, I'm sure they'll be fine", 2);
+							return "Oh, I wasn't paying attention to the global news. Otherland is always dealing with earthquakes, I'm sure they'll be fine";
 						}
-						break;
 					case 3:
-						DisplayText("Well, they have a change to remodel now", 2);
-						break;
+						return "Well, they have a change to remodel now";
 				}
 				break;
 			case 2:
 				switch(choiceValue){
 					case 1:
 						if(global.currentChoice == 4){
-							DisplayText("I'm not going to support that show. I don't like the way they treat the animals", 2);
+							return "I'm not going to support that show. I don't like the way they treat the animals";
 						}else{
-							DisplayText("Haven't watched it yet. How many episodes are out so far?", 2);
+							return "Haven't watched it yet. How many episodes are out so far?";
 						}	
-						break;
 					case 2:
 						if(global.currentChoice == 4){
-							DisplayText("I'm gonna start watching it soon. Have you seen all of the controversy about the show? Those animal rights activists are so annoying lmao", 2);
+							return "I'm gonna start watching it soon. Have you seen all of the controversy about the show? Those animal rights activists are so annoying lmao";
 						}else{
-							DisplayText("I've heard a lot of great things about that show. It's on my to-watch list", 2);
+							return "I've heard a lot of great things about that show. It's on my to-watch list";
 						}
-						break;
 					case 3:
-						DisplayText("If you like it, it's probably dumb",2);
-						break;
+						return "If you like it, it's probably dumb";
 				}
 				break;
 			case 3:
 				switch(choiceValue){
 					case 1:
-						DisplayText("Responce 3:1, temporary text", 2);
-						break;
+						return "Responce 3:1, temporary text";
 					case 2:
-						DisplayText("Responce 3:2, temporary text", 2);
-						break;
+						return "Responce 3:2, temporary text";
 					case 3:
-						DisplayText("Responce 3:3, temporary text", 2);
-						break;
+						return "Responce 3:3, temporary text";
 				}
 				break;
 			case 4:
 				switch(choiceValue){
 					case 1:
-						DisplayText("I'm sure she's guilty. Have you seen the way she's been acting recently?", 2);
-						break;
+						return "I'm sure she's guilty. Have you seen the way she's been acting recently?";
 					case 2:
-						DisplayText("I know, I can't believe it either! She really doesn't need to be dealing with this additional stress right now, I feel bad for her", 2);
-						break;
+						return "I know, I can't believe it either! She really doesn't need to be dealing with this additional stress right now, I feel bad for her";
 					case 3:
-						DisplayText("No, I haven't been keeping up with politics. What happened?", 2);
-						break;
+						return "No, I haven't been keeping up with politics. What happened?";
 				}
 				break;
 			case 5:
 				switch(choiceValue){
 					case 1:
-						DisplayText("Responce 5:1, temporary text", 2);
-						break;
+						return "Responce 5:1, temporary text";
 					case 2:
-						DisplayText("Responce 5:2, temporary text", 2);
-						break;
+						return "Responce 5:2, temporary text";
 					case 3:
-						DisplayText("Responce 5:3, temporary text", 2);
-						break;
+						return "Responce 5:3, temporary text";
 				}
 				break;
 			case 6:
 				switch(choiceValue){
 					case 1:
 						if(global.currentChoice == 4){
-							DisplayText(" Aww, I think it's cute. I'm probably gonna get a t-shirt or something", 2);
+							return " Aww, I think it's cute. I'm probably gonna get a t-shirt or something";
 						}else{
-							DisplayText("No, I was paying attention to more important news stories", 2);
+							return "No, I was paying attention to more important news stories";
 						}
-						break;
 					case 2:
 						if(global.currentChoice == 4){
-							DisplayText("Yeah, I saw it. It's all just empty gestures and it won't solve any of our problems", 2);
+							return "Yeah, I saw it. It's all just empty gestures and it won't solve any of our problems";
 						}else{
-							DisplayText("I haven't heard about it. Who's distributing the peace merch?", 2);
-						}break;
+							return "I haven't heard about it. Who's distributing the peace merch?";
+						}
 					case 3:
-						DisplayText("Hope it doesn't make traffic worse", 2);
-						break;
+						return "Hope it doesn't make traffic worse";
 				}
 				break;
 			case 7:
 				switch(choiceValue){
 					case 1:
-						DisplayText("Responce 7:1, temporary text", 2);
-						break;
+						return "Responce 7:1, temporary text";
 					case 2:
-						DisplayText("Responce 7:2, temporary text", 2);
-						break;
+						return "Responce 7:2, temporary text";
 					case 3:
-						DisplayText("Responce 7:3, temporary text", 2);
-						break;
+						return "Responce 7:3, temporary text";
 				}
 				break;
 			case 8:
 				switch(choiceValue){
 					case 1:
-						DisplayText("I'm going to wait a few days before I decide what to do", 2);
-						break;
+						return "I'm going to wait a few days before I decide what to do";
 					case 2:
-						DisplayText("I'm not leaving Thisland. I'm sure this will all blow over in a week", 2);
-						break;
+						return "I'm not leaving Thisland. I'm sure this will all blow over in a week";
 					case 3:
 						if(global.NewsA > global.NewsB && global.NewsA > global.NewsG && global.NewsA > global.NewsL){
-							DisplayText("I'm going to stay here and support A. Be careful when you travel to Otherland", 2);
+							return "I'm going to stay here and support A. Be careful when you travel to Otherland";
 						}else if(global.NewsB > global.NewsA && global.NewsB > global.NewsG && global.NewsB > global.NewsL){
-							DisplayText("I'm going to stay here and support B. Be careful when you travel to Otherland", 2);
+							return "I'm going to stay here and support B. Be careful when you travel to Otherland";
 						}
 						else{
-							DisplayText("I'm going to stay here. Be careful when you travel to Otherland", 2);
+							return "I'm going to stay here. Be careful when you travel to Otherland";
 						}
-						break;
 				}
 				break;
 			case 9:
 				switch(choiceValue){
 					case 1:
-						DisplayText("Responce 9:1, temporary text", 2);
-						break;
+						return "Responce 9:1, temporary text";
 					case 2:
-						DisplayText("Responce 9:2, temporary text", 2);
-						break;
+						return "Responce 9:2, temporary text";
 					case 3:
-						DisplayText("Responce 9:3, temporary text", 2);
-						break;
+						return "Responce 9:3, temporary text";
 				}
 				break;
 			case 10:
 				switch(choiceValue){
 					case 1:
-						DisplayText("Responce 10:1, temporary text", 2);
-						break;
+						return "Responce 10:1, temporary text";
 					case 2:
-						DisplayText("Responce 10:2, temporary text", 2);
-						break;
+						return "Responce 10:2, temporary text";
 					case 3:
-						DisplayText("Responce 10:3, temporary text", 2);
-						break;
+						return "Responce 10:3, temporary text";
 				}
 			break;
 
@@ -862,32 +725,23 @@ switch(TextType){
 	case 8:
 		switch(global.currentCycle){
 		case 1:
-			DisplayText("Intro to game", 1);
-		break;
+			return "Intro to game";
 		case 2:
-			DisplayText("Day 2", 1);
-		break;
+			return "Day 2";
 		case 3:
-			DisplayText("Day 3", 1);
-		break;
+			return "Day 3";
 		case 4:
-			DisplayText("Day 4", 1);
-		break;
+			return "Day 4";
 		case 5:
-			DisplayText("Day 5", 1);
-		break;
+			return "Day 5";
 		case 6:
-			DisplayText("Day 6", 1);
-		break;
+			return "Day 6";
 		case 7:
-			DisplayText("Day 7", 1);
-		break;
+			return "Day 7";
 		case 8:
-			DisplayText("Day 8", 1);
-		break;
+			return "Day 8";
 		case 9:
-			DisplayText("Day 9", 1);
-		break;
+			return "Day 9";
 		}
 	break;
 	}
