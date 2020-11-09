@@ -13,6 +13,7 @@ function SetGameState(){
 			SetActiveLayer(7, false);
 			SetActiveLayer(8, false);
 			SetActiveLayer(9, false);
+			SetActiveLayer(10, false);
 		break;
 		//room screen
 		case 1:
@@ -26,6 +27,7 @@ function SetGameState(){
 			SetActiveLayer(7, true);
 			SetActiveLayer(8, false);
 			SetActiveLayer(9, false);
+			SetActiveLayer(10, false);
 		break
 		case 2:
 		//in news story
@@ -39,6 +41,7 @@ function SetGameState(){
 			SetActiveLayer(7, false);
 			SetActiveLayer(8, false);
 			SetActiveLayer(9, false);
+			SetActiveLayer(10, false);
 		break;
 		case 3:
 		//phone main
@@ -52,6 +55,7 @@ function SetGameState(){
 			SetActiveLayer(7, false);
 			SetActiveLayer(8, false);
 			SetActiveLayer(9, true);
+			SetActiveLayer(10, false);
 		break;
 		case 4:
 			//choose fact page
@@ -65,6 +69,7 @@ function SetGameState(){
 			SetActiveLayer(7, false);
 			SetActiveLayer(8, true);
 			SetActiveLayer(9, true);
+			SetActiveLayer(10, false);
 		break;
 		case 5:
 			//display fact page
@@ -77,6 +82,7 @@ function SetGameState(){
 			SetActiveLayer(7, false);
 			SetActiveLayer(8, false);
 			SetActiveLayer(9, true);
+			SetActiveLayer(10, false);
 			//out of order to make sure back ground stays active 
 			SetActiveLayer(5, true);
 		break;
@@ -92,6 +98,7 @@ function SetGameState(){
 			SetActiveLayer(7, false);
 			SetActiveLayer(8, false);
 			SetActiveLayer(9, true);
+			SetActiveLayer(10, false);
 		break;
 		case 7:
 			//display messages
@@ -105,6 +112,7 @@ function SetGameState(){
 			SetActiveLayer(7, false);
 			SetActiveLayer(8, false);
 			SetActiveLayer(9, true);
+			SetActiveLayer(10, false);
 		break;
 	}
 
