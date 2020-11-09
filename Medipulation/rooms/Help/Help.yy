@@ -15,8 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_HelpImage","path":"objects/Obj_HelpImage/Obj_HelpImage.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"helpScreen","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_StartGame","path":"objects/Obj_StartGame/Obj_StartGame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":0.0,"resourceVersion":"1.0","name":"inst_4A8F9707","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Back","path":"objects/Obj_Back/Obj_Back.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":16.0,"resourceVersion":"1.0","name":"inst_2CCCE51F","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Back","path":"objects/Obj_Back/Obj_Back.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":16.0,"resourceVersion":"1.0","name":"inst_2CCCE51F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"index","path":"objects/Obj_HelpPage/Obj_HelpPage.yy",},"objectId":{"name":"Obj_HelpPage","path":"objects/Obj_HelpPage/Obj_HelpPage.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"Obj_HelpPage","path":"objects/Obj_HelpPage/Obj_HelpPage.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":944.0,"resourceVersion":"1.0","name":"inst_252B5224","tags":[],"resourceType":"GMRInstance",},
@@ -36,7 +35,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_4A8F9707","path":"rooms/Help/Help.yy",},
     {"name":"inst_2CCCE51F","path":"rooms/Help/Help.yy",},
     {"name":"inst_252B5224","path":"rooms/Help/Help.yy",},
     {"name":"inst_17FCABE","path":"rooms/Help/Help.yy",},

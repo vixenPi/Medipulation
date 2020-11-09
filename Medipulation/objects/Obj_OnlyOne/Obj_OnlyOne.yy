@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sprite_help2",
-    "path": "sprites/sprite_help2/sprite_help2.yy",
+    "name": "SpriteChannel1",
+    "path": "sprites/SpriteChannel1/SpriteChannel1.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "MasterButton",
-    "path": "objects/MasterButton/MasterButton.yy",
+    "name": "MasterOBJ",
+    "path": "objects/MasterOBJ/MasterOBJ.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_factCheckApp","path":"objects/Obj_factCheckApp/Obj_factCheckApp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Phone Buttons",
-    "path": "folders/Objects/Phone Buttons.yy",
+    "name": "UI Buttons",
+    "path": "folders/Objects/UI Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_factCheckApp",
+  "name": "Obj_OnlyOne",
   "tags": [],
   "resourceType": "GMObject",
 }

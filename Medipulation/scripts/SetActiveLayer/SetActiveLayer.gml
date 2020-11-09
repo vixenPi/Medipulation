@@ -7,7 +7,6 @@ if(setActive){
 switch(SetLayer){
 	case 0:
 		instance_activate_layer(layer_get_id("Start_0"));
-		instance_activate_layer(layer_get_id("BlackBackGround"));
 		break;
 	case 1:
 		instance_activate_layer(layer_get_id("UI_1"));
@@ -42,6 +41,9 @@ switch(SetLayer){
 		instance_activate_layer(layer_get_id("PhoneOff"));
 		instance_activate_layer(layer_get_id("PhoneFrame_9"));
 		break;
+	case 10:
+		instance_activate_layer(layer_get_id("PopUp_10"));
+		break;
 	
 	}
 }else {
@@ -50,7 +52,6 @@ switch(SetLayer){
 	switch(SetLayer){
 	case 0:
 		instance_deactivate_layer(layer_get_id("Start_0"));
-		instance_deactivate_layer(layer_get_id("BlackBackGround"));
 		break;
 	case 1:
 		instance_deactivate_layer(layer_get_id("UI_1"));
@@ -84,6 +85,9 @@ switch(SetLayer){
 	case 9:
 		instance_deactivate_layer(layer_get_id("PhoneOff"));
 		instance_deactivate_layer(layer_get_id("PhoneFrame_9"));
+		break;
+	case 10:
+		instance_deactivate_layer(layer_get_id("PopUp_10"));
 		break;
 	
 	}
