@@ -1,7 +1,15 @@
 if(mouse_y < global.screenBottom && mouse_y > global.screenTop && mouse_x > x && mouse_x < x +sprite_width &&mouse_y > y && mouse_y < y +sprite_height ){
-	curFrame = 1;
+	if(global.factViewed[index]){
+		curFrame = 3;
+	}else{
+		curFrame = 1;
+	}
 }else{
-curFrame = 0;
+	if(global.factViewed[index]){
+		curFrame = 2;
+	}else{
+		curFrame = 0;
+	}
 }
 shift = 0;
 for(var i = 0; i < index -1; i++){

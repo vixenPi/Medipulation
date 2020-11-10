@@ -1,15 +1,13 @@
 function ChoiceMade(choiceType, choiceValue){
 	global.currentChoice = choiceValue;
 
-	//set needed flaggs here
 	switch(choiceType){
 	//news story selection
 	case 1:
-		global.story[global.currentCycle] =  true;
-		global.facts[global.num] = global.currentCycle;
-		global.factsChannel[global.num] = choiceValue;
 
-		global.num++;
+		global.factsChannel[global.num] = choiceValue;
+		global.factsChannel[global.num + 1] = choiceValue;
+		global.num += 2;
 		break;
 	//text and social
 	case 2:

@@ -1,5 +1,4 @@
-global.flags = ds_map_create();
-global.numAchivment = 10;
+
 global.numNewsCycle = 10;
 global.currentCycle = 1;
 global.choiceNum = 0;
@@ -12,19 +11,10 @@ global.lineHeight = 30;
 global.screenTop = 150;
 global.screenBottom = 850;
 
-
-instance_deactivate_layer(layer_get_id("Achivments"));
-
-ds_map_add(global.flags, "flag1", false);
-ds_map_add(global.flags, "flag2", false);
-ds_map_add(global.flags, "flag3", false);
-ds_map_add(global.flags, "flag4", false);
-ds_map_add(global.flags, "flag5", false);
-
-global.story = [ false, false, false, false, false, false, false, false, false, false, false];
-global.facts = [ 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0];
-global.factsChannel = [ 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0];
-global.factsButton = [Fact1, Fact2, Fact3, Fact4, Fact5, Fact6, Fact7, Fact8, Fact9, Fact10];
+global.factViewed =	[ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false];
+global.factsChannel = [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0];
+global.factsButton = [Fact1, Fact2, Fact3, Fact4, Fact5, Fact6, Fact7, Fact8, Fact9, Fact10, Fact11, Fact12, Fact13, Fact14, Fact15, Fact16, Fact17, Fact18, Fact19, Fact20];
+global.factRead = false;
 
 global.phoneText = [[Text1, Text2,Text3], [Tweet1, Tweet2, Tweet3]];
 
@@ -33,7 +23,6 @@ global.Blenght = [0, 1,1,1,1,1,1,1,1,1,1];
 global.Glenght = [0, 1,1,1,1,1,1,1,1,1,1];
 global.Llenght = [0, 1,1,1,1,1,1,1,1,1,1];
 global.num = 1;
-global.flags= [ false, false, false, false, false, false, false];
 global.NewsA = 0;
 global.NewsB = 0;
 global.NewsG = 0;

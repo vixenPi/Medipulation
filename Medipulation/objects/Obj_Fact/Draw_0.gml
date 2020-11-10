@@ -1,9 +1,6 @@
 
-	if(index > global.currentCycle){
-		exit;
-	}
-	if(!global.story[global.facts[index]]){
-		exit;
-	}
+if(index > 2 * global.currentCycle){
+	exit;
+}
 
 DisplayText(Narative(2, index), 2);

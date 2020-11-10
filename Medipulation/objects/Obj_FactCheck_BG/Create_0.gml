@@ -5,7 +5,7 @@ maxHeight = sprite_height;
 
 SetText = function(newText) {
 
-	text = Narative(3,global.currentChoice);
+	text = Narative( 3, global.currentChoice);
 
 	var width = sprite_width;
 
@@ -21,7 +21,7 @@ SetText = function(newText) {
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_top);
 
-	var textHeight = string_height_ext(text, lineHeight, innerWidth);
+	var textHeight = string_height_ext( Narative( 3, global.currentChoice), lineHeight, innerWidth);
 	var innerHeight = textHeight + 2*margin;
 
 	var height = innerHeight + 2*borderHeight ;

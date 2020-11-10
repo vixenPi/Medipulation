@@ -1,11 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.story = [ false, false, false, false, false, false, false, false, false, false, false];
-global.facts = [ 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0];
-global.factsChannel = [ 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0];
-global.factsButton = [Fact1, Fact2, Fact3, Fact4, Fact5, Fact6, Fact7, Fact8, Fact9, Fact10];
+global.factViewed = [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false];
+global.factsChannel = [ 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0];
+global.factsButton = [Fact1, Fact2, Fact3, Fact4, Fact5, Fact6, Fact7, Fact8, Fact9, Fact10, Fact11, Fact12, Fact13, Fact14, Fact15, Fact16, Fact17, Fact18, Fact19, Fact20];
 global.num = 1;
-global.flags= [ false, false, false, false, false, false, false];
 global.NewsA = 0;
 global.NewsB = 0;
 global.NewsG = 0;

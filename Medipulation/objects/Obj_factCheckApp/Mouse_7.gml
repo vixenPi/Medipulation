@@ -3,4 +3,4 @@
 
 global.state = 4;
 SetGameState();
-open = true;
+
