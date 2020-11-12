@@ -11,6 +11,7 @@ global.NewsL = 0;
 global.currentCycle = 1;
 global.choiceNum = 0;
 global.state = 0;
+global.factRead = false;
 
 
 audio_play_sound(snd_select, 1000, false);

@@ -5,6 +5,6 @@ if(global.factViewed[index]){
 }else{
 curFrame = 1;
 }
-if(index < 2 * global.currentCycle){
+if(index <= 2 * global.currentCycle){
 	audio_play_sound(snd_hover, 1000, false);
 }

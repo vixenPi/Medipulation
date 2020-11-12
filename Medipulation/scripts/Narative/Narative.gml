@@ -316,11 +316,375 @@ switch(TextType){
 						return "Fact 10-L, temporary text";
 				}
 					break;
+			case 11:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 1-A, temporary text";
+					case 2:
+						return"Fact 1-B, temporary text";
+					case 3:
+						return "Fact 1-G, temporary text";
+					case 4:
+						return"Fact 1-L, temporary text";
+				}
+					break;
+			case 12:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 2-A, temporary text";
+					case 2:
+						return "Fact 2-B, temporary text";
+					case 3:
+						return "Fact 2-G, temporary text";
+					case 4:
+						return "Fact 2-L, temporary text";
+				}
+					break;
+			case 13:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 3-A, temporary text";
+					case 2:
+						return "Fact 3-B, temporary text";
+					case 3:
+						return "Fact 3-G, temporary text";
+					case 4:
+						return "Fact 3-L, temporary text";
+				}
+					break;
+			case 14:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 4-A, temporary text";
+					case 2:
+						return "Fact 4-B, temporary text";
+					case 3:
+						return "Fact 4-G, temporary text"
+					case 4:
+						return "Fact 4-L, temporary text";
+				}
+					break;
+			case 15:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 5-A, temporary text";
+					case 2:
+						return "Fact 5-B, temporary text";
+					case 3:
+						return "Fact 5-G, temporary text";
+					case 4:
+						return"Fact 5-L, temporary text";
+				}
+					break;
+			case 16:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 6-A, temporary text";
+					case 2:
+						return "Fact 6-B, temporary text";
+					case 3:
+						return "Fact 6-G, temporary text";
+					case 4:
+						return "Fact 6-L, temporary text";
+				}
+					break;
+			case 17:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 7-A, temporary text";
+					case 2:
+						return "Fact 7-B, temporary text";
+					case 3:
+						return "Fact 7-G, temporary text";
+					case 4:
+						return "Fact 7-L, temporary text";
+				}
+					break;
+			case 18:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 8-A, temporary text";
+					case 2:
+						return "Fact 8-B, temporary text";
+					case 3:
+						return "Fact 8-G, temporary text";
+					case 4:
+						return"Fact 8-L, temporary text";
+				}
+					break;
+			case 19:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 9-A, temporary text";
+					case 2:
+						return "Fact 9-B, temporary text";
+					case 3:
+						return "Fact 9-G, temporary text";
+					case 4:
+						return "Fact 9-L, temporary text";
+				}
+					break;
+			case 20:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 10-A, temporary text";
+					case 2:
+						return "Fact 10-B, temporary text";
+					case 3:
+						return "Fact 10-G, temporary text";
+					case 4:
+						return "Fact 10-L, temporary text";
+				}
+					break;
 		}
 		break;
 	//display fact
 	case 3:
-		return "temp";
+		switch(choiceValue){
+			case 0:
+				return "";
+			case 1:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 1-A, temporary text";
+					case 2:
+						return"Fact 1-B, temporary text";
+					case 3:
+						return "Fact 1-G, temporary text";
+					case 4:
+						return"Fact 1-L, temporary text";
+				}
+			break;
+			case 2:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 2-A, temporary text";
+					case 2:
+						return "Fact 2-B, temporary text";
+					case 3:
+						return "Fact 2-G, temporary text";
+					case 4:
+						return "Fact 2-L, temporary text";
+				}
+				break;
+			case 3:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 3-A, temporary text";
+					case 2:
+						return "Fact 3-B, temporary text";
+					case 3:
+						return "Fact 3-G, temporary text";
+					case 4:
+						return "Fact 3-L, temporary text";
+				}
+					break;
+			case 4:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 4-A, temporary text";
+					case 2:
+						return "Fact 4-B, temporary text";
+					case 3:
+						return "Fact 4-G, temporary text"
+					case 4:
+						return "Fact 4-L, temporary text";
+				}
+					break;
+			case 5:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 5-A, temporary text";
+					case 2:
+						return "Fact 5-B, temporary text";
+					case 3:
+						return "Fact 5-G, temporary text";
+					case 4:
+						return"Fact 5-L, temporary text";
+				}
+					break;
+			case 6:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 6-A, temporary text";
+					case 2:
+						return "Fact 6-B, temporary text";
+					case 3:
+						return "Fact 6-G, temporary text";
+					case 4:
+						return "Fact 6-L, temporary text";
+				}
+					break;
+			case 7:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 7-A, temporary text";
+					case 2:
+						return "Fact 7-B, temporary text";
+					case 3:
+						return "Fact 7-G, temporary text";
+					case 4:
+						return "Fact 7-L, temporary text";
+				}
+					break;
+			case 8:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 8-A, temporary text";
+					case 2:
+						return "Fact 8-B, temporary text";
+					case 3:
+						return "Fact 8-G, temporary text";
+					case 4:
+						return"Fact 8-L, temporary text";
+				}
+					break;
+			case 9:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 9-A, temporary text";
+					case 2:
+						return "Fact 9-B, temporary text";
+					case 3:
+						return "Fact 9-G, temporary text";
+					case 4:
+						return "Fact 9-L, temporary text";
+				}
+					break;
+			case 10:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 10-A, temporary text";
+					case 2:
+						return "Fact 10-B, temporary text";
+					case 3:
+						return "Fact 10-G, temporary text";
+					case 4:
+						return "Fact 10-L, temporary text";
+				}
+					break;
+			case 11:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 1-A, temporary text";
+					case 2:
+						return"Fact 1-B, temporary text";
+					case 3:
+						return "Fact 1-G, temporary text";
+					case 4:
+						return"Fact 1-L, temporary text";
+				}
+					break;
+			case 12:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 2-A, temporary text";
+					case 2:
+						return "Fact 2-B, temporary text";
+					case 3:
+						return "Fact 2-G, temporary text";
+					case 4:
+						return "Fact 2-L, temporary text";
+				}
+					break;
+			case 13:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 3-A, temporary text";
+					case 2:
+						return "Fact 3-B, temporary text";
+					case 3:
+						return "Fact 3-G, temporary text";
+					case 4:
+						return "Fact 3-L, temporary text";
+				}
+					break;
+			case 14:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 4-A, temporary text";
+					case 2:
+						return "Fact 4-B, temporary text";
+					case 3:
+						return "Fact 4-G, temporary text"
+					case 4:
+						return "Fact 4-L, temporary text";
+				}
+					break;
+			case 15:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 5-A, temporary text";
+					case 2:
+						return "Fact 5-B, temporary text";
+					case 3:
+						return "Fact 5-G, temporary text";
+					case 4:
+						return"Fact 5-L, temporary text";
+				}
+					break;
+			case 16:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 6-A, temporary text";
+					case 2:
+						return "Fact 6-B, temporary text";
+					case 3:
+						return "Fact 6-G, temporary text";
+					case 4:
+						return "Fact 6-L, temporary text";
+				}
+					break;
+			case 17:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 7-A, temporary text";
+					case 2:
+						return "Fact 7-B, temporary text";
+					case 3:
+						return "Fact 7-G, temporary text";
+					case 4:
+						return "Fact 7-L, temporary text";
+				}
+					break;
+			case 18:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 8-A, temporary text";
+					case 2:
+						return "Fact 8-B, temporary text";
+					case 3:
+						return "Fact 8-G, temporary text";
+					case 4:
+						return"Fact 8-L, temporary text";
+				}
+					break;
+			case 19:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 9-A, temporary text";
+					case 2:
+						return "Fact 9-B, temporary text";
+					case 3:
+						return "Fact 9-G, temporary text";
+					case 4:
+						return "Fact 9-L, temporary text";
+				}
+					break;
+			case 20:
+				switch(global.factsChannel[choiceValue]){
+					case 1:
+						return "Fact 10-A, temporary text";
+					case 2:
+						return "Fact 10-B, temporary text";
+					case 3:
+						return "Fact 10-G, temporary text";
+					case 4:
+						return "Fact 10-L, temporary text";
+				}
+					break;
+		}
+		break;
 	//message recieved
 	case 4:
 		switch(choiceValue){
@@ -632,7 +996,12 @@ switch(TextType){
 			return "Day 8";
 		case 9:
 			return "Day 9";
+		case 10:
+			return "Day 10";
+		default:
+			return "error";
 		}
 	break;
 	}
+	return "error";
 }

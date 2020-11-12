@@ -7,7 +7,7 @@ if(global.currentCycle >= global.numNewsCycle ){
 	room_goto(Ending);
 	exit;
 }
-
+global.factRead = false;
 NewsText.scrollValue = 0;
 FactText.scrollValue = 0;
 global.state = 0;
