@@ -13,6 +13,24 @@ FactText.scrollValue = 0;
 global.state = 0;
 SetGameState();
 global.currentCycle ++;
+if(Text1.select){
+	Opinion(Text1.value, Text1.support);
+}
+else if(Text2.select){
+	Opinion(Text2.value, Text2.support);
+}else if(Text3.select){
+	Opinion(Text3.value, Text3.support);
+}
+
+if(Tweet1.select){
+	Opinion(Tweet1.value, Tweet1.support);
+}else if(Tweet2.select){
+	Opinion(Tweet2.value, Tweet2.support);
+}else if(Tweet3.select){
+	Opinion(Tweet3.value, Tweet3.support);
+}
+
+
 Text1.select = false;
 Text2.select = false;
 Text3.select = false;

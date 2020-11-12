@@ -716,80 +716,128 @@ switch(TextType){
 			case 1:
 				switch(choiceValue){
 					case 1:
+					value = 1;
+					support = 1;
 						return "tweet 1:2, temporary text";
 					case 2:
+					value = 1;
+					support = 1;
 						return "tweet 1:2, temporary text";
 					case 3:
+					value = 1;
+					support = 1;
 						return "tweet 1:3, temporary text";
 				}
 			break;
 			case 2:
 				switch(choiceValue){
 					case 1:
+					value = 1;
+					support = 2;
 						return "tweet 2:1, temporary text";
 					case 2:
+					value = 1;
+					support = 1;
 						return "tweet 2:2, temporary text";
 					case 3:
+					value = 1;
+					support = 1;
 						return "tweet 2:3, temporary text";
 				}
 			break;
 			case 3:
 				switch(choiceValue){
 					case 1:
+					value = 1;
+					support = 1;
 						return "tweet 3:1, temporary text";
 					case 2:
+					value = 1;
+					support = 1;
 						return "tweet 3:2, temporary text";
 					case 3:
+					value = 1;
+					support = 1;
 						return "tweet 3:3, temporary text";
 				}
 				break;
 			case 4:
 				switch(choiceValue){
 					case 1:
+					value = 1;
+					support = 1;
 						return "tweet 4:1, temporary text";
 					case 2:
+					value = 1;
+					support = 1;
 						return "tweet 4:2, temporary text";
 					case 3:
+					value = 1;
+					support = 1;
 						return "tweet 4:3, temporary text";
 				}
 				break;
 			case 5:
 				switch(choiceValue){
 					case 1:
+										value = 1;
+					support = 1;
 						return "tweet 5:1, temporary text";
 					case 2:
+										value = 1;
+					support = 1;
 						return "tweet 5:2, temporary text";
 					case 3:
+										value = 1;
+					support = 1;
 						return "tweet 5:3, temporary text";
 				}
 				break;
 			case 6:
 				switch(choiceValue){
 					case 1:
+										value = 1;
+					support = 1;
 						return "tweet 6:1, temporary text";
 					case 2:
+										value = 1;
+					support = 1;
 						return "tweet 6:2, temporary text";
 					case 3:
+										value = 1;
+					support = 1;
 						return "tweet 6:3, temporary text";
 				}
 			break;
 			case 7:
 				switch(choiceValue){
 					case 1:
+										value = 1;
+					support = 1;
 						return "tweet 7:1, temporary text";
 					case 2:
+										value = 1;
+					support = 1;
 						return "tweet 7:2, temporary text";
 					case 3:
+										value = 1;
+					support = 1;
 						return "tweet 7:3, temporary text";
 				}
 			break;
 			case 8:
 				switch(choiceValue){
 					case 1:
+										value = 1;
+					support = 1;
 						return "tweet 8:1, temporary text";
 					case 2:
+										value = 1;
+					support = 1;
 						return "tweet 8:2, temporary text";
 					case 3:
+										value = 1;
+					support = 1;
 						return "tweet 8:3, temporary text";
 				}
 				break;
@@ -797,23 +845,37 @@ switch(TextType){
 				switch(choiceValue){
 					case 1:
 						if(global.NewsA > global.NewsB){
+												value = 1;
+					support = 1;
 							return "If any of you want a better future, you should support side A";
 						}else{
+												value = 1;
+					support = 1;
 							return "If you really care about Thisland, you'll support side B";
 						}
 					case 2:
+										value = 1;
+					support = 1;
 						return "Everyone in Thisland - make a plan in case of an emergency. Times are tough and we all need to be prepared.";
 					case 3:
+										value = 1;
+					support = 1;
 						return "I'd like to encourage all of Thisland's citizens to flee if you can. Other countries can offer us safety. Go to www.fleeingthisland.com to get more information";
 				}
 				break;
 			case 10:
 				switch(choiceValue){
 					case 1:
+										value = 1;
+					support = 1;
 						return "tweet 10:1, temporary text";
 					case 2:
+										value = 1;
+					support = 1;
 						return "tweet 10:2, temporary text";
 					case 3:
+										value = 1;
+					support = 1;
 						return "tweet 10:3, temporary text";
 				}
 			break;
@@ -826,17 +888,25 @@ switch(TextType){
 				switch(choiceValue){
 					case 1:
 						if(global.currentChoice == 3){
+												value = 1;
+					support = 1;
 							return "I saw that on the news earlier! I'll give them a call later and see how they're doing";
 						}else {
 							return "No, I didn't see that. I'm glad they're ok";
 						}
 					case 2:
 						if(global.currentChoice == 3){
+												value = 1;
+					support = 1;
 							return "I was just watching the footage of the earthquake. I'm going to donate to the relief fund";
 						}else{
+												value = 1;
+					support = 1;
 							return "Oh, I wasn't paying attention to the global news. Otherland is always dealing with earthquakes, I'm sure they'll be fine";
 						}
 					case 3:
+										value = 1;
+					support = 1;
 						return "Well, they have a change to remodel now";
 				}
 				break;
@@ -844,47 +914,75 @@ switch(TextType){
 				switch(choiceValue){
 					case 1:
 						if(global.currentChoice == 4){
+												value = 1;
+					support = 1;
 							return "I'm not going to support that show. I don't like the way they treat the animals";
 						}else{
+												value = 1;
+					support = 1;
 							return "Haven't watched it yet. How many episodes are out so far?";
 						}	
 					case 2:
 						if(global.currentChoice == 4){
+												value = 1;
+					support = 1;
 							return "I'm gonna start watching it soon. Have you seen all of the controversy about the show? Those animal rights activists are so annoying lmao";
 						}else{
+												value = 1;
+					support = 1;
 							return "I've heard a lot of great things about that show. It's on my to-watch list";
 						}
 					case 3:
+										value = 1;
+					support = 1;
 						return "If you like it, it's probably dumb";
 				}
 				break;
 			case 3:
 				switch(choiceValue){
 					case 1:
+										value = 1;
+					support = 1;
 						return "Responce 3:1, temporary text";
 					case 2:
+										value = 1;
+					support = 1;
 						return "Responce 3:2, temporary text";
 					case 3:
+										value = 1;
+					support = 1;
 						return "Responce 3:3, temporary text";
 				}
 				break;
 			case 4:
 				switch(choiceValue){
 					case 1:
+										value = 1;
+					support = 1;
 						return "I'm sure she's guilty. Have you seen the way she's been acting recently?";
 					case 2:
+										value = 1;
+					support = 1;
 						return "I know, I can't believe it either! She really doesn't need to be dealing with this additional stress right now, I feel bad for her";
 					case 3:
+										value = 1;
+					support = 1;
 						return "No, I haven't been keeping up with politics. What happened?";
 				}
 				break;
 			case 5:
 				switch(choiceValue){
 					case 1:
+										value = 1;
+					support = 1;
 						return "Responce 5:1, temporary text";
 					case 2:
+										value = 1;
+					support = 1;
 						return "Responce 5:2, temporary text";
 					case 3:
+										value = 1;
+					support = 1;
 						return "Responce 5:3, temporary text";
 				}
 				break;
@@ -892,43 +990,69 @@ switch(TextType){
 				switch(choiceValue){
 					case 1:
 						if(global.currentChoice == 4){
+												value = 1;
+					support = 1;
 							return " Aww, I think it's cute. I'm probably gonna get a t-shirt or something";
 						}else{
+												value = 1;
+					support = 1;
 							return "No, I was paying attention to more important news stories";
 						}
 					case 2:
 						if(global.currentChoice == 4){
+												value = 1;
+					support = 1;
 							return "Yeah, I saw it. It's all just empty gestures and it won't solve any of our problems";
 						}else{
+												value = 1;
+					support = 1;
 							return "I haven't heard about it. Who's distributing the peace merch?";
 						}
 					case 3:
+										value = 1;
+					support = 1;
 						return "Hope it doesn't make traffic worse";
 				}
 				break;
 			case 7:
 				switch(choiceValue){
 					case 1:
+										value = 1;
+					support = 1;
 						return "Responce 7:1, temporary text";
 					case 2:
+										value = 1;
+					support = 1;
 						return "Responce 7:2, temporary text";
 					case 3:
+										value = 1;
+					support = 1;
 						return "Responce 7:3, temporary text";
 				}
 				break;
 			case 8:
 				switch(choiceValue){
 					case 1:
+										value = 1;
+					support = 1;
 						return "I'm going to wait a few days before I decide what to do";
 					case 2:
+										value = 1;
+					support = 1;
 						return "I'm not leaving Thisland. I'm sure this will all blow over in a week";
 					case 3:
-						if(global.NewsA > global.NewsB && global.NewsA > global.NewsG && global.NewsA > global.NewsL){
-							return "I'm going to stay here and support A. Be careful when you travel to Otherland";
+						if(global.NewsA > global.NewsB && global.NewsA > global.NewsG && global.NewsA > global.NewsL){		
+												value = 1;
+					support = 1;
+					return "I'm going to stay here and support A. Be careful when you travel to Otherland";
 						}else if(global.NewsB > global.NewsA && global.NewsB > global.NewsG && global.NewsB > global.NewsL){
+												value = 1;
+					support = 1;
 							return "I'm going to stay here and support B. Be careful when you travel to Otherland";
 						}
 						else{
+												value = 1;
+					support = 1;
 							return "I'm going to stay here. Be careful when you travel to Otherland";
 						}
 				}
@@ -936,20 +1060,32 @@ switch(TextType){
 			case 9:
 				switch(choiceValue){
 					case 1:
+										value = 1;
+					support = 1;
 						return "Responce 9:1, temporary text";
 					case 2:
+										value = 1;
+					support = 1;
 						return "Responce 9:2, temporary text";
 					case 3:
+										value = 1;
+					support = 1;
 						return "Responce 9:3, temporary text";
 				}
 				break;
 			case 10:
 				switch(choiceValue){
 					case 1:
+										value = 1;
+					support = 1;
 						return "Responce 10:1, temporary text";
 					case 2:
+										value = 1;
+					support = 1;
 						return "Responce 10:2, temporary text";
 					case 3:
+										value = 1;
+					support = 1;
 						return "Responce 10:3, temporary text";
 				}
 			break;
@@ -976,6 +1112,7 @@ switch(TextType){
 				return"Times are tough. Your country is now at war and you're not sure what to do. You're not going to risk your life to fight on either side, but you don't want to leave your home either. You suppose you'll just wait it out.";
 		}
 	break;
+	//next day text
 	case 8:
 		switch(global.currentCycle){
 		case 1:
