@@ -3,8 +3,10 @@
 
 if(global.segmentCounter < maxSegment){
 global.segmentCounter ++;
+Obj_TextBox.index = 0;
 } else if (global.segmentCounter == maxSegment){
 global.state = 3;
 SetGameState();
 global.segmentCounter = 0;
 }
+

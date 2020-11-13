@@ -1,5 +1,8 @@
+oldText = text;
 SetText("");
-
+if(oldText != text){
+	index = 0;
+}
 var width = sprite_width;
 
 var sprWidth = sprite_get_width(sprite_index);
