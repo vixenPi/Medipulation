@@ -2,10 +2,15 @@ clip_surface = -1;
 
 scrollValue = 0;
 
+//typewriter effect speed calc
+index = 0;
+var interval = random_range(0.08, 0.15);
+alarm[0] = room_speed * interval;
+
 SetText = function(newText) {
 
 	text = Narative(1,global.currentChoice);
-
+	
 	var width = sprite_width;
 
 	var sprWidth = sprite_get_width(sprite_index);

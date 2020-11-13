@@ -33,7 +33,7 @@ if(innerHeight > vh) {
 	scrollOffset = -scrollValue * (innerHeight - vh);
 }
 
-draw_text_ext(margin, margin + scrollOffset, text, lineHeight, innerWidth);
+draw_text_ext(margin, margin + scrollOffset, string(string_copy(text, 1, index)), lineHeight, innerWidth);
 
 surface_reset_target();
 

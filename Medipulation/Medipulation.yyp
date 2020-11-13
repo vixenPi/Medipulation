@@ -15,6 +15,7 @@
     {"id":{"name":"Obj_NewsScreen","path":"objects/Obj_NewsScreen/Obj_NewsScreen.yy",},"order":5,},
     {"id":{"name":"Sprite_BackSideArrow","path":"sprites/Sprite_BackSideArrow/Sprite_BackSideArrow.yy",},"order":46,},
     {"id":{"name":"Sprite_EndG","path":"sprites/Sprite_EndG/Sprite_EndG.yy",},"order":30,},
+    {"id":{"name":"snd_type1","path":"sounds/snd_type1/snd_type1.yy",},"order":5,},
     {"id":{"name":"DisplayText","path":"scripts/DisplayText/DisplayText.yy",},"order":10,},
     {"id":{"name":"messagebutton","path":"sprites/messagebutton/messagebutton.yy",},"order":3,},
     {"id":{"name":"TextBock","path":"sprites/TextBock/TextBock.yy",},"order":6,},
