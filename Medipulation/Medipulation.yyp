@@ -107,6 +107,7 @@
     {"id":{"name":"Sprite_HelpPage","path":"sprites/Sprite_HelpPage/Sprite_HelpPage.yy",},"order":35,},
     {"id":{"name":"Obj_HelpImage","path":"objects/Obj_HelpImage/Obj_HelpImage.yy",},"order":7,},
     {"id":{"name":"BG_Social","path":"objects/BG_Social/BG_Social.yy",},"order":2,},
+    {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},"order":22,},
     {"id":{"name":"Narative","path":"scripts/Narative/Narative.yy",},"order":6,},
     {"id":{"name":"tweetbutton","path":"sprites/tweetbutton/tweetbutton.yy",},"order":6,},
     {"id":{"name":"Obj_SuperSlooth","path":"objects/Obj_SuperSlooth/Obj_SuperSlooth.yy",},"order":21,},
