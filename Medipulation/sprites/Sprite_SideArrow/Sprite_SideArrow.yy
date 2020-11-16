@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dab6a66c-37e0-4270-a26d-80bbbceb63e1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "UI Buttons",
+    "path": "folders/Sprites/Assests/UI Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite_SideArrow",

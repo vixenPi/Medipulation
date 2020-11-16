@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cf2ae19c-62a4-4f52-9733-18d43a0f3f33","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "TvScreens",
+    "path": "folders/Sprites/Assests/TvScreens.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite_Comm2",

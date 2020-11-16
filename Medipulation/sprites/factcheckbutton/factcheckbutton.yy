@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b6356193-411c-49f5-bd18-fe99707d2cf8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "UI Buttons",
+    "path": "folders/Sprites/Assests/UI Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "factcheckbutton",

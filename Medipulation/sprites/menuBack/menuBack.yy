@@ -152,8 +152,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ea2ff116-d712-474a-bcb2-8cedd5744242","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "UI Buttons",
+    "path": "folders/Sprites/Assests/UI Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "menuBack",

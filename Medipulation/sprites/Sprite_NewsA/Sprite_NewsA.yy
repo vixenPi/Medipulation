@@ -344,8 +344,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"66b35ca4-4103-4a8b-abf3-21ca47420c28","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "TvScreens",
+    "path": "folders/Sprites/Assests/TvScreens.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite_NewsA",

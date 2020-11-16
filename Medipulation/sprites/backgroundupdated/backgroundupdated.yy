@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 127,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 127,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 128,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,13 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"544b8dbe-9ecf-4cec-88d6-a44fe73ffa1e","path":"sprites/backgroundupdated/backgroundupdated.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"544b8dbe-9ecf-4cec-88d6-a44fe73ffa1e","path":"sprites/backgroundupdated/backgroundupdated.yy",},"LayerId":{"name":"da3535f6-db37-4b14-b8a9-8234ad89f2a2","path":"sprites/backgroundupdated/backgroundupdated.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"544b8dbe-9ecf-4cec-88d6-a44fe73ffa1e","path":"sprites/backgroundupdated/backgroundupdated.yy",},"LayerId":{"name":"f2c09289-b233-4998-a3be-07c2c91847be","path":"sprites/backgroundupdated/backgroundupdated.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"544b8dbe-9ecf-4cec-88d6-a44fe73ffa1e","path":"sprites/backgroundupdated/backgroundupdated.yy",},"LayerId":{"name":"0dcd3501-64ae-4cbd-942d-8e2cedc6be3b","path":"sprites/backgroundupdated/backgroundupdated.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"544b8dbe-9ecf-4cec-88d6-a44fe73ffa1e","path":"sprites/backgroundupdated/backgroundupdated.yy",},"LayerId":{"name":"6fac363d-3a5e-4e2a-b361-8e682deff643","path":"sprites/backgroundupdated/backgroundupdated.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"544b8dbe-9ecf-4cec-88d6-a44fe73ffa1e","path":"sprites/backgroundupdated/backgroundupdated.yy",},"LayerId":{"name":"03cd5b28-4920-4e13-8b81-36416bcc41ef","path":"sprites/backgroundupdated/backgroundupdated.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"backgroundupdated","path":"sprites/backgroundupdated/backgroundupdated.yy",},"resourceVersion":"1.0","name":"544b8dbe-9ecf-4cec-88d6-a44fe73ffa1e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"81b24de1-b1ad-4c7e-b326-2449967181bc","path":"sprites/backgroundupdated/backgroundupdated.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"81b24de1-b1ad-4c7e-b326-2449967181bc","path":"sprites/backgroundupdated/backgroundupdated.yy",},"LayerId":{"name":"271a5c1b-5509-4acf-b0c8-dd09ce561989","path":"sprites/backgroundupdated/backgroundupdated.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"backgroundupdated","path":"sprites/backgroundupdated/backgroundupdated.yy",},"resourceVersion":"1.0","name":"81b24de1-b1ad-4c7e-b326-2449967181bc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"backgroundupdated","path":"sprites/backgroundupdated/backgroundupdated.yy",},
@@ -45,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"fa9c2c44-6958-49b4-b7b6-e780f55d8a25","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"544b8dbe-9ecf-4cec-88d6-a44fe73ffa1e","path":"sprites/backgroundupdated/backgroundupdated.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"87750c25-32d2-427c-9838-20ea8832b6f2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"81b24de1-b1ad-4c7e-b326-2449967181bc","path":"sprites/backgroundupdated/backgroundupdated.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -69,15 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 4","resourceVersion":"1.0","name":"03cd5b28-4920-4e13-8b81-36416bcc41ef","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 3","resourceVersion":"1.0","name":"6fac363d-3a5e-4e2a-b361-8e682deff643","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"0dcd3501-64ae-4cbd-942d-8e2cedc6be3b","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"f2c09289-b233-4998-a3be-07c2c91847be","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"da3535f6-db37-4b14-b8a9-8234ad89f2a2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"271a5c1b-5509-4acf-b0c8-dd09ce561989","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "BackGrounds",
+    "path": "folders/Sprites/Assests/BackGrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "backgroundupdated",

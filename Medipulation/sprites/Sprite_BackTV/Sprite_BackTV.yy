@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8630832a-f01b-4c54-8956-051f12126512","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "UI Buttons",
+    "path": "folders/Sprites/Assests/UI Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite_BackTV",

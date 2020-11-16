@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c5aa183c-7b98-46e1-93b1-1f0da0afe3b2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "UI Buttons",
+    "path": "folders/Sprites/Assests/UI Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "messagebutton",

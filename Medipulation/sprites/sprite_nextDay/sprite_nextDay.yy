@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f77f105e-5afc-45fa-8500-b093367285e4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Temp Art",
-    "path": "folders/Sprites/Temp Art.yy",
+    "name": "UI Buttons",
+    "path": "folders/Sprites/Assests/UI Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprite_nextDay",

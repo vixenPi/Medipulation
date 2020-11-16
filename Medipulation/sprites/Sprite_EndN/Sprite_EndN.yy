@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d8e4a088-1e05-4da0-99be-16f180c7c8e9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "Endings",
+    "path": "folders/Sprites/Assests/Endings.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite_EndN",

@@ -70,8 +70,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f6d24618-3df1-4d25-a12a-dcaa1d79135a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "BackGrounds",
+    "path": "folders/Sprites/Assests/BackGrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "phone",

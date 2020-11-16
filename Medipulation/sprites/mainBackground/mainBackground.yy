@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4de497be-4d53-4b46-b128-c56249aed4e2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "BackGrounds",
+    "path": "folders/Sprites/Assests/BackGrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "mainBackground",

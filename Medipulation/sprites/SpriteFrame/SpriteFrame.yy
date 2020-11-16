@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"06c5ed02-b159-4171-8c80-a2800a7d4fc2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "BackGrounds",
+    "path": "folders/Sprites/Assests/BackGrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "SpriteFrame",

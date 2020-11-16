@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"37f8bc64-8e91-495e-a0d1-3edbcb39e8e5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Temp Art",
-    "path": "folders/Sprites/Temp Art.yy",
+    "name": "HelpPage",
+    "path": "folders/Sprites/Assests/HelpPage.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprite_help4",

@@ -748,8 +748,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a594b3d1-6f5c-4182-a9e1-840acf89044f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "TvScreens",
+    "path": "folders/Sprites/Assests/TvScreens.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite_NewsB",

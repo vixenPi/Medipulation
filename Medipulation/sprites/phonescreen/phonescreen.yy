@@ -79,8 +79,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"93933f8c-b150-4794-aebe-b461ab199f40","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Assests",
-    "path": "folders/Sprites/Assests.yy",
+    "name": "BackGrounds",
+    "path": "folders/Sprites/Assests/BackGrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "phonescreen",
