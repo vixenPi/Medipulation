@@ -18,3 +18,4 @@ audio_play_sound(snd_select, 1000, false);
 
 room_goto(Game);
 
+

@@ -1,3 +1,3 @@
-if(Text1.y+ Text1.offset +5 > global.screenBottom){
-	yScroll -=5;
+if(global.phoneText[type][0].y+ global.phoneText[type][0].offset +5 > global.screenBottom){
+	yScroll -=10;
 }
