@@ -41,6 +41,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Power","path":"objects/Obj_Power/Obj_Power.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":16.0,"scaleY":16.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":464.0,"y":880.0,"resourceVersion":"1.0","name":"inst_2D4373CB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_NextDay","path":"objects/Obj_NextDay/Obj_NextDay.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":608.0,"resourceVersion":"1.0","name":"inst_65CDD280","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_PhoneHome","path":"objects/Obj_PhoneHome/Obj_PhoneHome.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":140.0,"y":716.0,"resourceVersion":"1.0","name":"inst_51366C60","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"PhoneOff","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"BG_PhoneFrame","path":"objects/BG_PhoneFrame/BG_PhoneFrame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":15.999999,"scaleY":15.999999,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_540F2769","tags":[],"resourceType":"GMRInstance",},
@@ -218,6 +219,7 @@
     {"name":"Fact20","path":"rooms/Game/Game.yy",},
     {"name":"inst_1F5D3CED","path":"rooms/Game/Game.yy",},
     {"name":"inst_65CDD280","path":"rooms/Game/Game.yy",},
+    {"name":"inst_51366C60","path":"rooms/Game/Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
