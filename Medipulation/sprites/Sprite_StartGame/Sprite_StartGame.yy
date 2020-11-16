@@ -27,9 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"b1db9957-00ad-428e-a872-f8fb46bf99e7","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"b1db9957-00ad-428e-a872-f8fb46bf99e7","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"LayerId":{"name":"403f8231-dbfe-4572-9798-7b9e68740d20","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Sprite_StartGame","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"resourceVersion":"1.0","name":"b1db9957-00ad-428e-a872-f8fb46bf99e7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"91d12f41-e19f-487a-a4a4-908cdbf42d73","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"91d12f41-e19f-487a-a4a4-908cdbf42d73","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"LayerId":{"name":"403f8231-dbfe-4572-9798-7b9e68740d20","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite_StartGame","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"resourceVersion":"1.0","name":"91d12f41-e19f-487a-a4a4-908cdbf42d73","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9282678e-342f-4762-b809-2752e7d0475e","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9282678e-342f-4762-b809-2752e7d0475e","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"LayerId":{"name":"403f8231-dbfe-4572-9798-7b9e68740d20","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite_StartGame","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"resourceVersion":"1.0","name":"9282678e-342f-4762-b809-2752e7d0475e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Sprite_StartGame","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},
@@ -45,7 +45,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2370bce5-ccea-4479-8fdc-1cb686b001af","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b1db9957-00ad-428e-a872-f8fb46bf99e7","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"b761074c-5f54-4808-8e2b-082d36f495ec","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"91d12f41-e19f-487a-a4a4-908cdbf42d73","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"389ea526-1c3d-4aeb-a0d4-8d5393eda91e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9282678e-342f-4762-b809-2752e7d0475e","path":"sprites/Sprite_StartGame/Sprite_StartGame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

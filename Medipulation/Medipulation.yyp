@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Sprite_ScroleGrab","path":"sprites/Sprite_ScroleGrab/Sprite_ScroleGrab.yy",},"order":7,},
+    {"id":{"name":"Sprite_Comm3","path":"sprites/Sprite_Comm3/Sprite_Comm3.yy",},"order":4,},
     {"id":{"name":"sprite_yes","path":"sprites/sprite_yes/sprite_yes.yy",},"order":41,},
     {"id":{"name":"Sprite_TextYellow","path":"sprites/Sprite_TextYellow/Sprite_TextYellow.yy",},"order":5,},
     {"id":{"name":"Calander","path":"objects/Calander/Calander.yy",},"order":7,},
@@ -56,6 +57,7 @@
     {"id":{"name":"Sprite_NewsB","path":"sprites/Sprite_NewsB/Sprite_NewsB.yy",},"order":16,},
     {"id":{"name":"mainBackground","path":"sprites/mainBackground/mainBackground.yy",},"order":11,},
     {"id":{"name":"SetScreen","path":"scripts/SetScreen/SetScreen.yy",},"order":7,},
+    {"id":{"name":"Sprite_Comm1","path":"sprites/Sprite_Comm1/Sprite_Comm1.yy",},"order":2,},
     {"id":{"name":"sprite_sure","path":"sprites/sprite_sure/sprite_sure.yy",},"order":42,},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},"order":1,},
     {"id":{"name":"snd_memories","path":"sounds/snd_memories/snd_memories.yy",},"order":4,},
@@ -83,6 +85,7 @@
     {"id":{"name":"Obj_TextBack","path":"objects/Obj_TextBack/Obj_TextBack.yy",},"order":1,},
     {"id":{"name":"Sprite_NewsA","path":"sprites/Sprite_NewsA/Sprite_NewsA.yy",},"order":15,},
     {"id":{"name":"BG_Message","path":"objects/BG_Message/BG_Message.yy",},"order":3,},
+    {"id":{"name":"Sprite_Comm2","path":"sprites/Sprite_Comm2/Sprite_Comm2.yy",},"order":3,},
     {"id":{"name":"Obj_prevSegment","path":"objects/Obj_prevSegment/Obj_prevSegment.yy",},"order":7,},
     {"id":{"name":"Help","path":"rooms/Help/Help.yy",},"order":2,},
     {"id":{"name":"Sprite_Done","path":"sprites/Sprite_Done/Sprite_Done.yy",},"order":20,},
