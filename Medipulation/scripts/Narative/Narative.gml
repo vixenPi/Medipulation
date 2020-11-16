@@ -9,94 +9,146 @@ switch(TextType){
 		//tv channel
 		switch(choiceValue){
 			case 1:
-				SetScreen(Sprite_NewsA);
 				//current cycle
 				switch(global.currentCycle){
 					case 1:
 						switch(global.segmentCounter){
 							case 1:
+							SetScreen(Sprite_NewsA);
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
 							case 2: 
+							SetScreen(Sprite_NewsA);
 								return "A 20 acre fire has started in Overland. Several 911 calls were made at 10 o’clock this morning, alerting authorities to the fire. It started at a climate change rally that has been ongoing for 3 days.";
 							case 3:
+							SetScreen(Sprite_NewsA);
 								return "Today was supposed to be the final day, but the demonstrations were unfortunately cut short by the fire. The cause of the fire is currently unknown, but we suspect it was caused by an anti-climate science individual who wanted to disrupt the rally.";
 							case 4:
+							SetScreen(Sprite_NewsA);
 								return "Now for the weather.";
+							case 5: 
+							SetScreen(Sprite_Comm1);
+								return "New Episodes Monday Night at 7";
 						}
 					case 2:
 						switch(global.segmentCounter){
 							case 1:
+								SetScreen(Sprite_NewsA);
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
 							case 2:
+								SetScreen(Sprite_NewsA);
 								return "Today marks to 50 year anniversary of Party C. Members of Party C are hosting a celebration tonight. Reporter Adam is on the scene. Adam, how is the celebration going?";
 							case 3:
+								SetScreen(Sprite_NewsA);
 								return "Everything is going well over here, Abigail. There are plenty of people eating, drinking, and overall enjoying themselves. In about 10 minutes, the head of Party C is going to make a speech.";
 							case 4:
+								SetScreen(Sprite_NewsA);
 								return "Our sources say they’ll go over the party’s future plans and policies. Many party members have high hopes that Party C will continue to push the progressive policies that benefit us all.";
 							case 5:
+								SetScreen(Sprite_NewsA);
 								return "Thank you, Adam. We’ll check in with you again once the speech starts. Before that, let’s take a little commercial break.";
+							case 6:
+								SetScreen(Sprite_Comm2);
+								return "A part of a complete breakfast";
 						}
 					case 3:
 						switch(global.segmentCounter){
 							case 1:
+								SetScreen(Sprite_NewsA);
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
 							case 2:
+								SetScreen(Sprite_NewsA);
 								return "Last night’s celebrations with a fantastic speech from the Leader of Party C. The party plans to push forwards in a new, even more progressive direction. Members of Party C were ecstatic, while members of Party D were less than pleased.";
 							case 3:
+								SetScreen(Sprite_NewsA);
 								return "Today, Party D is holding a conference to reaffirm their stance and push back against Party C. Our experts expect them to double down on their outdated policies and old-fashioned ways of thinking.";
 							case 4:
+								SetScreen(Sprite_NewsA);
 								return "Party D continues to drag this country down and prevent us from working towards a brighter future. It’s only a matter of time before their backwards ways will no longer be tolerated.";
 							case 5:
+								SetScreen(Sprite_NewsA);
 								return "We’ll continue our 24/7 news coverage after this brief commercial break.";
+							case 6:
+								SetScreen(Sprite_Comm1);
+								return "New Episodes Monday Night at 7";
 						}
 					case 4:
 						switch(global.segmentCounter){
 							case 1:
+								SetScreen(Sprite_NewsA);
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
 							case 2:
+								SetScreen(Sprite_NewsA);
 								return "Earlier today, the leader of Party D was accused of money laundering by an anonymous person. An investigation is currently underway. We here at A News reached out to Party D Leader for her side of the story, but she declined to comment on the situation.";
 							case 3:
+								SetScreen(Sprite_NewsA);
 								return "When our reporters asked her further questions, she became angry and started to verbally lash out. It seems that Party D Leader is currently in a very unstable state. We will keep you informed with all of the latest updates as this case develops.";
 							case 4:
+								SetScreen(Sprite_NewsA);
 								return "After this commercial break, we have a heartwarming story about a teacher who went above and beyond for her students. Stay tuned.";
+							case 5:
+								SetScreen(Sprite_Comm2);
+								return "A part of a complete breakfast";
 						}
 					case 5:
 						switch(global.segmentCounter){
 							case 1:
+								SetScreen(Sprite_NewsA);
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
 							case 2:
+								SetScreen(Sprite_NewsA);
 								return "In a shocking turn of events, the leader of Party C was revealed to be the anonymous source regarding the money laundering case involving the leader of Party D. Party D Leader released a statement today informing us of her intention of taking Party C Leader to court.";
 							case 3:
+								SetScreen(Sprite_NewsA);
 								return "Party D Leader intends to sue Party C Leader for defamation and emotional damages now that the accusations have been proven false. We reached out to Party C Leader for comment and he told our reporters that it was an honest mistake.";
 							case 4:
+								SetScreen(Sprite_NewsA);
 								return "He had seen evidence suggesting that Party D Leader was laundering money and felt it was his duty as a citizen of Thisland to report it. Everyone at A News would like to applaud Party C Leader for reporting this, even if he was ultimately mistaken.";
 							case 5:
+								SetScreen(Sprite_NewsA);
 								return "Remember everyone, if you see something, say something. We’ll get back to you with more news after this commercial break.";
+							case 6:
+								SetScreen(Sprite_Comm1);
+								return "New Episodes Monday Night at 7";
 						}
 					case 6:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							case 2:
+								SetScreen(Sprite_Comm1);
+								return "New Episodes Monday Night at 7";
 						}
 					case 7:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							case 2:
+								SetScreen(Sprite_Comm1);
+								return "New Episodes Monday Night at 7";
 						}
 					case 8:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							case 2:
+								SetScreen(Sprite_Comm1);
+								return "New Episodes Monday Night at 7";
 						}
 					case 9:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							case 2:
+								SetScreen(Sprite_Comm1);
+								return "New Episodes Monday Night at 7";
 						}
 					case 10:
 						switch(global.segmentCounter){
 							case 1:
 								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+							case 2:
+								SetScreen(Sprite_Comm1);
+								return "New Episodes Monday Night at 7";
 						}
 				}
 				break;
