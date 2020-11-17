@@ -116,7 +116,7 @@
     {"id":{"name":"Narative","path":"scripts/Narative/Narative.yy",},"order":6,},
     {"id":{"name":"tweetbutton","path":"sprites/tweetbutton/tweetbutton.yy",},"order":23,},
     {"id":{"name":"Obj_SuperSlooth","path":"objects/Obj_SuperSlooth/Obj_SuperSlooth.yy",},"order":21,},
-    {"id":{"name":"sprite_phonehome","path":"sprites/sprite_phonehome/sprite_phonehome.yy",},"order":15,},
+    {"id":{"name":"sprite_phonehome","path":"sprites/sprite_phonehome/sprite_phonehome.yy",},"order":24,},
     {"id":{"name":"SetGameState","path":"scripts/SetGameState/SetGameState.yy",},"order":11,},
     {"id":{"name":"Obj_Power","path":"objects/Obj_Power/Obj_Power.yy",},"order":2,},
     {"id":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"order":4,},

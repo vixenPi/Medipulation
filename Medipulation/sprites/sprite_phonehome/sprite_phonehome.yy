@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f48eaac1-8d80-4d1c-bb75-9a0fc9e3894d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Medipulation",
-    "path": "Medipulation.yyp",
+    "name": "UI Buttons",
+    "path": "folders/Sprites/Assests/UI Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprite_phonehome",
