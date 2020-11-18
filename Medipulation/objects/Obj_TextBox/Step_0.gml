@@ -6,6 +6,6 @@ var margin = global.margin;
 var innerWidth = width - (2 * margin) - (2 * sprWidth/3);
 var lineHeight = 40;
 var innerHeight = string_height_ext(text, lineHeight, innerWidth);
-var height = innerHeight + 2*margin + (2*sprHeight/3);
 
+var height = innerHeight + 2*margin + (2*sprHeight/3);
 image_yscale = height / sprHeight;

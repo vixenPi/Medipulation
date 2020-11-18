@@ -11,6 +11,6 @@ if (global.factViewed[index]){
 	global.factViewed[index] = true;
 }else{
 	SetActiveLayer(10,true);
-	alarm[0] = room_speed * 3;
+	alarm[0] = room_speed * 5;
 }
 

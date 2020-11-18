@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SpriteChannel1",
-    "path": "sprites/SpriteChannel1/SpriteChannel1.yy",
+    "name": "Sprite_LimmitOne",
+    "path": "sprites/Sprite_LimmitOne/Sprite_LimmitOne.yy",
   },
   "solid": false,
   "visible": true,
