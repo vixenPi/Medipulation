@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Phone Buttons",
+    "path": "folders/Objects/Phone Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_PhoneHome",
