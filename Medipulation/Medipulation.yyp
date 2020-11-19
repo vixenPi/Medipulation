@@ -109,7 +109,7 @@
     {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},"order":6,},
     {"id":{"name":"Obj_HelpPage","path":"objects/Obj_HelpPage/Obj_HelpPage.yy",},"order":10,},
     {"id":{"name":"Title","path":"objects/Title/Title.yy",},"order":5,},
-    {"id":{"name":"Sprite_HelpPage","path":"sprites/Sprite_HelpPage/Sprite_HelpPage.yy",},"order":4,},
+    {"id":{"name":"Sprite_help5","path":"sprites/Sprite_help5/Sprite_help5.yy",},"order":4,},
     {"id":{"name":"Obj_HelpImage","path":"objects/Obj_HelpImage/Obj_HelpImage.yy",},"order":7,},
     {"id":{"name":"BG_Social","path":"objects/BG_Social/BG_Social.yy",},"order":2,},
     {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},"order":22,},
