@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_type1.wav",
-  "duration": 0.051825,
+  "soundFile": "snd_type4.wav",
+  "duration": 0.287222,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_type1",
+  "name": "snd_type4",
   "tags": [],
   "resourceType": "GMSound",
 }

@@ -1,3 +1,6 @@
+//typewriter sound effect variable
+var typewriter = audio_play_sound(snd_type1, 1, false);
+
 if (index < string_length(text))
 {
 	// increment index
@@ -5,10 +8,14 @@ if (index < string_length(text))
 	
 	//play sound
 	randomize();
-	//audio_play_sound(snd_type1, 1, false);
+	audio_sound_pitch(typewriter, random_range(1, 1.4));
+	//audio_play_sound(choose(snd_type1), 1, false);
 	
 	
 }
-
-	var interval = random_range(0.08, 0.1);
-	alarm[0] = room_speed * interval;
+else
+{
+	audio_stop_sound(snd_type1);
+}
+var interval = random_range(0.06, 0.08);
+alarm[0] = room_speed * interval;

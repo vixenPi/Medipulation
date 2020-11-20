@@ -19,6 +19,7 @@
     {"id":{"name":"snd_type1","path":"sounds/snd_type1/snd_type1.yy",},"order":5,},
     {"id":{"name":"DisplayText","path":"scripts/DisplayText/DisplayText.yy",},"order":10,},
     {"id":{"name":"messagebutton","path":"sprites/messagebutton/messagebutton.yy",},"order":4,},
+    {"id":{"name":"snd_type4","path":"sounds/snd_type4/snd_type4.yy",},"order":8,},
     {"id":{"name":"TextBock","path":"sprites/TextBock/TextBock.yy",},"order":6,},
     {"id":{"name":"spr_gotocredits","path":"sprites/spr_gotocredits/spr_gotocredits.yy",},"order":10,},
     {"id":{"name":"Sprite_Fact","path":"sprites/Sprite_Fact/Sprite_Fact.yy",},"order":2,},

@@ -7,6 +7,7 @@ index = 0;
 var interval = random_range(0.08, 0.15);
 alarm[0] = room_speed * interval;
 
+
 SetText = function(newText) {
 
 	text = Narative(1,global.currentChoice);
