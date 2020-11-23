@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"97551ddb-07b3-43a8-b322-f87943f3383e","path":"sprites/Sprite_NewsShot/Sprite_NewsShot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"97551ddb-07b3-43a8-b322-f87943f3383e","path":"sprites/Sprite_NewsShot/Sprite_NewsShot.yy",},"LayerId":{"name":"3067134a-96de-44b5-9799-0ecfb69ee10c","path":"sprites/Sprite_NewsShot/Sprite_NewsShot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite_NewsShot","path":"sprites/Sprite_NewsShot/Sprite_NewsShot.yy",},"resourceVersion":"1.0","name":"97551ddb-07b3-43a8-b322-f87943f3383e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"921b573d-b48d-493b-9cce-aecfc007dbc5","path":"sprites/Sprite_NewsShot/Sprite_NewsShot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"921b573d-b48d-493b-9cce-aecfc007dbc5","path":"sprites/Sprite_NewsShot/Sprite_NewsShot.yy",},"LayerId":{"name":"efd7df20-dd96-4d7b-a4d7-7d9722e1f4fb","path":"sprites/Sprite_NewsShot/Sprite_NewsShot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite_NewsShot","path":"sprites/Sprite_NewsShot/Sprite_NewsShot.yy",},"resourceVersion":"1.0","name":"921b573d-b48d-493b-9cce-aecfc007dbc5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Sprite_NewsShot","path":"sprites/Sprite_NewsShot/Sprite_NewsShot.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d10251d9-f869-44a2-9445-b1b6ae465be4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"97551ddb-07b3-43a8-b322-f87943f3383e","path":"sprites/Sprite_NewsShot/Sprite_NewsShot.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7b943d8d-1f70-4708-9b23-6067c3bd2395","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"921b573d-b48d-493b-9cce-aecfc007dbc5","path":"sprites/Sprite_NewsShot/Sprite_NewsShot.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3067134a-96de-44b5-9799-0ecfb69ee10c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"efd7df20-dd96-4d7b-a4d7-7d9722e1f4fb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "TvScreens",
