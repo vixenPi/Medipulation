@@ -15,7 +15,7 @@ switch(TextType){
 						switch(global.segmentCounter){
 							case 1:
 							SetScreen(Sprite_NewsA);
-								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+								return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.";
 							case 2: 
 							SetScreen(Sprite_NewsA);
 								return "A 20 acre fire has started in Overland. Several 911 calls were made at 10 o’clock this morning, alerting authorities to the fire. It started at a climate change rally that has been ongoing for 3 days.";
@@ -157,7 +157,7 @@ switch(TextType){
 				//current cycle
 				switch(global.currentCycle){
 					case 1:
-						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news. \n\nA 20 acre fire started today at a climate change rally in (area). The fire was reported around 10 o'clock this morning. Firefighters quickly arrived at the scene but have been struggling to control the increasing blaze. The climate change rally was thankfully cut short, as it had been ongoing for several days and the noise was disturbing nearby residents. The cause of the fire has yet to be determined, but according to our sources, the fire was started by some irresponsible, hypocritical attendees of the rally. How can they claim to care so much about the environment when they are destroying it themselves? \n\nWe'll continue with your nightly news after this brief commercial break.";
+						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
 					case 2:
 						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news. \n\nTonight, members of Party C are celebrating their 50 year anniversary. Barbara is currently live at the party to give us all of the latest updates. Barbara, can you describe this party for us? Yes Bart, I can. It is incredibly loud at this celebration and it seems that many of the attending members are drunk. I heard a fight break out earlier and I believe some arrests have been made. The leader of Party C will be coming out to make a speech soon, so hopefully that will calm down this rowdy crowd. Thank you, Barbara. I can see that the members of Party C are as belligerent as ever. Their policies have been holding this country back for 50 years. Party C simply doesn't understand the principles this country was founded on. Soon enough, the people will get fed up with their non stop meddling. Anyways, it's time for (show segment). \n\nWe'll be back with the latest news at 9.";
 					case 3:
@@ -184,7 +184,7 @@ switch(TextType){
 				//current cycle
 				switch(global.currentCycle){
 					case 1:
-						return "Earth Shattering News this evening on the Global News Outlet channel. I am your host Gary Nerdstrom. \nAnd I am Nelly Ginsy. \nAn earthquake has devastated cities all across OtherLand. The earthquake clocked in at a massive 7.1 leaving many without homes, power, water, or loved ones. As the death toll rises millions of people are looking to the local elections for shining leadership to steer the country forward through this natural disaster as well as leadership that truly represents the people of OtherLand.";
+						return "Earth Shattering News this evening on the Global News Outlet channel. I am your host Gary Nerdstrom. \nAnd I am Nelly Ginsy.";
 					case 2:
 						return "Tonight, collaborative news on the Global News Outlet channel. I am your host, Gary Nerdstrom. \nAnd I am Nelly Ginsy. \nThe International Leaders Conference is scheduled to take place this month in ThisLand. The World Council Negotiators will travel from across the globe to discuss world policy and leader values. Every leader who is anyone is planned to attend.";
 					case 3:
@@ -211,7 +211,7 @@ switch(TextType){
 				switch(global.currentCycle){
 					case 1:
 						SetScreen(Sprite_NewsLocal);
-						return "Good evening, ThisLand. I am your host, Laura Ficklesticks. \n\nTonight's report is to inform locals of next week's construction of Main Street. Commuters are encouraged to take alternative routes to avoid certain delays. The construction is part of the massive ThisLand infrastructure project to boost locals into the 21st century in commerce and communication. ThisLand officials thank you for your patience and support of this project that will lead ThisLand to economic growth and prosperity. \n\nMore details at 10."
+						return "Good evening, ThisLand. I am your host, Laura Ficklesticks."
 					case 2:
 						SetScreen(Sprite_NewsLocal);
 						return "Good evening, ThisLand. I am your host, Laura Ficklesticks. \n\nHit TV show Bungies and Bunnies have made a splash in the ratings among local television watchers as well as a stir in controversies among pet owners and animal rights activists. Showrunner and host, Billie Bin Banister, says their show takes extra care in treatment of their cast and show animals, but admits some accidents during the testing phases of the show \"could have been avoidable.\" The show's premise states they \"take bunnies and see where they will bungie\" and local tv watchers can't seem to get enough of the adorable cast. The show is scheduled to premier on the Entertainment channel every week indefinitely.";
@@ -253,11 +253,11 @@ switch(TextType){
 					case 1:
 						return "Fact 1-A, temporary text";
 					case 2:
-						return"Fact 1-B, temporary text";
+						return "What does party B stand for?";
 					case 3:
 						return "Fact 1-G, temporary text";
 					case 4:
-						return"Fact 1-L, temporary text";
+						return "Fact 1-L, temporary text";
 				}
 			break;
 			case 2:
@@ -265,7 +265,7 @@ switch(TextType){
 					case 1:
 						return "Fact 2-A, temporary text";
 					case 2:
-						return "Fact 2-B, temporary text";
+						return "Local Road Closures";
 					case 3:
 						return "Fact 2-G, temporary text";
 					case 4:
@@ -500,7 +500,7 @@ switch(TextType){
 					case 1:
 						return "Fact 1-A, temporary text";
 					case 2:
-						return"Fact 1-B, temporary text";
+						return"Several sections of Main Street will be undergoing heavy construction. Expect Main Street to be closed for several weeks while construction is ongoing.";
 					case 3:
 						return "Fact 1-G, temporary text";
 					case 4:
@@ -512,7 +512,7 @@ switch(TextType){
 					case 1:
 						return "Fact 2-A, temporary text";
 					case 2:
-						return "Fact 2-B, temporary text";
+						return "Several sections of Main Street will be undergoing heavy construction. Expect Main Street to be closed for several weeks while construction is ongoing.";
 					case 3:
 						return "Fact 2-G, temporary text";
 					case 4:
@@ -770,15 +770,15 @@ switch(TextType){
 					case 1:
 					value = 1;
 					support = 1;
-						return "tweet 1:2, temporary text";
+						return "All the road work is lame";
 					case 2:
 					value = 1;
 					support = 1;
-						return "tweet 1:2, temporary text";
+						return "The improvment to the road infastructure should help us have a stronger community for years to come";
 					case 3:
 					value = 1;
 					support = 1;
-						return "tweet 1:3, temporary text";
+						return "I hate that our taxes are being spent on improving roads in areas no one uses";
 				}
 			break;
 			case 2:
@@ -1168,7 +1168,7 @@ switch(TextType){
 	case 8:
 		switch(global.currentCycle){
 		case 1:
-			return "Intro to game";
+			return "You've gotten home from a very long day at work. You finally have some time to catch up on the news. So many channels, so little time... Which channel will you watch today?";
 		case 2:
 			return "Day 2";
 		case 3:
