@@ -11,6 +11,7 @@ switch(TextType){
 			case 1:
 				//current cycle
 				switch(global.currentCycle){
+					//Channel A
 					case 1:
 						switch(global.segmentCounter){
 							case 1:
@@ -18,13 +19,13 @@ switch(TextType){
 								return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.";
 							case 2: 
 							SetScreen(Sprite_NewsA);
-								return "A 20 acre fire has started in Overland. Several 911 calls were made at 10 o’clock this morning, alerting authorities to the fire. It started at a climate change rally that has been ongoing for 3 days.";
+								return "A 20 acre fire has started in Oakvale. Several emergency calls were made at 10 o'clock this morning, alerting authorities to the fire. It started at a climate change rally that has been ongoing for 3 days.";
 							case 3:
 							SetScreen(Sprite_NewsA);
 								return "Today was supposed to be the final day, but the demonstrations were unfortunately cut short by the fire. The cause of the fire is currently unknown, but we suspect it was caused by an anti-climate science individual who wanted to disrupt the rally.";
 							case 4:
 							SetScreen(Sprite_NewsA);
-								return "Now for the weather.";
+								return "We'll get back to you after this brief commercial break.";
 							case 5: 
 							SetScreen(Sprite_Comm1);
 								return "New Episodes Monday Night at 7";
@@ -33,19 +34,19 @@ switch(TextType){
 						switch(global.segmentCounter){
 							case 1:
 								SetScreen(Sprite_NewsA);
-								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+								return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.";
 							case 2:
 								SetScreen(Sprite_NewsA);
-								return "Today marks to 50 year anniversary of Party C. Members of Party C are hosting a celebration tonight. Reporter Adam is on the scene. Adam, how is the celebration going?";
+								return "Today marks the 50 year anniversary of the People's Party. Members of the People's Party are hosting a celebration tonight. Reporter Adam is on the scene. Adam, how is the celebration going?";
 							case 3:
 								SetScreen(Sprite_NewsA);
-								return "Everything is going well over here, Abigail. There are plenty of people eating, drinking, and overall enjoying themselves. In about 10 minutes, the head of Party C is going to make a speech.";
+								return "Everything is going well over here, Abigail. There are plenty of people eating, drinking, and overall enjoying themselves. In about 10 minutes, the head of the People's Party is going to make a speech.";
 							case 4:
 								SetScreen(Sprite_NewsA);
-								return "Our sources say they’ll go over the party’s future plans and policies. Many party members have high hopes that Party C will continue to push the progressive policies that benefit us all.";
+								return "Our sources say they'll go over the party's future plans and policies. Many party members have high hopes that the People's Party will continue to push the progressive policies that benefit us all.";
 							case 5:
 								SetScreen(Sprite_NewsA);
-								return "Thank you, Adam. We’ll check in with you again once the speech starts. Before that, let’s take a little commercial break.";
+								return "Thank you, Adam. We'll check in with you again once the speech starts. Before that, let's take a little commercial break.";
 							case 6:
 								SetScreen(Sprite_Comm2);
 								return "A part of a complete breakfast";
@@ -54,19 +55,19 @@ switch(TextType){
 						switch(global.segmentCounter){
 							case 1:
 								SetScreen(Sprite_NewsA);
-								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+								return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.";
 							case 2:
 								SetScreen(Sprite_NewsA);
-								return "Last night’s celebrations with a fantastic speech from the Leader of Party C. The party plans to push forwards in a new, even more progressive direction. Members of Party C were ecstatic, while members of Party D were less than pleased.";
+								return "Last night's celebrations ended with a fantastic speech from Clifford Cox, the leader of the People's Party. The party plans to push forwards in a new, even more progressive direction. Members of the People's Party were ecstatic, while members of the Traditionalist Party were less than pleased.";
 							case 3:
 								SetScreen(Sprite_NewsA);
-								return "Today, Party D is holding a conference to reaffirm their stance and push back against Party C. Our experts expect them to double down on their outdated policies and old-fashioned ways of thinking.";
+								return "Today, the Traditionalist Party is holding a conference to reaffirm their stance and push back against the People's Party. Our experts expect them to double down on their outdated policies and old-fashioned ways of thinking.";
 							case 4:
 								SetScreen(Sprite_NewsA);
-								return "Party D continues to drag this country down and prevent us from working towards a brighter future. It’s only a matter of time before their backwards ways will no longer be tolerated.";
+								return "The Traditionalist Party continues to drag this country down and prevent us from working towards a brighter future. It's only a matter of time before their backwards ways will no longer be tolerated.";
 							case 5:
 								SetScreen(Sprite_NewsA);
-								return "We’ll continue our 24/7 news coverage after this brief commercial break.";
+								return "We'll continue our 24/7 news coverage after this brief commercial break.";
 							case 6:
 								SetScreen(Sprite_Comm1);
 								return "New Episodes Monday Night at 7";
@@ -75,13 +76,13 @@ switch(TextType){
 						switch(global.segmentCounter){
 							case 1:
 								SetScreen(Sprite_NewsA);
-								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+								return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.";
 							case 2:
 								SetScreen(Sprite_NewsA);
-								return "Earlier today, the leader of Party D was accused of money laundering by an anonymous person. An investigation is currently underway. We here at A News reached out to Party D Leader for her side of the story, but she declined to comment on the situation.";
+								return "Earlier today, the leader of the Traditionalist Party, Diana Dixon, was accused of money laundering by an anonymous person. An investigation is currently underway. We here at A News reached out to Ms. Dixon for her side of the story, but she declined to comment on the situation.";
 							case 3:
 								SetScreen(Sprite_NewsA);
-								return "When our reporters asked her further questions, she became angry and started to verbally lash out. It seems that Party D Leader is currently in a very unstable state. We will keep you informed with all of the latest updates as this case develops.";
+								return "When our reporters asked her further questions, she became angry and started to verbally lash out. It seems that Ms. Dixon is currently in a very unstable state. We will keep you informed with all of the latest updates as this case develops.";
 							case 4:
 								SetScreen(Sprite_NewsA);
 								return "After this commercial break, we have a heartwarming story about a teacher who went above and beyond for her students. Stay tuned.";
@@ -93,19 +94,19 @@ switch(TextType){
 						switch(global.segmentCounter){
 							case 1:
 								SetScreen(Sprite_NewsA);
-								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+								return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.";
 							case 2:
 								SetScreen(Sprite_NewsA);
-								return "In a shocking turn of events, the leader of Party C was revealed to be the anonymous source regarding the money laundering case involving the leader of Party D. Party D Leader released a statement today informing us of her intention of taking Party C Leader to court.";
+								return "In a shocking turn of events, the leader of the People's Party was revealed to be the anonymous source regarding the money laundering case involving the leader of the Traditionalist Party. Diana Dixon released a statement today informing us of her intention of taking Clifford Cox to court.";
 							case 3:
 								SetScreen(Sprite_NewsA);
-								return "Party D Leader intends to sue Party C Leader for defamation and emotional damages now that the accusations have been proven false. We reached out to Party C Leader for comment and he told our reporters that it was an honest mistake.";
+								return "Ms. Dixon intends to sue Mr. Cox for defamation and emotional damages now that the accusations have been proven false. We reached out to Mr. Cox for comment and he told our reporters that it was an honest mistake.";
 							case 4:
 								SetScreen(Sprite_NewsA);
-								return "He had seen evidence suggesting that Party D Leader was laundering money and felt it was his duty as a citizen of Thisland to report it. Everyone at A News would like to applaud Party C Leader for reporting this, even if he was ultimately mistaken.";
+								return "He had seen evidence suggesting that Ms. Dixon was laundering money and felt it was his duty as a citizen of the United Federation to report it. Everyone at A News would like to applaud Mr. Cox for reporting this, even if he was ultimately mistaken.";
 							case 5:
 								SetScreen(Sprite_NewsA);
-								return "Remember everyone, if you see something, say something. We’ll get back to you with more news after this commercial break.";
+								return "Remember everyone, if you see something, say something. We'll get back to you with more news after this commercial break.";
 							case 6:
 								SetScreen(Sprite_Comm1);
 								return "New Episodes Monday Night at 7";
@@ -113,82 +114,369 @@ switch(TextType){
 					case 6:
 						switch(global.segmentCounter){
 							case 1:
-								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+								SetScreen(Sprite_NewsA);
+								return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.";
 							case 2:
+								SetScreen(Sprite_NewsA);
+								return "Today, Diana Dixon took Clifford Cox to court for defamation and emotional damages. Many people gathered outside the courthouse to show their support for either Ms. Dixon or Mr. Cox.";
+							case 3:
+								SetScreen(Sprite_NewsA);
+								return "While the hearing was ongoing, the supporters started to clash and a large fight broke out. Thankfully, police were already on the scene and the fight was broken up quickly.";
+							case 4:
+								SetScreen(Sprite_NewsA);
+								return "We currently don't know who started the fight, but according to our reporters, someone who was supporting Ms. Dixon began shouting slurs and pushing someone on Mr. Cox's side.";
+							case 5:
+								SetScreen(Sprite_NewsA);
+								return "We'll continue to follow this case. Thank you for tuning in to A News and we'll see you tomorrow.";
+							case 6:
 								SetScreen(Sprite_Comm1);
 								return "New Episodes Monday Night at 7";
 						}
 					case 7:
 						switch(global.segmentCounter){
 							case 1:
-								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+								SetScreen(Sprite_NewsA);
+								return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.";
 							case 2:
+								SetScreen(Sprite_NewsA);
+								return "We've been receiving reports of a supposed assassination attempt on the Traditionalist Party's leader, Diana Dixon. At 3 p.m. today, a suspicious package was delivered to her house. The authorities were contacted and the package was examined.";
+							case 3:
+								SetScreen(Sprite_NewsA);
+								return "They have confirmed that suspicious substances were found in the package, but they have to yet confirm what those substances are. Ms. Dixon has confirmed that she is shaken but in good health.";
+							case 4:
+								SetScreen(Sprite_NewsA);
+								return "There are no suspects at this time, but we suspect that this is an elaborate PR stunt. What better way to distract the public from the controversial lawsuit?";
+							case 5:
+								SetScreen(Sprite_NewsA);
+								return "We'll continue to keep you updated on all the latest news after this commercial break.";
+							case 6:
 								SetScreen(Sprite_Comm1);
 								return "New Episodes Monday Night at 7";
 						}
 					case 8:
 						switch(global.segmentCounter){
 							case 1:
-								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+								SetScreen(Sprite_NewsA);
+								return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.";
 							case 2:
+								SetScreen(Sprite_NewsA);
+								return "We regret to inform you that the leader of the People's Party, Clifford Cox, has been assassinated. He was shot twice while leaving his office and died instantly. The murderer has been caught and arrested.";
+							case 3:
+								SetScreen(Sprite_NewsA);
+								return "He is a self-proclaimed defender of freedom and longtime member of the Traditionalist Party. According to our sources, he committed this heinous crime due to the belief that the People's Party was responsible for the attempt on Diana Dixon's life.";
+							case 4:
+								SetScreen(Sprite_NewsA);
+								return "I, for one, cannot believe that this is the kind of rhetoric that is spreading throughout the Traditionalist Party. How much further will they go? Will they continue to attack their political opponents with nothing but false rumors to go on?";
+							case 5:
+								SetScreen(Sprite_NewsA);
+								return "I am truly ashamed of the citizens in this country. This kind of behavior is beyond unacce-";
+							case 6:
 								SetScreen(Sprite_Comm1);
 								return "New Episodes Monday Night at 7";
 						}
 					case 9:
 						switch(global.segmentCounter){
 							case 1:
-								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+								SetScreen(Sprite_NewsA);
+								return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.";
 							case 2:
-								SetScreen(Sprite_Comm1);
-								return "New Episodes Monday Night at 7";
+								SetScreen(Sprite_NewsA);
+								return "We've just received reports of an explosion at the Traditionalist Party's headquarters. Emergency responders are already on the scene. We currently do not know how many deaths or injuries there are.";
+							case 3:
+								SetScreen(Sprite_NewsA);
+								return "The leader of the Traditionalist Party, Diana Dixon, has not been accounted for. We sincerely hope she was in the building at the time of the explosion. Some witnesses have already come forwards and stated that they saw some suspicious people run away from the building right before it exploded.";
+							case 4:
+								SetScreen(Sprite_NewsA);
+								return "According to them, the people shouted “For the People's Party!” as they ran. Folks, I can guarantee the Traditionalist Party will respond with more violence and more force. Be alert. Be prepared. Goodnight.";
+							case 5:
+								SetScreen(Sprite_NewsBlack);
+								return "..............";
 						}
 					case 10:
 						switch(global.segmentCounter){
 							case 1:
-								return "Good evening everyone. I’m your host, Abigail Armstrong, and you’re watching A News.";
+								SetScreen(Sprite_NewsA);
+								return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.";
 							case 2:
-								SetScreen(Sprite_Comm1);
-								return "New Episodes Monday Night at 7";
+								SetScreen(Sprite_NewsA);
+								return "Breaking news: the United Federation is now in a civil war. People's Party and Traditionalist Party members started to clash in the streets after yesterday's attack. It is time to fight for a better future and leave the Traditionalist Party in the past, where they belong.";
+							case 3:
+								SetScreen(Sprite_NewsA);
+								return "Flee if you must. Stay if you wish to fight.";
+							//case 4:
+								SetScreen(Sprite_NewsA);
+								return "DUCK!";
+							//case 5:
+								SetScreen(Sprite_NewsBlack);
+								return ".............";
 						}
 				}
 				break;
 			case 2:
-				SetScreen(Sprite_NewsB);
 				//current cycle
 				switch(global.currentCycle){
+					//Channel B
 					case 1:
-						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsB);
+								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
+							case 2:
+							SetScreen(Sprite_NewsB);
+								return "A 20 acre fire started today at a climate change rally in Oakvale. The fire was reported around 10 o'clock this morning. Firefighters quickly arrived at the scene but have been struggling to control the increasing blaze.";				
+							case 3:
+							SetScreen(Sprite_NewsB);
+								return "The climate change rally was thankfully cut short, as it had been ongoing for several days and the noise was disturbing nearby residents. The cause of the fire has yet to be determined, but according to our sources, the fire was started by some irresponsible, hypocritical attendees of the rally.";				
+							case 4:
+							SetScreen(Sprite_NewsB);
+								return "How can they claim to care so much about the environment when they are destroying it themselves?";				
+							case 5:
+							SetScreen(Sprite_NewsB);
+								return "We'll continue with your nightly news after this brief commercial break.";
+							case 6:
+							SetScreen(Sprite_Comm1);
+								return "New Episodes Monday Night at 7";
+						}	
 					case 2:
-						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news. \n\nTonight, members of Party C are celebrating their 50 year anniversary. Barbara is currently live at the party to give us all of the latest updates. Barbara, can you describe this party for us? Yes Bart, I can. It is incredibly loud at this celebration and it seems that many of the attending members are drunk. I heard a fight break out earlier and I believe some arrests have been made. The leader of Party C will be coming out to make a speech soon, so hopefully that will calm down this rowdy crowd. Thank you, Barbara. I can see that the members of Party C are as belligerent as ever. Their policies have been holding this country back for 50 years. Party C simply doesn't understand the principles this country was founded on. Soon enough, the people will get fed up with their non stop meddling. Anyways, it's time for (show segment). \n\nWe'll be back with the latest news at 9.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsB);
+								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
+							case 2:
+							SetScreen(Sprite_NewsB);
+								return "Tonight, members of the People's Party are celebrating their 50 year anniversary. Barbara is currently live at the party to give us all of the latest updates. Barbara, can you describe this party for us?";
+							case 3:
+							SetScreen(Sprite_NewsB);
+								return "Yes Bart, I can. It is incredibly loud at this celebration and it seems that many of the attending members are drunk. I heard a fight break out earlier and I believe some arrests have been made. The leader of the People's Party will be coming out to make a speech soon, so hopefully that will calm down this rowdy crowd.";
+							case 4:
+							SetScreen(Sprite_NewsB);
+								return "Thank you, Barbara. I can see that the members of the People's Party are as belligerent as ever. Their policies have been holding this country back for 50 years. The People's Party simply doesn't understand the principles this country was founded on. Soon enough, the people will get fed up with their non-stop meddling.";
+							case 5:
+							SetScreen(Sprite_NewsB);
+								return "We'll be back with the latest news at 9.";
+							case 6:
+							SetScreen(Sprite_Comm1);
+								return "New Episodes Monday Night at 7";
+						}
 					case 3:
-						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news. \n\nOur sources have informed us that 3 arrests were made at last night's celebration. Members of Party C are clearly incapable of following the law. They also are encouraging some truly outrageous new policy stances. Party C is more invested in taking away the rights of hard-working, honest citizens then they are in creating fair laws that would help us all. In the meantime, Party D is having a conference to discuss the future of the party. We expect their policies to remain true to the party's original ideology. They embrace what is best for this country and are truly committed to maintaining the glory of (country). We trust that Party D will continue to stand for what is right. \n\nWe'll bring you the latest news right after this commercial break.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsB);
+								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
+							case 2:
+							SetScreen(Sprite_NewsB);
+								return "Our sources have informed us that 3 arrests were made at last night's celebration. Members of the People's Party are clearly incapable of following the law. They also are encouraging some truly outrageous new policy stances.";
+							case 3:
+							SetScreen(Sprite_NewsB);
+								return "The People's Party is more invested in taking away the rights of hard-working, honest citizens then they are in creating fair laws that would help us all. In the meantime, the Traditionalist Party is having a conference to discuss the future of the party.";
+							case 4:
+							SetScreen(Sprite_NewsB);
+								return "We expect their policies to remain true to the party's original ideology. They embrace what is best for this country and are truly committed to maintaining the glory of the United Federation. We trust that the Traditionalist Party will continue to stand for what is right.";
+							case 5:
+							SetScreen(Sprite_NewsB);
+								return "We'll bring you the latest news right after this commercial break.";
+							case 6:
+							SetScreen(Sprite_Comm2);
+								return "Part of a Complete Breakfast.";
+						}
 					case 4:
-						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news. \n\nJust a few hours ago, the leader of Party D was accused of money laundering by an anonymous source. When we reached out to Party D Leader for more information on this story, she informed us that she was unable to make any statements while the investigation is ongoing. She did, however, express her shock and disappointment that someone would make such an outlandish accusation against her. Party D Leader has a stellar reputation and someone is clearly out to ruin it. Those of us at Channel B News would like to say that we support Party D Leader during this difficult time and we are confident that her innocence will be proven. That's all for tonight, folks. \n\nWe'll see you again for the 7 a.m. news.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsB);
+								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
+							case 2:
+							SetScreen(Sprite_NewsB);
+								return "Just a few hours ago, the leader of the Traditionalist Party was accused of money laundering by an anonymous source. When we reached out to Diana Dixon for more information on this story, she informed us that she was unable to make any statements while the investigation is ongoing.";
+							case 3:
+							SetScreen(Sprite_NewsB);
+								return "She did, however, express her shock and disappointment that someone would make such an outlandish accusation against her. Ms. Dixon has a stellar reputation and someone is clearly out to ruin it.";
+							case 4:
+							SetScreen(Sprite_NewsB);
+								return "Those of us at Channel B News would like to say that we support Ms. Dixon during this difficult time and we are confident that her innocence will be proven.";
+							case 5:
+							SetScreen(Sprite_NewsB);
+								return "That's all for tonight, folks. We'll see you tomorrow for the 7 a.m. news.";
+							case 6:
+							SetScreen(Sprite_Comm2);
+								return "Part of a Complete Breakfast.";
+						}
 					case 5:
-						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news. \n\nSome of our fantastic journalists discovered that the anonymous source responsible for the accusations against the leader of Party D was actually the leader of Party C. Party D Leader was devastated to learn that her political opponent would stoop so low in an attempt to tarnish her reputation. She felt the only appropriate response is to take him to court for defamation and emotional damages, though she does so reluctantly. We reached out to Party C Leader for comment. He refused to speak with our journalists and said a few choice words to them. He refused to speak with reporters from a news source that is \"essentially Party D propaganda,\" as he put it. Channel B News would like to say that we are an unbiased and accurate news source. We have no affiliation with Party D. \n\nWe'll continue to provide you with quality news after this brief commercial break.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsB);
+								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
+							case 2:
+							SetScreen(Sprite_NewsB);
+								return "Some of our fantastic journalists discovered that the anonymous source responsible for the accusations against the leader of the Traditionalist Party was actually the leader of the People's Party. Diana Dixon was devastated to learn that her political opponent would stoop so low in an attempt to tarnish her reputation.";
+							case 3:
+							SetScreen(Sprite_NewsB);
+								return "She felt the only appropriate response is to take him to court for defamation and emotional damages, though she does so reluctantly. We reached out to Clifford Cox for comment. He refused to speak with our journalists and said a few choice words to them.";
+							case 4:
+							SetScreen(Sprite_NewsB);
+								return "He said he didn't want to  speak with reporters from a news source that is “essentially Traditionalist Party propaganda,” as he put it. Channel B News would like to say that we are an unbiased and accurate news source. We have no affiliation with the Traditionalist Party.";
+							case 5:
+							SetScreen(Sprite_NewsB);
+								return "We'll continue to provide you with quality news after this brief commercial break.";
+							case 6:
+							SetScreen(Sprite_Comm1);
+								return "New Episodes Monday Night at 7";
+						}
 					case 6:
-						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news. \n\nToday, Party D Leader took Party C Leader to court in an effort to seek justice for the lies he spread. Unfortunately, things did not go too smoothly. A large group of people had gathered outside of the courthouse before the hearing. Some were there in support of Party D Leader, while others were there to support Party C Leader. A large fight broke out in the crowd, but law enforcement officers were able to break it up fairly quickly. Multiple injuries were reported as a result. The person, or people responsible for the fight are currently unknown. According to eyewitness accounts, someone who was there in support of Party C Leader started throwing rocks into the crowd supporting Party D Leader. We simply cannot allow members of Party C to behave in this manner. \n\nAfter this commercial break, we have a story about a dangerous new piece of technology that has just hit the shelves. Stick around to learn more."
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsB);
+								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
+							case 2:
+							SetScreen(Sprite_NewsB);
+								return "Today, Diana Dixon took Clifford Cox to court in an effort to seek justice for the lies he spread. Unfortunately, things did not go too smoothly. A large group of people had gathered outside of the courthouse before the hearing.";
+							case 3:
+							SetScreen(Sprite_NewsB);
+								return "Some were there in support of Ms. Dixon, while others were there to support Mr. Cox. A large fight broke out in the crowd, but law enforcement officers were able to break it up fairly quickly. Multiple injuries were reported as a result.";
+							case 4:
+							SetScreen(Sprite_NewsB);
+								return "The person or people responsible for the fight are currently unknown. According to eyewitness accounts, someone who was there in support of Cox started throwing rocks into the crowd supporting Dixon.";
+							case 5:
+							SetScreen(Sprite_NewsB);
+								return "We simply cannot allow members of the People's Party to behave in this manner.";
+							case 6:
+							SetScreen(Sprite_NewsB);
+								return "After this commercial break, we have a story about a dangerous new piece of technology that has just hit the shelves. Stick around to learn more.";
+							case 7:
+							SetScreen(Sprite_Comm1);
+								return "New Episodes Monday Night at 7";
+						}
 					case 7:
-						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news. \n\nJust earlier today, there was an attempt on Party Leader D's life. A suspicious package was delivered to her home this afternoon. Thankfully, Party D Leader did not touch the package and contacted the appropriate authorities so that they could investigate. They found dangerous substances in the package that would have killed her had she opened it. According to our sources, one of the substances was ricin. We suspect that this was an attack from a Party C member as a response to the lawsuit against Party C Leader. Can you believe that someone would go to these lengths in the name of politics? Everyone at Channel B News is keeping Party Leader D in our thoughts at this time and we hope that she will continue to be safe. \n\nWe'll get back to you after this commercial break.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsB);
+								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
+							case 2:
+							SetScreen(Sprite_NewsB);
+								return "Just earlier today, there was an attempt on Diana Dixson's life. A suspicious package was delivered to her home this afternoon. Thankfully, Ms. Dixon did not touch the package and contacted the appropriate authorities so that they could investigate.";
+							case 3:
+							SetScreen(Sprite_NewsB);
+								return "They found dangerous substances in the package that would have killed her had she opened it. According to our sources, one of the substances was ricin. We suspect that this was an attack from a People's Party member as a response to the lawsuit against Clifford Cox.";
+							case 4:
+							SetScreen(Sprite_NewsB);
+								return "Can you believe that someone would go to these lengths in the name of politics? Everyone at Channel B News is keeping Ms. Dixon in our thoughts at this time and we hope that she will continue to be safe.";
+							case 5:
+							SetScreen(Sprite_NewsB);
+								return "We'll get back to you after this commercial break.";
+							case 6:
+							SetScreen(Sprite_Comm2);
+								return "Part of a Complete Breakfast.";
+						}
 					case 8:
-						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news. \n\nWell, ladies and gentlemen, this has been quite the eventful evening. The leader of Party C has been assassinated. A proud Party D member shot him as he was leaving his office this evening. He was promptly arrested and interrogated. When he was questioned, the suspect said that he did it to protect Thisland from the corrupt, immoral Party C. Now, we don't condone violent actions against everyone, but the assassin does have a point. For how long will we tolerate Party C's crazy ideas? They want to destroy the very foundation this country was built on so that they can establish their own dystopian government. We cannot allow this to happen. \n\nTo all of our loyal viewers: find a way to preserve our country. Don't let them win. \n\n(cut to commercials)";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsB);
+								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
+							case 2:
+							SetScreen(Sprite_NewsB);
+								return "Well, ladies and gentlemen, this has been quite the eventful evening. The leader of the People's Party has been assassinated. A proud Traditionalist Party member shot him as he was leaving his office this evening.";
+							case 3:
+							SetScreen(Sprite_NewsB);
+								return "He was promptly arrested and interrogated. When he was questioned, the suspect said that he did it to protect the United Federation from the corrupt, immoral People's Party. Now, we don't condone violent actions against everyone, but the assassin does have a point.";
+							case 4:
+							SetScreen(Sprite_NewsB);
+								return "For how long will we tolerate the People's Party's crazy ideas? They want to destroy the very foundation this country was built on so that they can establish their own dystopian government. We cannot allow this to happen. To all of our loyal viewers: find a way to preserve our country. Don't let them win.";
+							case 5:
+							SetScreen(Sprite_Comm2);
+								return "Part of a Complete Breakfast.";
+						}
 					case 9:
-						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news. \n\nThere was a terrorist attack today at Party D's headquarters and those damn Party C members are responsible. Party D Leader is safe, but we do not know how many lives have been lost today. It's official: Party C is no longer willing to deal with things peacefully. It is time to respond. We will not let them rule us. Everyone at home - get your weapons ready. None of us know what will happen next. Keep watching the news, stay informed, and be prepared. Now is the time to get your children to a safe place. Good luck. (no commercials, screen goes black)";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsB);
+								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
+							case 2:
+							SetScreen(Sprite_NewsB);
+								return "There was a terrorist attack today at the Traditionalist Party's headquarters and those damn People's Party members are responsible. Diana Dixon is safe, but we do not know how many lives have been lost today.";
+							case 3:
+							SetScreen(Sprite_NewsB);
+								return "It's official: the People's Party is no longer willing to deal with things peacefully. It is time to respond. We will not let them rule us. Everyone at home - get your weapons ready. None of us know what will happen next.";
+							case 4:
+							SetScreen(Sprite_NewsB);
+								return "Keep watching the news, stay informed, and be prepared. Now is the time to get your children to a safe place. Good luck.";
+							case 5:
+							SetScreen(Sprite_NewsBlack);
+								return ".............";
+						}
 					case 10:
-						return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news. \n\nThis just in - the president has declared a state of emergency as a civil war erupts. You know what to do, folks. It's time to wipe out that Party C scum for good. If you really care about the fate of this country, you will stay and fight for Party D. We can win this. They don't stand a chance against the strong people on our side. (gunshot sounds, Bart Barnes is dead. The cameras cut off)";
-					
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsB);
+								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
+							case 2:
+							SetScreen(Sprite_NewsB);
+								return "This just in - the president has declared a state of emergency as a civil war erupts. You know what to do, folks. It's time to wipe out that People's Party scum for good. If you really care about the fate of this country, you will stay and fight for the Traditionalist Party.";
+							case 3:
+							SetScreen(Sprite_NewsB);
+								return "This just in - the president has declared a state of emergency as a civil war erupts. You know what to do, folks. It's time to wipe out that People's Party scum for good. If you really care about the fate of this country, you will stay and fight for the Traditionalist Party.";
+							case 4:
+							SetScreen(Sprite_NewsB);
+								return "We can win this. They don't stand a chance against the strong people on our side.";
+							case 5:
+							SetScreen(Sprite_NewsBlack);
+								return "...........";
+						}
 				}
-
+				break;
 			case 3:
-				SetScreen(Sprite_NewsGlobal);
 				//current cycle
 				switch(global.currentCycle){
+					//Global News Channel
 					case 1:
-						return "Earth Shattering News this evening on the Global News Outlet channel. I am your host Gary Nerdstrom. \nAnd I am Nelly Ginsy.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsGlobal);
+								return "Earth-shattering news this evening on the Global News Outlet Channel. I am your host Gary Nerdstrom.";
+							case 2:
+							SetScreen(Sprite_NewsGlobal);
+								return "And I am Nelly Ginsy.";
+							case 3:
+							SetScreen(Sprite_NewsGlobal);
+								return "An earthquake has devastated cities all across Anozia. The earthquake clocked in at a massive 7.1 leaving many without homes, power, water, or loved ones. As the death toll rises millions of people are looking to the local elections for shining leadership to steer the country forward through this natural disaster as well as leadership that truly represents the people of Anozia.";
+							case 4:
+							SetScreen(Sprite_NewsGlobal);
+								return "Walks like an ape and talks like a man! More global news at 8.";
+						}
 					case 2:
-						return "Tonight, collaborative news on the Global News Outlet channel. I am your host, Gary Nerdstrom. \nAnd I am Nelly Ginsy. \nThe International Leaders Conference is scheduled to take place this month in ThisLand. The World Council Negotiators will travel from across the globe to discuss world policy and leader values. Every leader who is anyone is planned to attend.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsGlobal);
+								return "Tonight, collaborative news on the Global News Outlet channel. I am your host, Gary Nerdstrom.";
+							case 2:
+							SetScreen(Sprite_NewsGlobal);
+								return "And I am Nelly Ginsy.";
+							case 3:
+							SetScreen(Sprite_NewsGlobal);
+								return "The International Leaders Conference is scheduled to take place this month in the United Federation. The World Council Negotiators will travel from across the globe to discuss world policy and leader values. Every leader who is anyone is planned to attend.";
+							case 4:
+							SetScreen(Sprite_NewsGlobal);
+								return "Extra precautions are being taken to ensure the security of the conference including the removal of all racoons in the immediate vicinity after the previous conference saltine fiasco. The WCN commented on last year's event, puzzled at how these curious creatures with opposable thumbs do indeed enjoy the salty snack just like any citizen of the world.";
+							case 5:
+							SetScreen(Sprite_NewsGlobal);
+								return "Pride in yourself or pride in your community? Which to choose? More global news at 8.";
+						}
 					case 3:
-						return "Breaking news on the Global News Outlet channel. I am your host, Gary Nerdstrom. \nAnd I am Nelly Ginsy. \nInternational terrorist groups claim responsibility for the rising popularity of wearing hats and for every hat worn is a propaganda platform for the terrorist group. Threats of extremist actions have been displayed around the world against the terrorist group as well as an alarming number of groups coming out in support of the extremist foreign group.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsGlobal);
+								return "Breaking news on the Global News Outlet channel. I am your host, Gary Nerdstrom.";
+							case 2:
+							SetScreen(Sprite_NewsGlobal);
+								return "And I am Nelly Ginsy.";
+							case 3:
+							SetScreen(Sprite_NewsGlobal);
+								return "International terrorist groups claim responsibility for the rising popularity of wearing hats and that every hat worn is propaganda for the terrorist groups. Threats of extremist actions have been displayed around the world against the terrorist group as well as an alarming number of groups coming out in support of the extremist foreign groups.";
+							case 4:
+							SetScreen(Sprite_NewsGlobal);
+								return "The broad, overlying statement is said to include all hats without specifying exactly how each style of hat is related to the organization. Representatives of the terrorist organizations have been contacted, but refuse to comment.";
+							case 5:
+							SetScreen(Sprite_NewsGlobal);
+								return "Do you have the right to bring your pets to work? More global news at 8.";
+						}
 					case 4:
 						return "World News on the Global News Outlet. I am your host, Gary Nerdstrom. \nAnd I am Nelly Ginsy.\n The World Council Negotiators have announced their agenda for the International Leaders Conference. The talking points are to direct attention to corruption in foreign powers that have strayed away from their political leadership values in favor of more corrupt regimes. WCN representatives have made a statement stating that corruption in international governments has boiled over long ago and cannot be ignored any longer and this year's focus at the conference will be to re-enforce our original values that promote peace, prosperity, and philanthropy.";
 					case 5:
