@@ -18,7 +18,7 @@ switch(TextType){
 							case 1:
 							SetScreen(Sprite_NewsA);
 								return "Good evening everyone. I'm your host, Abigail Armstrong, and you're watching A News.";
-							case 2: 
+							case 2:
 							SetScreen(Sprite_NewsA);
 								return "A 20 acre fire has started in Oakvale. Several emergency calls were made at 10 o'clock this morning, alerting authorities to the fire. It started at a climate change rally that has been ongoing for 3 days.";
 							case 3:
@@ -27,7 +27,7 @@ switch(TextType){
 							case 4:
 							SetScreen(Sprite_NewsA);
 								return "We'll get back to you after this brief commercial break.";
-							case 5: 
+							case 5:
 							SetScreen(Sprite_Comm1);
 								return "New Episodes Monday Night at 7";
 						}
@@ -188,7 +188,7 @@ switch(TextType){
 								return "The leader of the Traditionalist Party, Diana Dixon, has not been accounted for. We sincerely hope she was in the building at the time of the explosion. Some witnesses have already come forwards and stated that they saw some suspicious people run away from the building right before it exploded.";
 							case 4:
 								SetScreen(Sprite_NewsA);
-								return "According to them, the people shouted “For the People's Party!” as they ran. Folks, I can guarantee the Traditionalist Party will respond with more violence and more force. Be alert. Be prepared. Goodnight.";
+								return "According to them, the people shouted \"For the People's Party!\" as they ran. Folks, I can guarantee the Traditionalist Party will respond with more violence and more force. Be alert. Be prepared. Goodnight.";
 							case 5:
 								SetScreen(Sprite_NewsBlack);
 								return "..............";
@@ -225,20 +225,20 @@ switch(TextType){
 								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
 							case 2:
 							SetScreen(Sprite_NewsB);
-								return "A 20 acre fire started today at a climate change rally in Oakvale. The fire was reported around 10 o'clock this morning. Firefighters quickly arrived at the scene but have been struggling to control the increasing blaze.";				
+								return "A 20 acre fire started today at a climate change rally in Oakvale. The fire was reported around 10 o'clock this morning. Firefighters quickly arrived at the scene but have been struggling to control the increasing blaze.";
 							case 3:
 							SetScreen(Sprite_NewsB);
-								return "The climate change rally was thankfully cut short, as it had been ongoing for several days and the noise was disturbing nearby residents. The cause of the fire has yet to be determined, but according to our sources, the fire was started by some irresponsible, hypocritical attendees of the rally.";				
+								return "The climate change rally was thankfully cut short, as it had been ongoing for several days and the noise was disturbing nearby residents. The cause of the fire has yet to be determined, but according to our sources, the fire was started by some irresponsible, hypocritical attendees of the rally.";
 							case 4:
 							SetScreen(Sprite_NewsB);
-								return "How can they claim to care so much about the environment when they are destroying it themselves?";				
+								return "How can they claim to care so much about the environment when they are destroying it themselves?";
 							case 5:
 							SetScreen(Sprite_NewsB);
 								return "We'll continue with your nightly news after this brief commercial break.";
 							case 6:
 							SetScreen(Sprite_Comm1);
 								return "New Episodes Monday Night at 7";
-						}	
+						}
 					case 2:
 						switch(global.segmentCounter){
 							case 1:
@@ -315,7 +315,7 @@ switch(TextType){
 								return "She felt the only appropriate response is to take him to court for defamation and emotional damages, though she does so reluctantly. We reached out to Clifford Cox for comment. He refused to speak with our journalists and said a few choice words to them.";
 							case 4:
 							SetScreen(Sprite_NewsB);
-								return "He said he didn't want to  speak with reporters from a news source that is “essentially Traditionalist Party propaganda,” as he put it. Channel B News would like to say that we are an unbiased and accurate news source. We have no affiliation with the Traditionalist Party.";
+								return "He said he didn't want to  speak with reporters from a news source that is \"essentially Traditionalist Party propaganda,\" as he put it. Channel B News would like to say that we are an unbiased and accurate news source. We have no affiliation with the Traditionalist Party.";
 							case 5:
 							SetScreen(Sprite_NewsB);
 								return "We'll continue to provide you with quality news after this brief commercial break.";
@@ -643,10 +643,10 @@ switch(TextType){
 								return "Hit TV show Bungies and Bunnies has made a splash in the ratings among local television watchers as well as a stir in controversies among pet owners and animal rights activists.";
 							case 4:
 							SetScreen(Sprite_NewsLocal);
-								return "Showrunner and host, Billie Bin Banister, says their show takes great care of their cast and show animals, but admits some accidents during the testing phases of the show “could have been avoidable.”";
+								return "Showrunner and host, Billie Bin Banister, says their show takes great care of their cast and show animals, but admits some accidents during the testing phases of the show \"could have been avoidable.\"";
 							case 5:
 							SetScreen(Sprite_NewsLocal);
-								return "The show's premise states they “take bunnies and see where they will bungie” and local tv watchers can't seem to get enough of the adorable cast. The show is scheduled to premier on the Entertainment Channel every week indefinitely.";
+								return "The show's premise states they \"take bunnies and see where they will bungie\" and local tv watchers can't seem to get enough of the adorable cast. The show is scheduled to premier on the Entertainment Channel every week indefinitely.";
 							case 6:
 							SetScreen(Sprite_NewsLocal);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
@@ -1297,23 +1297,23 @@ switch(TextType){
 	case 4:
 		switch(choiceValue){
 			case 1:
-				return "Did you see the news about the earthquakes in Otherland? Your aunt and uncle are ok but their house was damaged :( \n -mom";
+				return "Did you see the news about the earthquakes in Anozia? Your aunt and uncle are ok but their house was damaged :( \n-Mom";
 			case 2:
-				return "Have you guys seen Bungies and Bunnies yet? It's so funny lol \n -Sally";
+				return "Have you guys seen Bungies and Bunnies yet? It’s so funny lol \n -Sally";
 			case 3:
-				return "Message 3, temporary text";
+				return "Have you seen what those terrorist groups said about wearing hats? I’m thinking of getting rid of mine \n-Beth";
 			case 4:
-				return "I can't believe the accusations against Party D Leader! I know it's just baseless slander \n-Dad";
+				return "I can’t believe the accusations against Diana Dixon! I know it’s just baseless slander \n-Dad";
 			case 5:
-				return "Message 5, temporary text";
+				return "Have you seen the news? Victor von Speeshel won! Your uncle and I are so excited, we should finally get some financial help! \n -Aunt Ruth";
 			case 6:
-				return "Have you seen the new peace merch? I'm not sure what they're hoping to accomplish with that \n-Derek";
+				return "Have you seen the new peace merch? I’m not sure what they’re hoping to accomplish with that \n-Derek";
 			case 7:
-				return "Message 7, temporary text";
+				return "That von Speeshel was bashing the United Federation as if Anozia is doing any better. He’s barely been elected and is already causing problems \n-Dad";
 			case 8:
-				return "Have you been watching the news? This entire country is falling apart! Your father and I are starting to pack up some of our stuff. We're going to stay with your aunt and uncle in Otherland. Please come with us -Mom";
+				return "Have you been watching the news? This entire country is falling apart! Your father and I are starting to pack up some of our stuff. We’re going to stay with your aunt and uncle in Anozia. Please come with us \n-Mom";
 			case 9:
-				return "Message 9, temporary text";
+				return "Is everyone doing ok? Things are crazy right now, I’m not even sure what to do at this point \n-Sally";
 			case 10:
 				return "Message 10, temporary text";
 		}
@@ -1322,170 +1322,574 @@ switch(TextType){
 	case 5:
 		switch(global.currentCycle){
 			case 1:
-				switch(choiceValue){
-					case 1:
-					value = 1;
-					support = 1;
-						return "All the road work is lame";
-					case 2:
-					value = 1;
-					support = 1;
-						return "The improvment to the road infastructure should help us have a stronger community for years to come";
-					case 3:
-					value = 1;
-					support = 1;
-						return "I hate that our taxes are being spent on improving roads in areas no one uses";
+				if(global.currentChoice == 1){
+					switch(choiceValue){
+						case 1:
+							value = 1;
+							support = 1;
+							return "Such a shame the climate change rally was cut short! Hopefully they’ll be able to reschedule the last day";
+						case 2:
+							value = -1;
+							support = 1;
+							return "Of course A News is promoting those \"climate change\” protesters. I’m sure they’re in league with Big Solar!";
+						case 3:
+							value = 0;
+							support = 1;
+							return "The weather was so nice today! Too bad I was stuck inside the office :/";
+					}
+				}else if(global.currentChoice == 2){
+					switch(choiceValue){
+						case 1:
+							value = 1;
+							support = 2;
+							return "Lol those stupid protesters burnt their own rally down. I can’t believe anyone is that incompetent";
+						case 2:
+							value = -1;
+							support = 2;
+							return "Channel B News is trying to spread rumours about climate change protesters again. Remember people, listen to scientists, not unqualified news anchors";
+						case 3:
+							value = 0;
+							support = 2;
+							return "The weather was so nice today! Too bad I was stuck inside the office :/";
+					}
+				}else if(global.currentChoice == 3){
+					switch(choiceValue){
+						case 1:
+							value = 1;
+							support = 3;
+							return "My heart goes out to everyone in Anozia who has been affected by the earthquake. Please donate to the relief fund if you can!";
+						case 2:
+							value = -1;
+							support = 3;
+							return "I can’t believe they’re making such a big deal out of a tiny little earthquake lol";
+						case 3:
+							value = 0;
+							support = 3;
+							return "The weather was so nice today! Too bad I was stuck inside the office :/";
+					}
+				}else{
+					switch(choiceValue){
+						case 1:
+							value = 1;
+							support = 4;
+							return "The city is finally updating Main Street! Can’t wait to check it out once all of the construction is done";
+						case 2:
+							value = -1;
+							support = 4;
+							return "Ugh, they’re tearing up Main Street for no reason again. Looks like I’ll have to add another 20 minutes to my commute :|";
+						case 3:
+							value = 0;
+							support = 4;
+							return "The weather was so nice today! Too bad I was stuck inside the office :/";
+					}
 				}
 			break;
 			case 2:
+			if(global.currentChoice == 1){
 				switch(choiceValue){
 					case 1:
-					value = 1;
-					support = 2;
-						return "tweet 2:1, temporary text";
+						value = 1;
+						support = 1;
+						return "The People’s Party is officially 50 years old! Here’s to another great 50 years!";
 					case 2:
-					value = 1;
-					support = 1;
-						return "tweet 2:2, temporary text";
+						value = -1;
+						support = 1;
+						return "Have any of you seen that massive party the People’s Party is throwing? They’re so loud and disruptive! I hope everyone who lives nearby has thick walls";
 					case 3:
-					value = 1;
-					support = 1;
-						return "tweet 2:3, temporary text";
+						value = 0;
+						support = 1;
+						return "Going to my parents’ house for dinner later! Can’t wait for some of mom’s cooking :)";
 				}
+			}else if(global.currentChoice == 2){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 2;
+						return "Everyone in the People’s Party is out of control. Their celebration needs to be shut down.";
+					case 2:
+						value = -1;
+						support = 2;
+						return "Channel B News is trying to push the anti-People’s Party narrative again. Aren’t people allowed to have a little fun?";
+					case 3:
+						value = 0;
+						support = 2;
+						return "Going to my parents’ house for dinner later! Can’t wait for some of mom’s cooking :)";
+				}
+			}else if(global.currentChoice == 3){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 3;
+						return "I’m going to watch the World Leaders Conference live when it happens! It’s taking place in the United Federation this year, so exciting";
+					case 2:
+						value = -1;
+						support = 3;
+						return " Looks like the annual World Leaders Conference is taking place soon. It’s always such a waste of time for everyone involved, I don’t know why they keep doing it every year";
+					case 3:
+						value = 0;
+						support = 3;
+						return "Going to my parents’ house for dinner later! Can’t wait for some of mom’s cooking :)";
+				}
+			}else{
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 4;
+						return "Bungies and Bunnies looks like the cutest show! I’ve gotta catch up on all of the episodes";
+					case 2:
+						value = -1;
+						support = 4;
+						return "I can’t believe Bungies and Bunnies is allowed on air. Their treatment of those poor bunnies is awful!";
+					case 3:
+						value = 0;
+						support = 4;
+						return "Going to my parents’ house for dinner later! Can’t wait for some of mom’s cooking :)";
+				}
+			}
 			break;
 			case 3:
+			if(global.currentChoice == 1){
 				switch(choiceValue){
 					case 1:
-					value = 1;
-					support = 1;
-						return "tweet 3:1, temporary text";
+						value = 1;
+						support = 1;
+						return "Clifford Cox’s speech was fantastic! I’m really excited for the new direction the People’s Party is going in";
 					case 2:
-					value = 1;
-					support = 1;
-						return "tweet 3:2, temporary text";
+						value = -1;
+						support = 1;
+						return "Clifford Cox’s speech was so stupid. I can’t believe anyone actually supports them. I’m looking forwards to the Traditionalist Party’s conference since they at least have some sense";
 					case 3:
-					value = 1;
-					support = 1;
-						return "tweet 3:3, temporary text";
+						value = 0;
+						support = 1;
+						return "Tickets for the Hypersound Music Fest are going on sale soon. Should I get one?";
 				}
+			}else if(global.currentChoice == 2){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 2;
+						return "The People’s Party’s entire platform is ridiculous! The Traditionalist Party is the only party that truly has the best interests of the United Federation’s citizens in mind";
+					case 2:
+						value = -1;
+						support = 2;
+						return " Channel B News is running some truly absurd stories on the People’s Party right now. They’re so obviously pushing the Traditionalist Party’s agenda";
+					case 3:
+						value = 0;
+						support = 2;
+						return "Tickets for the Hypersound Music Fest are going on sale soon. Should I get one?";
+				}
+			}else if(global.currentChoice == 3){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 3;
+						return "Looks like I’m not going to wear hats for a while. I don’t want to be associated with that terrorist group :(";
+					case 2:
+						value = -1;
+						support = 3;
+						return "I’m not going to let those terrorists control me! I will continue to wear my hats and you should too!";
+					case 3:
+						value = 0;
+						support = 3;
+						return "Tickets for the Hypersound Music Fest are going on sale soon. Should I get one?";
+				}
+			}else{
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 4;
+						return " I can’t wait for the United Federation’s presidential debate! It’s been so long since it was held in our town";
+					case 2:
+						value = -1;
+						support = 4;
+						return "Having the presidential debate in our town is going to suck :/ Traffic is going to get even worse";
+					case 3:
+						value = 0;
+						support = 4;
+						return "Tickets for the Hypersound Music Fest are going on sale soon. Should I get one?";
+				}
+			}
 				break;
 			case 4:
+			if(global.currentChoice == 1){
 				switch(choiceValue){
 					case 1:
-					value = 1;
-					support = 1;
-						return "tweet 4:1, temporary text";
+						value = 1;
+						support = 1;
+						return " I can’t believe Diana Dixon would launder money! I mean, I can believe it, she’s awful. The audacity, though!";
 					case 2:
-					value = 1;
-					support = 1;
-						return "tweet 4:2, temporary text";
+						value = -1;
+						support = 1;
+						return "I’m so disappointed in A News for running with the money laundering story. These claims are completely unsubstantiated!";
 					case 3:
-					value = 1;
-					support = 1;
-						return "tweet 4:3, temporary text";
+						value = 0;
+						support = 1;
+						return "Just got a new book today! I really want to read it, I just have to find enough time for it :'( ";
 				}
+			}else if(global.currentChoice == 2){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 2;
+						return " I feel so bad for Diana Dixon. Dealing with false accusations must suck :(";
+					case 2:
+						value = -1;
+						support = 2;
+						return "Are people really trying to defend Diana Dixon? Everyone knows she’s untrustworthy. I wouldn’t be surprised if she’s been laundering money this entire time.";
+					case 3:
+						value = 0;
+						support = 2;
+						return "Just got a new book today! I really want to read it, I just have to find enough time for it :'( ";
+				}
+			}else if(global.currentChoice == 3){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 3;
+						return "I’m really happy that the WCN is going to take action against corrupt governments. All countries deserve fair and just leadership!";
+					case 2:
+						value = -1;
+						support = 3;
+						return "Looks like the WCN is going to try and get rid of government corruption again. Did everyone forget what happened last time? This never ends well";
+					case 3:
+						value = 0;
+						support = 3;
+						return "Just got a new book today! I really want to read it, I just have to find enough time for it :'( ";
+				}
+			}else{
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 4;
+						return "Have you seen those poor dogs on the streets? How could their owners be so irresponsible?";
+					case 2:
+						value = -1;
+						support = 4;
+						return "We need to get those dogs off of the street! Construction is going to take even longer now because they’re running wild >:(";
+					case 3:
+						value = 0;
+						support = 4;
+						return "Just got a new book today! I really want to read it, I just have to find enough time for it :'( ";
+				}
+			}
 				break;
 			case 5:
+			if(global.currentChoice == 1){
 				switch(choiceValue){
 					case 1:
-										value = 1;
-					support = 1;
-						return "tweet 5:1, temporary text";
+						value = 1;
+						support = 1;
+						return "I’m proud of Clifford Cox for reporting the information he heard to the proper authorities, even if it turned out to be bad info. Diana Dixon is really milking this whole thing";
 					case 2:
-										value = 1;
-					support = 1;
-						return "tweet 5:2, temporary text";
+						value = -1;
+						support = 1;
+						return "Everyone who is supporting Clifford Cox is a fool. It’s so obvious that he was trying to destroy Diana Dixon’s reputation";
 					case 3:
-										value = 1;
-					support = 1;
-						return "tweet 5:3, temporary text";
+						value = 0;
+						support = 1;
+						return "Tonight is definitely a pizza night. Maybe I should get some garlic knots too? :p";
 				}
+			}else if(global.currentChoice == 2){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 2;
+						return "I’m so glad Diana Dixon is suing Clifford Cox. What he did was shameful and Dixon deserves justice!";
+					case 2:
+						value = -1;
+						support = 2;
+						return "There are some news sources that are determined to make Clifford Cox look like the bad guy. It was just an honest mistake, get over it already :(";
+					case 3:
+						value = 0;
+						support = 2;
+						return "Tonight is definitely a pizza night. Maybe I should get some garlic knots too? :p";
+				}
+			}else if(global.currentChoice == 3){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 3;
+						return "I hope Anozia’s new leader can do good and give the country a brighter future. The earthquake was a disaster, but I believe he can lead the people out of misery.";
+					case 2:
+						value = -1;
+						support = 3;
+						return "Victor von Speeshel looks like a hypocrite. I doubt he will fulfill all his fancy promises, those are all sugar coated lies to help him gain the power";
+					case 3:
+						value = 0;
+						support = 3;
+						return "Tonight is definitely a pizza night. Maybe I should get some garlic knots too? :p";
+				}
+			}else{
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 4;
+						return "Action must be taken, we must not let some extremists control us! We will use our right to protest and take back the hats!";
+					case 2:
+						value = -1;
+						support = 4;
+						return "This is a waste of time, how can a hat symbol matter that much? The protestors need to find something more meaningful than arguing over some icons";
+					case 3:
+						value = 0;
+						support = 4;
+						return "Tonight is definitely a pizza night. Maybe I should get some garlic knots too? :p";
+				}
+			}
 				break;
 			case 6:
+			if(global.currentChoice == 1){
 				switch(choiceValue){
 					case 1:
-										value = 1;
-					support = 1;
-						return "tweet 6:1, temporary text";
+						value = 1;
+						support = 1;
+						return "I’m shocked that Traditionalist Party supporters would resort to violence against the People’s Party, but given their track record, I really shouldn’t be surprised";
 					case 2:
-										value = 1;
-					support = 1;
-						return "tweet 6:2, temporary text";
+						value = -1;
+						support = 1;
+						return "A News is once again trying to pin the blame on supporters of the Traditionalist Party. This is absurd, the People’s Party clearly started the fight!";
 					case 3:
-										value = 1;
-					support = 1;
-						return "tweet 6:3, temporary text";
+						value = 0;
+						support = 1;
+						return "My laptop is starting to slow down. Looks like I’m gonna have to start looking for a new one soon";
 				}
+			}else if(global.currentChoice == 2){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 2;
+						return "Looks like members of the People’s Party get violent when things don’t go their way. Pathetic.";
+					case 2:
+						value = -1;
+						support = 2;
+						return "Channel B News is blaming the People’s Party for the fight that happened today. Everyone knows it was really Traditionalist Party members that started the fight!";
+					case 3:
+						value = 0;
+						support = 2;
+						return "My laptop is starting to slow down. Looks like I’m gonna have to start looking for a new one soon";
+				}
+			}else if(global.currentChoice == 3){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 3;
+						return "I’m so glad the student distributing hate symbols at the University of Anozia was expelled. That kind of behavior cannot be tolerated";
+					case 2:
+						value = -1;
+						support = 3;
+						return "They expelled a student for distributing hats at the University of Anozia. This is ridiculous, hats are NOT a terrorist symbol. It’s time to reclaim the hat!";
+					case 3:
+						value = 0;
+						support = 3;
+						return "My laptop is starting to slow down. Looks like I’m gonna have to start looking for a new one soon";
+				}
+			}else{
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 4;
+						return "I’m going to support the LPN and buy some of their merch. Support them if you can, they’re a great organization!";
+					case 2:
+						value = -1;
+						support = 4;
+						return "Is anyone really buying the LPN merch? What do they even do with all of the money they collect?";
+					case 3:
+						value = 0;
+						support = 4;
+						return "My laptop is starting to slow down. Looks like I’m gonna have to start looking for a new one soon";
+				}
+			}
 			break;
 			case 7:
+			if(global.currentChoice == 1){
 				switch(choiceValue){
 					case 1:
-										value = 1;
-					support = 1;
-						return "tweet 7:1, temporary text";
+						value = 1;
+						support = 1;
+						return "Too bad the assassination attempt on Diana Dixon failed, (but you didn't hear that from me. . .)";
 					case 2:
-										value = 1;
-					support = 1;
-						return "tweet 7:2, temporary text";
+						value = -1;
+						support = 1;
+						return "A News is really claiming that the assassination attempt on Diana Dixon was a PR stunt! I can’t believe any of this is allowed on air!";
 					case 3:
-										value = 1;
-					support = 1;
-						return "tweet 7:3, temporary text";
+						value = 0;
+						support = 1;
+						return "I saw a very cute dog today. Now I’m thinking of getting my own dog";
 				}
+			}else if(global.currentChoice == 2){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 2;
+						return " I’m so glad Diana Dixon is safe. What kind of awful person would try to kill someone else?";
+					case 2:
+						value = -1;
+						support = 2;
+						return "Channel B News accused the People’s Party of the assassination attempt against Diana Dixon. Absolutely disgraceful, they should know better than to spread false information like this";
+					case 3:
+						value = 0;
+						support = 2;
+						return "I saw a very cute dog today. Now I’m thinking of getting my own dog";
+				}
+			}else if(global.currentChoice == 3){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 3;
+						return "The Prime Minister of Anozia is right about the United Federation. Our country could always use improvement!";
+					case 2:
+						value = -1;
+						support = 3;
+						return "Anozia’s Prime Minister should stop sticking his nose where it doesn't belong. He should deal with his own country’s problems before criticizing the United Federation!";
+					case 3:
+						value = 0;
+						support = 3;
+						return "I saw a very cute dog today. Now I’m thinking of getting my own dog";
+				}
+			}else{
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 4;
+						return "It’s about to get cold! Remember to wear extra layers and bring your pets inside";
+					case 2:
+						value = -1;
+						support = 4;
+						return "There’s no way it’s about to get that cold in the United Federation. I’m sure we’re all going to be just fine";
+					case 3:
+						value = 0;
+						support = 4;
+						return "I saw a very cute dog today. Now I’m thinking of getting my own dog";
+				}
+			}
 			break;
 			case 8:
+			if(global.currentChoice == 1){
 				switch(choiceValue){
 					case 1:
-										value = 1;
-					support = 1;
-						return "tweet 8:1, temporary text";
+						value = 1;
+						support = 1;
+						return "I am heartbroken. RIP Clifford Cox. The Traditionalist Party will pay for this.";
 					case 2:
-										value = 1;
-					support = 1;
-						return "tweet 8:2, temporary text";
+						value = -1;
+						support = 1;
+						return "A News is acting like the People’s Party hadn’t recently tried to assassinate Diana Dixon. Unbelievable.";
 					case 3:
-										value = 1;
-					support = 1;
-						return "tweet 8:3, temporary text";
+						value = 0;
+						support = 1;
+						return "I deep cleaned the house today. Feeling very productive!";
 				}
+			}else if(global.currentChoice == 2){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 2;
+						return "Hate to break it to ya, but Clifford Cox had it coming. I certainly won’t be missing him";
+					case 2:
+						value = -1;
+						support = 2;
+						return "Channel B News is defending a murderer! This is insane!";
+					case 3:
+						value = 0;
+						support = 2;
+						return "I deep cleaned the house today. Feeling very productive!";
+				}
+			}else if(global.currentChoice == 3){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 3;
+						return "The United Federation is really on the brink of a civil war. I never expected anything like this to happen in my lifetime";
+					case 2:
+						value = -1;
+						support = 3;
+						return "There is no civil war. Everyone needs to stop overreacting and riling the masses up";
+					case 3:
+						value = 0;
+						support = 3;
+						return "I deep cleaned the house today. Feeling very productive!";
+				}
+			}else{
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 4;
+						return "The local news station has a really helpful list of tips on how to stay safe during these strange times. I figured I’d post this here in case anyone else needed to see it";
+					case 2:
+						value = -1;
+						support = 4;
+						return "Even the local news is pushing the civil war narrative. This has gotten way out of hand. There is no civil war!";
+					case 3:
+						value = 0;
+						support = 4;
+						return "I deep cleaned the house today. Feeling very productive!";
+				}
+			}
 				break;
 			case 9:
+			if(global.currentChoice == 1){
 				switch(choiceValue){
 					case 1:
-						if(global.NewsA > global.NewsB){
-												value = 1;
-					support = 1;
-							return "If any of you want a better future, you should support side A";
-						}else{
-												value = 1;
-					support = 1;
-							return "If you really care about Thisland, you'll support side B";
-						}
+						value = 1;
+						support = 1;
+						return "Such a shame Diana Dixon is missing. We can only hope it’s because she was in the building";
 					case 2:
-										value = 1;
-					support = 1;
-						return "Everyone in Thisland - make a plan in case of an emergency. Times are tough and we all need to be prepared.";
+						value = -1;
+						support = 1;
+						return "Ha! A News isn’t even denying the People’s Party’s acts of violence anymore. It’s time for us to fight against them!";
 					case 3:
-										value = 1;
-					support = 1;
-						return "I'd like to encourage all of Thisland's citizens to flee if you can. Other countries can offer us safety. Go to www.fleeingthisland.com to get more information";
+						value = 0;
+						support = 1;
+						return "No matter how crazy things get out there, please stay safe.";
 				}
+			}else if(global.currentChoice == 2){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 2;
+						return "So many lives lost today due to the People’s Party’s acts of terrorism. We must avenge them!";
+					case 2:
+						value = -1;
+						support = 2;
+						return "Channel B News is actively encouraging violence against members of the People’s Party! We must be prepared. Things are about to get ugly";
+					case 3:
+						value = 0;
+						support = 2;
+						return "No matter how crazy things get out there, please stay safe.";
+				}
+			}else if(global.currentChoice == 3){
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 3;
+						return "This is all a disaster. We can’t even rely on our world leaders to help us out when we need them most";
+					case 2:
+						value = -1;
+						support = 3;
+						return "Our leaders are and have always been incompetent. We can only rely on ourselves when things get tough";
+					case 3:
+						value = 0;
+						support = 3;
+						return "No matter how crazy things get out there, please stay safe.";
+				}
+			}else{
+				switch(choiceValue){
+					case 1:
+						value = 1;
+						support = 4;
+						return "Downtown is no longer safe. Everyone needs to stay safe and stay at home until all of this dies down";
+					case 2:
+						value = -1;
+						support = 4;
+						return "We cannot let those violent fools control our lives. Fleeing our town and abandoning our businesses only encourages those who are fighting in this \"civil war\”";
+					case 3:
+						value = 0;
+						support = 4;
+						return "No matter how crazy things get out there, please stay safe.";
+				}
+			}
 				break;
 			case 10:
-				switch(choiceValue){
-					case 1:
-										value = 1;
-					support = 1;
-						return "tweet 10:1, temporary text";
-					case 2:
-										value = 1;
-					support = 1;
-						return "tweet 10:2, temporary text";
-					case 3:
-										value = 1;
-					support = 1;
-						return "tweet 10:3, temporary text";
-				}
+
 			break;
 		}
 		break;
@@ -1529,7 +1933,7 @@ switch(TextType){
 												value = 1;
 					support = 1;
 							return "Haven't watched it yet. How many episodes are out so far?";
-						}	
+						}
 					case 2:
 						if(global.currentChoice == 4){
 												value = 1;
@@ -1649,7 +2053,7 @@ switch(TextType){
 					support = 1;
 						return "I'm not leaving Thisland. I'm sure this will all blow over in a week";
 					case 3:
-						if(global.NewsA > global.NewsB && global.NewsA > global.NewsG && global.NewsA > global.NewsL){		
+						if(global.NewsA > global.NewsB && global.NewsA > global.NewsG && global.NewsA > global.NewsL){
 												value = 1;
 					support = 1;
 					return "I'm going to stay here and support A. Be careful when you travel to Otherland";
@@ -1705,16 +2109,16 @@ switch(TextType){
 		switch(choiceValue){
 			case 1:
 				//end A
-				return "Your country is in danger. It is up to you, along with all of your fellow citizens, to protect your country and your future. You've decided to join the war and fight for Side A.";
+				return "Your country is in danger. It is up to you, along with all of your fellow citizens, to protect your country and your future. You've decided to join the war and fight for the People's Party.";
 			case 2:
 				//end B
-				return "You know what you must do. Your country is being threatened by radicals. It is your duty as a citizen of Thisland to join Side B and protect your country.";
+				return "You know what you must do. Your country is being threatened by radicals. It is your duty as a citizen of the United Federation to join the Traditionalist Party and protect your country.";
 			case 3:
 				//end G
-				return "These are dangerous times. Thisland is no longer safe. You've decided to flee to Otherland and stay with your family there before things get even worse.";
+				return "These are dangerous times. The United Federation is no longer safe. You've decided to flee to Anozia and stay with your family there before things get even worse.";
 			case 4:
 				//end L
-				return"You have no interest in fighting in the civil war but you're not ready to give up on Thisland yet. You want to protect your home and the town you live in. You, along with several other members of your community, have formed a local militia and intend to keep your town safe while the war is ongoing.";
+				return "You have no interest in fighting in the civil war but you're not ready to give up on the United Federation yet. You want to protect your home and the town you live in. You, along with several other members of your community, have formed a local militia and intend to keep your town safe while the war is ongoing.";
 			case 5:
 				//end N
 				return"Times are tough. Your country is now at war and you're not sure what to do. You're not going to risk your life to fight on either side, but you don't want to leave your home either. You suppose you'll just wait it out.";
@@ -1724,7 +2128,7 @@ switch(TextType){
 	case 8:
 		switch(global.currentCycle){
 		case 1:
-			return "You've gotten home from a very long day at work. You finally have some time to catch up on the news. So many channels, so little time... Which channel will you watch today?";
+			return "You've gotten home from a very long day at work. You finally have some time to catch up on the news. So many channels, so little time. . . Which channel will you watch today?";
 		case 2:
 			return "Day 2";
 		case 3:
