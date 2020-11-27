@@ -620,15 +620,183 @@ switch(TextType){
 							case 1:
 							SetScreen(Sprite_NewsLocal);
 								return "Good evening, United Federation. I am your host, Laura Ficklesticks.";
+							case 2:
+							SetScreen(Sprite_NewsLocal);
+								return "Tonight's report is to inform locals of next week's construction of Main Street. Commuters are encouraged to take alternative routes to avoid certain delays.";
+							case 3:
+							SetScreen(Sprite_NewsLocal);
+								return "The construction is part of the massive United Federation infrastructure project to boost locals into the 21st century in commerce and communication. The UF officials thank you for your patience and support of this project that will lead the UF to economic growth and prosperity. More details at 10.";
+							case 4:
+							SetScreen(Sprite_NewsLocal);
+								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
+						}
 					case 2:
+						switch(global.segmentCounter){
+							case 1:
 							SetScreen(Sprite_NewsLocal);
-								return "Tonight's report is to inform locals of next week's construction of Main Street. Commuters are encouraged to take alternative routes to avoid certain delays.";
+								return "Good evening, United Federation. I am your host, Laura Ficklesticks.";
+							case 2:
+							SetScreen(Sprite_NewsLocal);
+								return "Hit TV show Bungies and Bunnies has made a splash in the ratings among local television watchers as well as a stir in controversies among pet owners and animal rights activists.";
+							case 3:
+							SetScreen(Sprite_NewsLocal);
+								return "Hit TV show Bungies and Bunnies has made a splash in the ratings among local television watchers as well as a stir in controversies among pet owners and animal rights activists.";
+							case 4:
+							SetScreen(Sprite_NewsLocal);
+								return "Showrunner and host, Billie Bin Banister, says their show takes great care of their cast and show animals, but admits some accidents during the testing phases of the show “could have been avoidable.”";
+							case 5:
+							SetScreen(Sprite_NewsLocal);
+								return "The show's premise states they “take bunnies and see where they will bungie” and local tv watchers can't seem to get enough of the adorable cast. The show is scheduled to premier on the Entertainment Channel every week indefinitely.";
+							case 6:
+							SetScreen(Sprite_NewsLocal);
+								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
+						}
 					case 3:
+						switch(global.segmentCounter){
+							case 1:
 							SetScreen(Sprite_NewsLocal);
-								return "Tonight's report is to inform locals of next week's construction of Main Street. Commuters are encouraged to take alternative routes to avoid certain delays.";
-
+								return "Good evening, United Federation. I am your host, Laura Ficklesticks.";
+							case 2:
+							SetScreen(Sprite_NewsLocal);
+								return "The United Federation's Presidential Debate is scheduled to be in town later this month. Candidates have agreed to a friendly debate despite previous clashes in policy stances that lead to inappropriate attacks of character at the previous presidential event.";
+							case 3:
+							SetScreen(Sprite_NewsLocal);
+								return "The debate will take place among a group of bi-partisan citizens as well as outspoken supporters of each party. The local hosting stadium officials have expressed concerns of conduct from both parties and have decided not to open their in house concessions to the debate in hopes of mitigating property risk.";
+							case 4:
+							SetScreen(Sprite_NewsLocal);
+								return "This concern comes from the passionate supporter's reputations of active feuding activities between parties. More on this story after a word from our sponsor: The Local Peace Nations (LPN).";
+							case 5:
+							SetScreen(Sprite_NewsLocal);
+								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
+						}
+					case 4:
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsLocal);
+								return "Good evening, United Federation. I am your host, Laura Ficklesticks.";
+							case 2:
+							SetScreen(Sprite_NewsLocal);
+								return "Local businesses and street vendors have been swarmed by an alarming number of dogs and other pets loose in town. Locals claim a number of these canines were recently adopted from the animal shelter which had vacated their supply to new local pet owners.";
+							case 3:
+							SetScreen(Sprite_NewsLocal);
+								return "Some speculate these new pet owners were unfit to take care of these pets and have simply abandoned them on the street. The delays of Main Street construction have been extended due to a complication of animal safety concern in the community.";
+							case 4:
+							SetScreen(Sprite_NewsLocal);
+								return "Local restaurants are closing their doors to the public in fear of unsanitary conditions among the new roaming street inhabitants. We will continue to provide updates on this story as they arise.";
+							case 5:
+							SetScreen(Sprite_NewsLocal);
+								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
+						}
+					case 5:
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsLocal);
+								return "Good evening, United Federation. I am your host, Laura Ficklesticks.";
+							case 2:
+							SetScreen(Sprite_NewsLocal);
+								return "The community has come together to protest hat wearers who idolize international extremist groups who represent oppression and hatred for democracy.";
+							case 3:
+							SetScreen(Sprite_NewsLocal);
+								return "Local residents have gathered in front of town hall to display banners and picket signs to promote peace and prosperity in the community and possibly take the hat symbol back.";
+							case 4:
+							SetScreen(Sprite_NewsLocal);
+								return "We, the Local newscasters, commend our community for striving for peace in such strange and uncertain times.";
+							case 5:
+							SetScreen(Sprite_NewsLocal);
+								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
+						}
+					case 6:
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsLocal);
+								return "Good evening, United Federation. I am your host, Laura Ficklesticks.";
+							case 2:
+							SetScreen(Sprite_NewsLocal);
+								return "The United Federation division of the Local Peace Nations have taken an initiative to sell t-shirts, wristbands, caps, lanyards, and other LPN branded apparel at political party rallies in an attempt to promote peace among nations.";
+							case 3:
+							SetScreen(Sprite_NewsLocal);
+								return "The non-profit organization has built a reputation of perseverance in the face of adversity and the local rallies are no exception.";
+							case 4:
+							SetScreen(Sprite_NewsLocal);
+								return "The extremist supporters met the LPN with bitter criticisms and taunting, yet the LPN didn't retaliate or falter. The Local newscasters once again commend the strength of the LPN for their furthering of peace in a dire situation.";
+							case 5:
+							SetScreen(Sprite_NewsLocal);
+								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
+						}
+					case 7:
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsLocal);
+								return "Good evening, United Federation. I am your host, Laura Ficklesticks.";
+							case 2:
+							SetScreen(Sprite_NewsLocal);
+								return "Our weather forecast shows temperatures at record lows which is highly irregular in this climate region.";
+							case 3:
+							SetScreen(Sprite_NewsLocal);
+								return "Locals are alarmed at the need to pack thermals on their trip to the beach, farmers are at risk of losing the country's staple harvest this year, and the petting zoo is taking climate control precautions to care for exotic inhabitants who may otherwise not survive the pending change in temperature.";
+							case 4:
+							SetScreen(Sprite_NewsLocal);
+								return "Please stay safe on the roads.";
+							case 5:
+							SetScreen(Sprite_NewsLocal);
+								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
+						}
+					case 8:
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsLocal);
+								return "Good evening, United Federation. I am your host, Laura Ficklesticks.";
+							case 2:
+							SetScreen(Sprite_NewsLocal);
+								return "As tensions rise between the People's Party and the Traditionalist Party, we the Local Newscasters have compiled a list of necessary measures to take in case of a violent political outbreak.";
+							case 3:
+							SetScreen(Sprite_NewsLocal);
+								return "Number 1: Do not travel downtown around town hall for any reason.";
+							case 4:
+							SetScreen(Sprite_NewsLocal);
+								return "Number 2: Limit contact with strangers.";
+							case 5:
+							SetScreen(Sprite_NewsLocal);
+								return "Number 3: Stay indoors. Only leave your homes for bare necessities.";
+							case 6:
+							SetScreen(Sprite_NewsLocal);
+								return "Number 4: Do not open your doors to anyone.";
+							case 7:
+							SetScreen(Sprite_NewsLocal);
+								return "Number 5: Take any necessary outside contact online."
+							case 8:
+							SetScreen(Sprite_NewsLocal);
+								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you...Thank you...";
+						}
+					case 9:
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsLocal);
+								return "Good evening, United Federation. I am your host, Laura Ficklesticks.";
+							case 2:
+							SetScreen(Sprite_NewsLocal);
+								return "Citizens, as our streets are no longer safe, local law enforcement is encouraging all residents to please stay indoors for the safety of you and your families lives.";
+							case 3:
+							SetScreen(Sprite_NewsLocal);
+								return "Downtown is now a war zone that seems to have started with an explosion outside the Traditionalist Party Headquarters.";
+							case 4:
+							SetScreen(Sprite_NewsLocal);
+								return "As the body count continues to rise with no indication of decline, local business owners are seen fleeing their establishments that have become collateral damage in a riot that has never before been documented in the history of the United Federation.";
+							case 5:
+							SetScreen(Sprite_NewsLocal);
+								return "We the Local NewsCaster plead with you our loyal audience, please remain safe and sound and continue to hope for a light in these dark times.";
+							case 6:
+							SetScreen(Sprite_NewsLocal);
+								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you...Thank you...";
+						}
+					case 10:
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsBlack);
+								return "There seems to be text scrolling along the bottom: We the Local News proclaim...The end is near.";
+						}
 				}
-
+				break;
 		}
 		break;
 	//factCheck Selection
