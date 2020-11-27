@@ -10,6 +10,7 @@ switch(TextType){
 		switch(choiceValue){
 			case 1:
 				//current cycle
+				//Channel A
 				switch(global.currentCycle){
 					//Channel A
 					case 1:
@@ -214,6 +215,7 @@ switch(TextType){
 				break;
 			case 2:
 				//current cycle
+				//Channel B
 				switch(global.currentCycle){
 					//Channel B
 					case 1:
@@ -424,6 +426,7 @@ switch(TextType){
 				break;
 			case 3:
 				//current cycle
+				//Global News Channel
 				switch(global.currentCycle){
 					//Global News Channel
 					case 1:
@@ -478,55 +481,152 @@ switch(TextType){
 								return "Do you have the right to bring your pets to work? More global news at 8.";
 						}
 					case 4:
-						return "World News on the Global News Outlet. I am your host, Gary Nerdstrom. \nAnd I am Nelly Ginsy.\n The World Council Negotiators have announced their agenda for the International Leaders Conference. The talking points are to direct attention to corruption in foreign powers that have strayed away from their political leadership values in favor of more corrupt regimes. WCN representatives have made a statement stating that corruption in international governments has boiled over long ago and cannot be ignored any longer and this year's focus at the conference will be to re-enforce our original values that promote peace, prosperity, and philanthropy.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsGlobal);
+								return "World News on the Global News Outlet. I am your host, Gary Nerdstrom.";
+							case 2:
+							SetScreen(Sprite_NewsGlobal);
+								return "And I am Nelly Ginsy.";
+							case 3:
+							SetScreen(Sprite_NewsGlobal);
+								return "The World Council Negotiators have announced their agenda for the International Leaders Conference. The talking points are to direct attention to corruption in foreign powers that have strayed away from their political leadership values in favor of more corrupt regimes.";
+							case 4:
+							SetScreen(Sprite_NewsGlobal);
+								return "WCN representatives have made a statement stating that corruption in international governments has boiled over long ago and cannot be ignored any longer and this year's focus at the conference will be to re-enforce our original values that promote peace, prosperity, and philanthropy.";
+							case 5:
+							SetScreen(Sprite_NewsGlobal);
+								return "What does your hat actually say about you? More global news at 8.";
+						}
 					case 5:
-						return "Exciting news from the Global News Outlet. I am your host, Gary Nerdstrom. \nAnd I am Nelly Ginsy. \nFollowing the earthquakes that devastated OtherLand, Victor Von Speeshel triumphed in the local election by a landslide. With progressive policies aimed at social reform and disaster recovery, it is no wonder why the beloved progressive has been elected almost unanimously. Speeshel says he aims to send relief to the fellow man and workhorse of the establishment instead of enabling his oppressor. This is truly a day for democracy.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsGlobal);
+								return "Exciting news from the Global News Outlet. I am your host, Gary Nerdstrom.";
+							case 2:
+							SetScreen(Sprite_NewsGlobal);
+								return "And I am Nelly Ginsy.";
+							case 3:
+							SetScreen(Sprite_NewsGlobal);
+								return "Following the earthquakes that devastated Anozia, Victor von Speeshel triumphed in the local election by a landslide.";
+							case 4:
+							SetScreen(Sprite_NewsGlobal);
+								return "With progressive policies aimed at social reform and disaster recovery, it is no wonder why the beloved progressive has been elected almost unanimously. Speeshel says he aims to send relief to the fellow man and workhorse of the establishment instead of enabling his oppressor. This is truly a day for democracy.";
+							case 5:
+							SetScreen(Sprite_NewsGlobal);
+								return "Is it cold outside or are you just warmer than usual? More global news at 8.";
+						}
 					case 6:
-						return "Educational news on the Global News Outlet. I am your host, Gary Nerdstrom. \nAnd I am Nelly Ginsy. \nA student at OtherLand University has been expelled for distributing international hate symbols from the international terrorist organization in the form of hats and cryptic messages on merchandise. The cryptic messages have been determined to be threats to the newly appointed Prime Minister of OtherLand. Jeb Dingus has been expelled as well as put on a blacklist of regional colleges and universities of OtherLand for up to four years following a psychiatric evaluation by the state. This isn't the first offense against Mr. Dingus according to the university.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsGlobal);
+								return "Educational news on the Global News Outlet. I am your host, Gary Nerdstrom.";
+							case 2:
+							SetScreen(Sprite_NewsGlobal);
+								return "And I am Nelly Ginsy.";
+							case 3:
+							SetScreen(Sprite_NewsGlobal);
+								return "A student at the University of Anozia has been expelled for distributing hate symbols from international terrorist organizations in the form of hats and cryptic messages on merchandise.The cryptic messages have been determined to be threats to the newly appointed Prime Minister of Anozia.";
+							case 4:
+							SetScreen(Sprite_NewsGlobal);
+								return "Jeb Dingus has been expelled as well as put on a blacklist of regional colleges and universities of Anozia for up to four years following a psychiatric evaluation by the state. This isn't the first offense against Mr. Dingus according to the university.";
+							case 5:
+							SetScreen(Sprite_NewsGlobal);
+								return "Does your bunny have what it takes to be an international bungie star? More global news at 8.";
+						}
 					case 7:
-						return "Controversy news on the Global News Outlet. I am your host, Gary Nerdstrom. \nAnd I am Nelly Ginsy. \nThe newly elected Prime Minister of OtherLand has publicly bashed ThisLand leaders and their reputation of turning a blind eye to police brutality and  treatment of its citizens. The newly elected Prime Minister called out ThisLand officials in a press conference while discussing peaceful reform of law enforcement as part of his 4 year plan in office. We reached out to ThisLand representatives for comment but haven't received a response.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsGlobal);
+								return "Controversial news on the Global News Outlet. I am your host, Gary Nerdstrom.";
+							case 2:
+							SetScreen(Sprite_NewsGlobal);
+								return "And I am Nelly Ginsy.";
+							case 3:
+							SetScreen(Sprite_NewsGlobal);
+								return "The newly elected Prime Minister of Anozia has publicly bashed United Federation leaders and their reputation of turning a blind eye to police brutality and the treatment of their citizens.";
+							case 4:
+							SetScreen(Sprite_NewsGlobal);
+								return "The newly elected Prime Minister called out UF officials in a press conference while discussing peaceful reform of law enforcement as part of his 4 year plan in office. We reached out to UF representatives for comment but haven't received a response.";
+							case 5:
+							SetScreen(Sprite_NewsGlobal);
+								return "5 ways to spot a sincere apology. More global news at 8.";
+						}
 					case 8:
-						return "Wary news from the Global News Outlet. I am your host, Gary Nerstrom. \nAnd I am Nelly Ginsy. \nAs political tensions rise in ThisLand, the world's eyes are directed to the potential civil war about to break over political rivalries. This sudden spike in conflict has world leaders scrambling for resources to provide intel on where their support will be required. While some leaders are participating in support of ThisLand, most are met with inaction. It seems the shock of the matter has leaders waiting to see what happens.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsGlobal);
+								return "Wary news from the Global News Outlet. I am your host, Gary Nerstrom.";
+							case 2:
+							SetScreen(Sprite_NewsGlobal);
+								return "And I am Nelly Ginsy.";
+							case 3:
+							SetScreen(Sprite_NewsGlobal);
+								return "As political tensions rise in the United Federation, the world's eyes are directed to the potential civil war about to break over political rivalries. This sudden spike in conflict has world leaders scrambling for resources to provide intel on where their support will be required.";
+							case 4:
+							SetScreen(Sprite_NewsGlobal);
+								return "While some leaders are participating in support of the United Federation, most are met with inaction. It seems the shock of the matter has leaders waiting to see what happens.";
+							case 5:
+							SetScreen(Sprite_NewsGlobal);
+								return "How will you deal with damages from pets? More global news at 8.";
+						}
 					case 9:
-						return "Breaking news on the Global News Outlet. I am your host, Gary Nerdstrom. \nAnd I am Nelly Ginsy. \nThe International Leaders Conference has come to screeching halt as an emergency meeting among leaders as the state of ThisLand spirals out of control. Alternative news representatives at the conference seem to be contradicting each other's facts regarding the civil war  for the attention of each world leader, ultimately confusing the leaders of action.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsGlobal);
+								return "Breaking news on the Global News Outlet. I am your host, Gary Nerdstrom.";
+							case 2:
+							SetScreen(Sprite_NewsGlobal);
+								return "And I am Nelly Ginsy.";
+							case 3:
+							SetScreen(Sprite_NewsGlobal);
+								return "The International Leaders Conference has come to a screeching halt as an emergency meeting among leaders as the state of the United Federation spirals out of control.";
+							case 4:
+							SetScreen(Sprite_NewsGlobal);
+								return "Alternative news representatives at the conference seem to be contradicting each other's facts regarding the civil war, ultimately confusing the world leaders.";
+							case 5:
+							SetScreen(Sprite_NewsGlobal);
+								return "How does your wallet and investments fare during a civil war? More global news at 8.";
+						}
 					case 10:
-						return "Terminating news from the Global News Outlet. I am your host, Gary Nerdstrom. \nAnd I am Nelly Ginsy. \nWorld Leaders are at odds against each other as civil war assistance program bids contradict international codes and regulations. It seems it will be far too late for aid to arrive in ThisLand during a trying time of civil war. This speaks to the lack of world leader's preparedness to assist in foreign policy so urgently.";
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsGlobal);
+								return "Terminating news from the Global News Outlet. I am your host, Gary Nerdstrom.";
+							case 2:
+							SetScreen(Sprite_NewsGlobal);
+								return "And I am Nelly Ginsy.";
+							case 3:
+							SetScreen(Sprite_NewsGlobal);
+								return "World Leaders are at odds against each other as civil war assistance program bids contradict international codes and regulations.";
+							case 4:
+							SetScreen(Sprite_NewsGlobal);
+								return "It seems it will be far too late for aid to arrive in the United Federation during a trying time of civil war.";
+							case 5:
+							SetScreen(Sprite_NewsGlobal);
+								return "This speaks to the lack of world leader's preparedness to assist in foreign policy so urgently.";
+							case 6:
+							SetScreen(Sprite_NewsGlobal);
+								return "How will the dark, uncertain future affect you and your country? More global news at 8.";
+						}
 				}
-
+				break;
 			case 4:
-
 				//current cycle
+				//Local News Channel
 				switch(global.currentCycle){
 					case 1:
-						SetScreen(Sprite_NewsLocal);
-						return "Good evening, ThisLand. I am your host, Laura Ficklesticks."
+						switch(global.segmentCounter){
+							case 1:
+							SetScreen(Sprite_NewsLocal);
+								return "Good evening, United Federation. I am your host, Laura Ficklesticks.";
 					case 2:
-						SetScreen(Sprite_NewsLocal);
-						return "Good evening, ThisLand. I am your host, Laura Ficklesticks. \n\nHit TV show Bungies and Bunnies have made a splash in the ratings among local television watchers as well as a stir in controversies among pet owners and animal rights activists. Showrunner and host, Billie Bin Banister, says their show takes extra care in treatment of their cast and show animals, but admits some accidents during the testing phases of the show \"could have been avoidable.\" The show's premise states they \"take bunnies and see where they will bungie\" and local tv watchers can't seem to get enough of the adorable cast. The show is scheduled to premier on the Entertainment channel every week indefinitely.";
+							SetScreen(Sprite_NewsLocal);
+								return "Tonight's report is to inform locals of next week's construction of Main Street. Commuters are encouraged to take alternative routes to avoid certain delays.";
 					case 3:
-						SetScreen(Sprite_NewsLocal);
-						return "Good evening, ThisLand. I am your host, Laura Ficklesticks. \n\nThisLand's Presidential Debate is scheduled to be in town this year later this month. Candidates have agreed to a friendly debate despite previous clashes in policy stances that lead to inappropriate attacks of character at the previous presidential event. The debate will take place among a group of bi-partisan citizens as well as outspoken supporters of each party. The local hosting stadium officials have expressed concerns of conduct from both parties and have decided not to open their in house concessions to the debate in hopes of mitigating property risk. This concern comes from the passionate supporter's reputations of active feuding activities between parties. More on this story after a word from our sponsor: The Local Peace Nations (LPN)."				
-					case 4:
-						SetScreen(Sprite_NewsLocal);
-						return "Good evening, ThisLand. I am your host, Laura Ficklesticks. \n\nLocal businesses and street vendors have been swarmed by an alarming number of dogs and other pets loose in town. Locals claim a number of these canines were recently adopted from the animal shelter which had recently vacated their supply to new local pet owners. Some speculate these new pet owners were unfit to take care of these pets and have simply abandoned them on the street. The delays of Main Street construction have been extended due to a complication of animal safety concern in the community. Local restaurants are closing their doors to the public in fear of unsanitary conditions among the new roaming street inhabitants. We will continue to provide updates on this story as they arise.";
-					case 5:
-						SetScreen(Sprite_NewsLocal);
-						return "Good evening, ThisLand. I am your host, Laura Ficklesticks. \n\nThe community has come together to protest hat wearers who idolize international extremist groups who represent oppression and hatred for democracy. Local residents have gathered in front of town hall to display banners and picket signs to promote peace and prosperity in the community and possibly take the hat symbol back. We, the Local NewsCasters commend our community activism for striving for peace in such strange and uncertain times.";
-					case 6:
-						SetScreen(Sprite_NewsLocal);
-						return "Good evening, ThisLand. I am your host, Laura Ficklesticks. \n\nThe ThisLand division of the Local Peace Nations have taken an initiative to sell T-shirts, wristbands, caps, lanyards, and other LPN branded apparel at political party rallies in an attempt to promote peace among nations. The non-profit organization has built a reputation of perseverance in the face of adversity and the local rallies are no exception. The more extremist supporters met the LPN with bitter criticisms and taunting, yet, the LPN didn't retaliate or falter. Local NewsCasters once again commend the strength of the LPN for their furthering of peace in a dire situation.";
-					case 7:
-						SetScreen(Sprite_NewsLocal);
-						return "Good evening, ThisLand. I am your host, Laura Ficklesticks. \n\nOur weather forecast shows temperatures at record lows which is highly irregular in this climate region. Locals are alarmed at the need to pack thermals on their trip to the beach; local farmers are at risk of losing the country's staple harvest export this year; and the local petting zoo is taking climate control precautions to care for exotic inhabitants who may otherwise not survive the pending change in temperature. Please stay safe on the roads.";
-					case 8:
-						SetScreen(Sprite_NewsLocal);
-						return "Good evening, ThisLand. I am your host, Laura Ficklesticks. \n\nAs tensions rise between Party C and Party D, we at Local NewsCasters have compiled a list of necessary measures to take in case of a violent political outbreak. \n1. Do not travel downtown around town hall for any reason. \n2. Limit contact with strangers. \n3. Stay indoors. Only leave your homes for bare necessities. \n4. Do not open your doors to anyone. \n5. Take any necessary outside contact online.";
-					case 9:
-						SetScreen(Sprite_NewsLocal);
-						return "Good evening, ThisLand. I am your host, Laura Ficklesticks. \n\nThisLand, as our streets are no longer safe, local law enforcement is encouraging all residents to please stay in doors for the safety of you and your families lives. Downtown is now a war zone that seems to have started with an explosion outside the Party D Headquarters. As the body count continues to rise with no indication of decline, local business owners are seen fleeing their establishments that have become collateral damage in a riot that has never before been documented in the history of ThisLand. We the Local NewsCaster plead with you our loyal audience, please remain safe and sound and continue to hope for a light in these dark times.";
-					case 10:
-						SetScreen(Sprite_NewsBlack);
-						return "There seems to be text scrolling along the bottom: We the Local NewsCasters proclaim...The end is near.";
+							SetScreen(Sprite_NewsLocal);
+								return "Tonight's report is to inform locals of next week's construction of Main Street. Commuters are encouraged to take alternative routes to avoid certain delays.";
+
 				}
 
 		}
