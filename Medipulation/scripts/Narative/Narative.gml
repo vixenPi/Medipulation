@@ -40,10 +40,10 @@ switch(TextType){
 								SetScreen(Sprite_NewsA);
 								return "Today marks the 50 year anniversary of the People's Party. Members of the People's Party are hosting a celebration tonight. Reporter Adam is on the scene. Adam, how is the celebration going?";
 							case 3:
-								SetScreen(Sprite_NewsA);
+								SetScreen(Sprite_NewsRemote);
 								return "Everything is going well over here, Abigail. There are plenty of people eating, drinking, and overall enjoying themselves. In about 10 minutes, the head of the People's Party is going to make a speech.";
 							case 4:
-								SetScreen(Sprite_NewsA);
+								SetScreen(Sprite_NewsRemote);
 								return "Our sources say they'll go over the party's future plans and policies. Many party members have high hopes that the People's Party will continue to push the progressive policies that benefit us all.";
 							case 5:
 								SetScreen(Sprite_NewsA);
@@ -204,10 +204,10 @@ switch(TextType){
 							case 3:
 								SetScreen(Sprite_NewsA);
 								return "Flee if you must. Stay if you wish to fight.";
-							//case 4:
+							case 4:
 								SetScreen(Sprite_NewsA);
 								return "DUCK!";
-							//case 5:
+							case 5:
 								SetScreen(Sprite_NewsBlack);
 								return ".............";
 						}
@@ -419,8 +419,11 @@ switch(TextType){
 							SetScreen(Sprite_NewsB);
 								return "We can win this. They don't stand a chance against the strong people on our side.";
 							case 5:
+							SetScreen(Sprite_NewsShot);
+								return "WAIT NO!";
+							case 6:
 							SetScreen(Sprite_NewsBlack);
-								return "...........";
+								return "..........";
 						}
 				}
 				break;

@@ -19,7 +19,7 @@ global.factRead = false;
 global.phoneText = [[Text1, Text2,Text3], [Tweet1, Tweet2, Tweet3]];
 
 global.Alenght = [0, 5,6,6,5,6,6,6,6,5,5];
-global.Blenght = [0, 6,6,6,6,6,7,6,5,5,5];
+global.Blenght = [0, 6,6,6,6,6,7,6,5,5,6];
 global.Glenght = [0, 4,5,5,5,5,5,5,5,5,6];
 global.Llenght = [0, 4,6,5,5,5,5,5,8,6,1];
 global.num = 1;
