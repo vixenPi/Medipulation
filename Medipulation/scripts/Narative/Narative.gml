@@ -40,10 +40,10 @@ switch(TextType){
 								SetScreen(Sprite_NewsA);
 								return "Today marks the 50 year anniversary of the People's Party. Members of the People's Party are hosting a celebration tonight. Reporter Adam is on the scene. Adam, how is the celebration going?";
 							case 3:
-								SetScreen(Sprite_NewsA);
+								SetScreen(Sprite_NewsRemote);
 								return "Everything is going well over here, Abigail. There are plenty of people eating, drinking, and overall enjoying themselves. In about 10 minutes, the head of the People's Party is going to make a speech.";
 							case 4:
-								SetScreen(Sprite_NewsA);
+								SetScreen(Sprite_NewsRemote);
 								return "Our sources say they'll go over the party's future plans and policies. Many party members have high hopes that the People's Party will continue to push the progressive policies that benefit us all.";
 							case 5:
 								SetScreen(Sprite_NewsA);
@@ -248,7 +248,7 @@ switch(TextType){
 							SetScreen(Sprite_NewsB);
 								return "Tonight, members of the People's Party are celebrating their 50 year anniversary. Barbara is currently live at the party to give us all of the latest updates. Barbara, can you describe this party for us?";
 							case 3:
-							SetScreen(Sprite_NewsB);
+							SetScreen(Sprite_NewsRemote);
 								return "Yes Bart, I can. It is incredibly loud at this celebration and it seems that many of the attending members are drunk. I heard a fight break out earlier and I believe some arrests have been made. The leader of the People's Party will be coming out to make a speech soon, so hopefully that will calm down this rowdy crowd.";
 							case 4:
 							SetScreen(Sprite_NewsB);
@@ -420,7 +420,7 @@ switch(TextType){
 								return "Oh My God! He has a gun!";
 							case 5:
 							SetScreen(Sprite_NewsBlack);
-								return "...";
+								return ". . .";
 						}
 				}
 				break;
@@ -627,7 +627,7 @@ switch(TextType){
 							SetScreen(Sprite_NewsLocal);
 								return "The construction is part of the massive United Federation infrastructure project to boost locals into the 21st century in commerce and communication. The UF officials thank you for your patience and support of this project that will lead the UF to economic growth and prosperity. More details at 10.";
 							case 4:
-							SetScreen(Sprite_NewsLocal);
+							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
 						}
 					case 2:
@@ -648,7 +648,7 @@ switch(TextType){
 							SetScreen(Sprite_NewsLocal);
 								return "The show's premise states they \"take bunnies and see where they will bungie\" and local tv watchers can't seem to get enough of the adorable cast. The show is scheduled to premier on the Entertainment Channel every week indefinitely.";
 							case 6:
-							SetScreen(Sprite_NewsLocal);
+							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
 						}
 					case 3:
@@ -666,7 +666,7 @@ switch(TextType){
 							SetScreen(Sprite_NewsLocal);
 								return "This concern comes from the passionate supporter's reputations of active feuding activities between parties. More on this story after a word from our sponsor: The Local Peace Nations (LPN).";
 							case 5:
-							SetScreen(Sprite_NewsLocal);
+							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
 						}
 					case 4:
@@ -684,7 +684,7 @@ switch(TextType){
 							SetScreen(Sprite_NewsLocal);
 								return "Local restaurants are closing their doors to the public in fear of unsanitary conditions among the new roaming street inhabitants. We will continue to provide updates on this story as they arise.";
 							case 5:
-							SetScreen(Sprite_NewsLocal);
+							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
 						}
 					case 5:
@@ -702,7 +702,7 @@ switch(TextType){
 							SetScreen(Sprite_NewsLocal);
 								return "We, the Local newscasters, commend our community for striving for peace in such strange and uncertain times.";
 							case 5:
-							SetScreen(Sprite_NewsLocal);
+							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
 						}
 					case 6:
@@ -720,7 +720,7 @@ switch(TextType){
 							SetScreen(Sprite_NewsLocal);
 								return "The extremist supporters met the LPN with bitter criticisms and taunting, yet the LPN didn't retaliate or falter. The Local newscasters once again commend the strength of the LPN for their furthering of peace in a dire situation.";
 							case 5:
-							SetScreen(Sprite_NewsLocal);
+							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
 						}
 					case 7:
@@ -738,7 +738,7 @@ switch(TextType){
 							SetScreen(Sprite_NewsLocal);
 								return "Please stay safe on the roads.";
 							case 5:
-							SetScreen(Sprite_NewsLocal);
+							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
 						}
 					case 8:
@@ -765,7 +765,7 @@ switch(TextType){
 							SetScreen(Sprite_NewsLocal);
 								return "Number 5: Take any necessary outside contact online."
 							case 8:
-							SetScreen(Sprite_NewsLocal);
+							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you...Thank you...";
 						}
 					case 9:
@@ -786,7 +786,7 @@ switch(TextType){
 							SetScreen(Sprite_NewsLocal);
 								return "We the Local NewsCaster plead with you our loyal audience, please remain safe and sound and continue to hope for a light in these dark times.";
 							case 6:
-							SetScreen(Sprite_NewsLocal);
+							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you...Thank you...";
 						}
 					case 10:
