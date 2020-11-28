@@ -807,217 +807,217 @@ switch(TextType){
 			case 1:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 1-A, temporary text";
+						return "Fire in Oakvale";
 					case 2:
-						return "What does party B stand for?";
+						return "Fire in Oakvale";
 					case 3:
-						return "Fact 1-G, temporary text";
+						return "Devastating Earthquake Strikes Anozia";
 					case 4:
-						return "Fact 1-L, temporary text";
+						return "Road Closures";
 				}
 			break;
 			case 2:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 2-A, temporary text";
+						return "Climate Change Rally Cut Short in Oakvale";
 					case 2:
-						return "Local Road Closures";
+						return "Climate Change Rally Cut Short in Oakvale";
 					case 3:
-						return "Fact 2-G, temporary text";
+						return "Moving Forwards from Anozia’s Earthquake";
 					case 4:
-						return "Fact 2-L, temporary text";
+						return "United Federation Infrastructure Project";
 				}
 				break;
 			case 3:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 3-A, temporary text";
+						return "50 Years of the People's Party";
 					case 2:
-						return "Fact 3-B, temporary text";
+						return "50 Years of the People's Party";
 					case 3:
-						return "Fact 3-G, temporary text";
+						return "The International Leaders Conference: What You Need to Know";
 					case 4:
-						return "Fact 3-L, temporary text";
+						return "Animals Harmed in the Making of Bungies and Bunnies";
 				}
 					break;
 			case 4:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 4-A, temporary text";
+						return "Celebrating 50 Years of the People's Party";
 					case 2:
-						return "Fact 4-B, temporary text";
+						return "Celebrating 50 Years of the People's Party";
 					case 3:
-						return "Fact 4-G, temporary text"
+						return "The Great Saltine Fiasco"
 					case 4:
-						return "Fact 4-L, temporary text";
+						return "Animal Rights Activists React to Bungies and Bunnies";
 				}
 					break;
 			case 5:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 5-A, temporary text";
+						return "The Future of the People's Party";
 					case 2:
-						return "Fact 5-B, temporary text";
+						return "The Future of the People's Party";
 					case 3:
-						return "Fact 5-G, temporary text";
+						return "Extremist Groups Claim Hats as Their Symbol";
 					case 4:
-						return"Fact 5-L, temporary text";
+						return"The United Federation’s Upcoming Presidential Debate";
 				}
 					break;
 			case 6:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 6-A, temporary text";
+						return "No Arrests Made at People's Party Celebration";
 					case 2:
-						return "Fact 6-B, temporary text";
+						return "No Arrests Made at People's Party Celebration";
 					case 3:
-						return "Fact 6-G, temporary text";
+						return "Extremist Groups Decline to Comment on Hat Claims";
 					case 4:
-						return "Fact 6-L, temporary text";
+						return "Presidential Debate Location FAQ";
 				}
 					break;
 			case 7:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 7-A, temporary text";
+						return "Diana Dixon Accused of Money Laundering";
 					case 2:
-						return "Fact 7-B, temporary text";
+						return "Diana Dixon Accused of Money Laundering";
 					case 3:
-						return "Fact 7-G, temporary text";
+						return "Topics for This Year’s International Leaders Conference";
 					case 4:
-						return "Fact 7-L, temporary text";
+						return "Dogs Swarm Main Street";
 				}
 					break;
 			case 8:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 8-A, temporary text";
+						return "Diana Dixon Unable to Comment on Accusations";
 					case 2:
-						return "Fact 8-B, temporary text";
+						return "Diana Dixon Unable to Comment on Accusations";
 					case 3:
-						return "Fact 8-G, temporary text";
+						return "Government Corruption Around the World";
 					case 4:
-						return"Fact 8-L, temporary text";
+						return"Main Street Construction Delays";
 				}
 					break;
 			case 9:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 9-A, temporary text";
+						return "Diana Dixon’s Accuser Revealed";
 					case 2:
-						return "Fact 9-B, temporary text";
+						return "Diana Dixon’s Accuser Revealed";
 					case 3:
-						return "Fact 9-G, temporary text";
+						return "Victor von Speeshel to be the Next Prime Minister of Anozia";
 					case 4:
-						return "Fact 9-L, temporary text";
+						return "Extremist Groups Claim Hats as Their Symbol";
 				}
 					break;
 			case 10:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 10-A, temporary text";
+						return "Diana Dixon Taking Clifford Cox to Court";
 					case 2:
-						return "Fact 10-B, temporary text";
+						return "Diana Dixon Taking Clifford Cox to Court";
 					case 3:
-						return "Fact 10-G, temporary text";
+						return "Victor von Speeshel’s Policies";
 					case 4:
-						return "Fact 10-L, temporary text";
+						return "Local Peace Rally Tries to Reclaim Hats";
 				}
 					break;
 			case 11:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 1-A, temporary text";
+						return "Dixon v. Cox: What You Need to Know";
 					case 2:
-						return"Fact 1-B, temporary text";
+						return"Dixon v. Cox: What You Need to Know";
 					case 3:
-						return "Fact 1-G, temporary text";
+						return "Student at the University of Anozia Expelled for Distributing Hate Symbols";
 					case 4:
-						return"Fact 1-L, temporary text";
+						return"Local Peace Nations Merch On Sale Now!";
 				}
 					break;
 			case 12:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 2-A, temporary text";
+						return "Dixon and Cox Supporters Clash Outside Courthouse?";
 					case 2:
-						return "Fact 2-B, temporary text";
+						return "Dixon and Cox Supporters Clash Outside Courthouse";
 					case 3:
-						return "Fact 2-G, temporary text";
+						return "Who is Jeb Dingus?";
 					case 4:
-						return "Fact 2-L, temporary text";
+						return "Local Peace Nation Stands Strong During Rallies";
 				}
 					break;
 			case 13:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 3-A, temporary text";
+						return "Assassination Attempt on Diana Dixon";
 					case 2:
-						return "Fact 3-B, temporary text";
+						return "Assassination Attempt on Diana Dixon";
 					case 3:
-						return "Fact 3-G, temporary text";
+						return "Victor von Speeshel Encourages Change in the United Federation";
 					case 4:
-						return "Fact 3-L, temporary text";
+						return "Climate in the United Federation";
 				}
 					break;
 			case 14:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 4-A, temporary text";
+						return "What’s Inside Dixon’s Delivery?";
 					case 2:
-						return "Fact 4-B, temporary text";
+						return "What’s Inside Dixon’s Delivery?";
 					case 3:
-						return "Fact 4-G, temporary text"
+						return "Police Brutality in the United Federation"
 					case 4:
-						return "Fact 4-L, temporary text";
+						return "Drastic Temperature Drop in the United Federation";
 				}
 					break;
 			case 15:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 5-A, temporary text";
+						return "Clifford Cox Assassinated";
 					case 2:
-						return "Fact 5-B, temporary text";
+						return "Clifford Cox Assassinated";
 					case 3:
-						return "Fact 5-G, temporary text";
+						return "Can We Expect Civil War in the United Federation?";
 					case 4:
-						return"Fact 5-L, temporary text";
+						return"People's Party Leader Murdered in Broad Daylight";
 				}
 					break;
 			case 16:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 6-A, temporary text";
+						return "Traditionalist Party Member Responsible for Assassinating Cox";
 					case 2:
-						return "Fact 6-B, temporary text";
+						return "Traditionalist Party Member Responsible for Assassinating Cox";
 					case 3:
-						return "Fact 6-G, temporary text";
+						return "Worldwide Response to Potential Civil War";
 					case 4:
-						return "Fact 6-L, temporary text";
+						return "How to Stay Safe in the United Federation";
 				}
 					break;
 			case 17:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 7-A, temporary text";
+						return "Explosion at Traditionalist Party Headquarters";
 					case 2:
-						return "Fact 7-B, temporary text";
+						return "Explosion at Traditionalist Party Headquarters";
 					case 3:
-						return "Fact 7-G, temporary text";
+						return "International Leaders Conference Cancelled";
 					case 4:
-						return "Fact 7-L, temporary text";
+						return "War Breaks Out in the United Federation";
 				}
 					break;
 			case 18:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 8-A, temporary text";
+						return "Diana Dixon Missing";
 					case 2:
-						return "Fact 8-B, temporary text";
+						return "Diana Dixon Missing";
 					case 3:
-						return "Fact 8-G, temporary text";
+						return "New Information Confuses World Leaders";
 					case 4:
-						return"Fact 8-L, temporary text";
+						return"Local Businesses Shut Down as Civil War Begins";
 				}
 					break;
 			case 19:
@@ -1054,217 +1054,217 @@ switch(TextType){
 			case 1:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 1-A, temporary text";
+						return "At 10 o’clock this morning, several emergency services calls were made to report a fire in Oakvale. Firefighters quickly arrived at the scene and were eventually able to put out the fire, which burned 20 acres of land. The fire was reported to have started at a climate change rally";
 					case 2:
-						return"Several sections of Main Street will be undergoing heavy construction. Expect Main Street to be closed for several weeks while construction is ongoing.";
+						return"At 10 o’clock this morning, several emergency services calls were made to report a fire in Oakvale. Firefighters quickly arrived at the scene and were eventually able to put out the fire, which burned 20 acres of land. The fire was reported to have started at a climate change rally.";
 					case 3:
-						return "Fact 1-G, temporary text";
+						return "At 6:00 this morning, Anozia was hit by a 7.1 earthquake. The earthquake could be felt throughout the entire country. Many of the country’s buildings were badly damaged and several hundred deaths have been reported at this time.";
 					case 4:
-						return"Fact 1-L, temporary text";
+						return"Several sections of Main Street will be undergoing heavy construction. Expect Main Street to be closed for several weeks while construction is ongoing.";
 				}
 			break;
 			case 2:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 2-A, temporary text";
+						return "A climate change rally that was taking place in Oakvale was cut short this morning after a fire broke out. Participants in the rally were there to support green energy and new policies that would limit carbon emissions. Several sources have accused various sides of starting the fire, but no cause is known at this time.";
 					case 2:
-						return "Several sections of Main Street will be undergoing heavy construction. Expect Main Street to be closed for several weeks while construction is ongoing.";
+						return "A climate change rally that was taking place in Oakvale was cut short this morning after a fire broke out. Participants in the rally were there to support green energy and new policies that would limit carbon emissions. Several sources have accused various sides of starting the fire, but no cause is known at this time.";
 					case 3:
-						return "Fact 2-G, temporary text";
+						return "After tragedy struck Anozia this morning, the country’s citizens are now looking towards their government for aid. The current administration has declined to comment on how they will respond to this disaster. Many of the candidates who are running for Prime Minister in Anozia have released statements and new disaster relief plans to the public.";
 					case 4:
-						return "Fact 2-L, temporary text";
+						return "Several major commercial areas in the United Federation will be updated starting next week. Government officials are hoping that updating these commercial areas will encourage more people to shop there. Additionally, this project will generate more jobs, which will hopefully boost the economy.";
 				}
 				break;
 			case 3:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 3-A, temporary text";
+						return "50 years ago today, the People's Party was officially founded. Their platform has always been a more progressive one, though some feel their policies are too extreme. The People’s Party is one of the two most popular parties in the United Federation. Their longtime rivals, the Traditionalist Party, is the other most popular party.";
 					case 2:
-						return "Fact 3-B, temporary text";
+						return "50 years ago today, the People's Party was officially founded. Their platform has always been a more progressive one, though some feel their policies are too extreme. The People’s Party is one of the two most popular parties in the United Federation. Their longtime rivals, the Traditionalist Party, is the other most popular party.";
 					case 3:
-						return "Fact 3-G, temporary text";
+						return "This year's International Leaders Conference will be held in the United Federation. All world leaders who are part of the World Council Negotiators are planning on attending. The goal of the ILC is to discuss world policy and implement new world policies for the betterment of the planet.";
 					case 4:
-						return "Fact 3-L, temporary text";
+						return "During the testing phases of the hit new show Bungies and Bunnies, several bunnies were injured. No bunnies were killed, but several of them suffered from broken bones and sprains.";
 				}
 					break;
 			case 4:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 4-A, temporary text";
+						return "Tonight, the People's Party will be celebrating their 50 year anniversary. Anyone who would like to participate in the festivities is welcome to join. Near the end of the celebration, Clifford Cox, the current leader of the People's Party, will be making a speech. He will be addressing the future of the People's Party as well as going over some new policy stances.";
 					case 2:
-						return "Fact 4-B, temporary text";
+						return "Tonight, the People's Party will be celebrating their 50 year anniversary. Anyone who would like to participate in the festivities is welcome to join. Near the end of the celebration, Clifford Cox, the current leader of the People's Party, will be making a speech. He will be addressing the future of the People's Party as well as going over some new policy stances.";
 					case 3:
-						return "Fact 4-G, temporary text"
+						return "Chaos broke out during last year’s International Leaders Conference when nearly 200 rabid raccoons infiltrated the building. Strangely, the raccoons only seemed interested in eating the saltine crackers that were supposed to be served at lunch along with a selection of soups. All raccoons will be removed from this year’s location and saltines will be banned from the building."
 					case 4:
-						return "Fact 4-L, temporary text";
+						return "After an anonymous source revealed that multiple bunnies were injured during the making of Bungies and Bunnies, several prominent animal rights activists groups responded. Many of these groups are calling for boycotts and some are trying to get the show taken off air.";
 				}
 					break;
 			case 5:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 5-A, temporary text";
+						return "Last night, at the end of the 50 year anniversary celebration of the People's Party, Clifford Cox gave his speech. He plans to push the party in a more progressive direction. These new stances have stirred up some controversy and their political opponents seem less than pleased.";
 					case 2:
-						return "Fact 5-B, temporary text";
+						return "Last night, at the end of the 50 year anniversary celebration of the People's Party, Clifford Cox gave his speech. He plans to push the party in a more progressive direction. These new stances have stirred up some controversy and their political opponents seem less than pleased.";
 					case 3:
-						return "Fact 5-G, temporary text";
+						return "Multiple international extremist groups have claimed hats as their symbol. These groups have claimed that wearing hats shows support for their groups. These groups have attempted these types of stunts before and are simply trying to stir up controversy.";
 					case 4:
-						return"Fact 5-L, temporary text";
+						return"The United Federation’s presidential debate will be between the leaders of the People's Party, Clifford Cox, and the Traditionalist Party, Diana Dixon. Both candidates have agreed to be cordial during this debate, despite their past issues.";
 				}
 					break;
 			case 6:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 6-A, temporary text";
+						return "Some news sources falsely claimed that several people were arrested after the People's Party Celebration. Local law enforcement officers have confirmed that no arrests were made at the celebration";
 					case 2:
-						return "Fact 6-B, temporary text";
+						return "Some news sources falsely claimed that several people were arrested after the People's Party Celebration. Local law enforcement officers have confirmed that no arrests were made at the celebration.";
 					case 3:
-						return "Fact 6-G, temporary text";
+						return "After multiple extremist groups claimed that wearing hats was a sign of support for their ideals, various news sources reached out to them for comment. All of the extremist groups refused to provide further information and one representative simply tipped his hat whenever he was asked a question.";
 					case 4:
-						return "Fact 6-L, temporary text";
+						return "Are there bathrooms in the stadium? -Yes, there are located at the South, West, and East Entrances.  Is accessible seating avaliable? -Yes, we do offer accessible seating. If you require accessible seating, please make sure you purchase a ticket for an accessible seat. If you require any additional accommodations, please contact us. Will concessions be avaliable? -Due to past events, we have decided to limit our concession services during the presidential debate. Bottled water will be available for purchase but no other concessions will be offered.";
 				}
 					break;
 			case 7:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 7-A, temporary text";
+						return "Diana Dixon, the leader of the Traditionalist Party, was recently accused of money laundering. The accuser has chosen to remain anonymous. An official investigation is currently underway. Dixon has not been proven guilty at this time";
 					case 2:
-						return "Fact 7-B, temporary text";
+						return "Diana Dixon, the leader of the Traditionalist Party, was recently accused of money laundering. The accuser has chosen to remain anonymous. An official investigation is currently underway. Dixon has not been proven guilty at this time.";
 					case 3:
-						return "Fact 7-G, temporary text";
+						return "The World Council Negotiators have officially released the main topics of interest for this year’s ILC. The WCN hopes to tackle government corruption in several countries as well as global carbon emissions.";
 					case 4:
-						return "Fact 7-L, temporary text";
+						return "About 150 dogs ran freely on Main Street earlier today. These dogs were all from PawPals, one of the largest animal shelters in the United Federation. PawPals’ management has said that this is the result of a disgruntled, recently fired employee who set the dogs loose as an act of revenge. They would like to make it clear that they screen potential adopters very thoroughly and would not give any animals to people deemed unfit for pet ownership";
 				}
 					break;
 			case 8:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 8-A, temporary text";
+						return "Diana Dixon, the leader of the Traditionalist Party, was recently accused of money laundering. Several news sources have reached out to her for further comments, but she has not spoken to any reporters at this time. All reporters have been directed to her lawyers for further comments";
 					case 2:
-						return "Fact 8-B, temporary text";
+						return "Diana Dixon, the leader of the Traditionalist Party, was recently accused of money laundering. Several news sources have reached out to her for further comments, but she has not spoken to any reporters at this time. All reporters have been directed to her lawyers for further comments.";
 					case 3:
-						return "Fact 8-G, temporary text";
+						return "According to surveys conducted by the University of Anozia, the United Federation is ranked as the 15th most corrupt country in the world. They have the highest corruption ranking out of all of the more developed countries. The World  COuncil Negotiators is hoping to curb government corruption in this year’s International Leaders Conference.";
 					case 4:
-						return"Fact 8-L, temporary text";
+						return"Due to the dog incident earlier today, construction on Main Street will be delayed. Some of the building materials and tools were damaged or stolen by the dogs, so the project is now behind by more than several days.";
 				}
 					break;
 			case 9:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 9-A, temporary text";
+						return "Yesterday, Diana Dixon, the leader of the Traditionalist Party, was accused of money laundering. A quick investigation soon proved these accusations to be false. The accuser was revealed to be Clifford Cox, the leader of the People's Party.";
 					case 2:
-						return "Fact 9-B, temporary text";
+						return "Yesterday, Diana Dixon, the leader of the Traditionalist Party, was accused of money laundering. A quick investigation soon proved these accusations to be false. The accuser was revealed to be Clifford Cox, the leader of the People's Party.";
 					case 3:
-						return "Fact 9-G, temporary text";
+						return "Victor von Speeshel recently confirmed his victory in the race for the next Prime Minister of Anozia. He beat his opponents by a moderate amount, but some are calling this a landslide victory.";
 					case 4:
-						return "Fact 9-L, temporary text";
+						return "Multiple international extremist groups have claimed hats as their symbol. These groups have claimed that wearing hats shows support for their groups. These groups have attempted these types of stunts before and are simply trying to stir up controversy.";
 				}
 					break;
 			case 10:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 10-A, temporary text";
+						return "Diana Dixon has announced her intentions to take Clifford Cox to court after he falsely accused her of money laundering. Dixon is suing Cox for defamation and emotional damages. Cox’s motivation for the accusations he made against Dixon are not known at this time";
 					case 2:
-						return "Fact 10-B, temporary text";
+						return "Diana Dixon has announced her intentions to take Clifford Cox to court after he falsely accused her of money laundering. Dixon is suing Cox for defamation and emotional damages. Cox’s motivation for the accusations he made against Dixon are not known at this time.";
 					case 3:
-						return "Fact 10-G, temporary text";
+						return "Victor von Speeshel is a truly progressive candidate. While there was a significant number of people who initially opposed his policies, the recent earthquake has driven citizens of Anozia to vote for him. Speeshel has a detailed emergency relief plan which will be implemented as soon as he officially takes office. Speeshel’s policies aim to help the working class as much as possible.";
 					case 4:
-						return "Fact 10-L, temporary text";
+						return "Shortly after several international extremist groups claimed that wearing hats showed support of their groups, many locals traveled to town hall with signs in an attempt to fight back against these groups. The locals’ goal was to promote peace and take back the hat. The rally dispersed after 2 hours.";
 				}
 					break;
 			case 11:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 1-A, temporary text";
+						return "Today the Dixon v. Cox case was officially heard in court. The hearing was several hours long and there is no verdict yet. Supporters for both Dixon and Cox gathered outside the courthouse, but they had no impact on the hearing.";
 					case 2:
-						return"Fact 1-B, temporary text";
+						return"Today the Dixon v. Cox case was officially heard in court. The hearing was several hours long and there is no verdict yet. Supporters for both Dixon and Cox gathered outside the courthouse, but they had no impact on the hearing.";
 					case 3:
-						return "Fact 1-G, temporary text";
+						return "Jeb Dingus, a former student at the University of Anozia, was recently expelled for distributing hate symbols to his fellow students. Dingus was giving out hats and shirts with messages that were explicit threats towards the newly elected prime minister, Victor von Speeshel.";
 					case 4:
-						return"Fact 1-L, temporary text";
+						return"The Local Peace Nations have decided to start selling LPN merch. 100% of the proceeds go directly to the LPN and will be used to fund future LPN endeavors. For more information, please visit www.localpeacenations.com";
 				}
 					break;
 			case 12:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 2-A, temporary text";
+						return "Earlier today, a large crowd of people gathered outside the courthouse where the Dixon v. Cox case was being argued. Some of the people were there in support of Dixon, while others were there in support of Cox. About two hours into the hearing, those on opposing sides in the crowd began to fight. The fight quickly turned physical but the police officers at the scene were able to disperse it. The exact cause of the fight is unknown.";
 					case 2:
-						return "Fact 2-B, temporary text";
+						return "Earlier today, a large crowd of people gathered outside the courthouse where the Dixon v. Cox case was being argued. Some of the people were there in support of Dixon, while others were there in support of Cox. About two hours into the hearing, those on opposing sides in the crowd began to fight. The fight quickly turned physical but the police officers at the scene were able to disperse it. The exact cause of the fight is unknown.";
 					case 3:
-						return "Fact 2-G, temporary text";
+						return "Jeb Dingus is a 20 year old male who was expelled from the University of Anozia after he distributed hate symbols to other students. Dingus was, by all accounts, an entirely normal person up until the recent incidents. His friends and family were shocked that he was involved with international extremist groups. Dingus had several minor complaints lodged against him at the University of Anozia over the past three months, but these were all unrelated to any extremist activity.";
 					case 4:
-						return "Fact 2-L, temporary text";
+						return "At some recent political rallies, the LPN was faced with taunts from extremist group supporters. The LPN is well-known for appearing at political events and promoting peaceful solutions to hotly debated problems. Members of these extremist groups attempted to scare away or rile up members of the LPN, but they refused to acknowledge their presence.";
 				}
 					break;
 			case 13:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 3-A, temporary text";
+						return "At 3 p.m. today, a suspicious package was delivered to Diana Dixon’s residence. The authorities were immediately contacted and the package was removed. This is likely in response to the recent controversies surrounding Dixon. Dixon is unharmed and there are no suspects at this time.";
 					case 2:
-						return "Fact 3-B, temporary text";
+						return "At 3 p.m. today, a suspicious package was delivered to Diana Dixon’s residence. The authorities were immediately contacted and the package was removed. This is likely in response to the recent controversies surrounding Dixon. Dixon is unharmed and there are no suspects at this time.";
 					case 3:
-						return "Fact 3-G, temporary text";
+						return "Victor von Speeshel, the newly elected prime minister of Anozia, gave a speech today in preparation for the International Leaders Conference that will take place in a few weeks. Speeshel most notably discussed the United Federation and had declared that he intends to address their corrupt government at the conference. Speeshel became especially heated while discussing the United Federation’s law enforcement which has upset many UF citizens.";
 					case 4:
-						return "Fact 3-L, temporary text";
+						return "The United Federation is a large country with varying climate throughout. Summers in the United Federation are generally very warm in all areas of the country. Average summer temperatures are usually upwards of 80° fahrenheit.";
 				}
 					break;
 			case 14:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 4-A, temporary text";
+						return "Earlier today, a suspicious package was delivered to Diana Dixon’s residence. The authorities were contacted and they removed the package. Upon further inspection, they found a bomb inside it. The bomb was successfully deactivated and no one was injured.";
 					case 2:
-						return "Fact 4-B, temporary text";
+						return "Earlier today, a suspicious package was delivered to Diana Dixon’s residence. The authorities were contacted and they removed the package. Upon further inspection, they found a bomb inside it. The bomb was successfully deactivated and no one was injured.";
 					case 3:
-						return "Fact 4-G, temporary text"
+						return "The United Federation has not had a long history of police brutality. Issues with law enforcement have become much more prevalent under the current administration. Despite this being a known problem, neither of the two main parties in the United Federation have planned to address this issue in the upcoming debates."
 					case 4:
-						return "Fact 4-L, temporary text";
+						return "A major cold front is bringing unusually cold weather to the United Federation. Certain areas of the country may drop to as low as 10° fahrenheit. While no snow is expected, be prepared for cold weather and icy conditions.";
 				}
 					break;
 			case 15:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 5-A, temporary text";
+						return "Clifford Cox was shot dead as he left his office this evening. Cox must have died instantly, according to medical professionals who later arrived at the scene. The assassin is currently in custody.";
 					case 2:
-						return "Fact 5-B, temporary text";
+						return "Clifford Cox was shot dead as he left his office this evening. Cox must have died instantly, according to medical professionals who later arrived at the scene. The assassin is currently in custody.";
 					case 3:
-						return "Fact 5-G, temporary text";
+						return "As tensions rise between the United Federation’s two major political parties, more and more people are questioning whether or not a civil war is on the horizon. If steps are not immediately taken in order to mitigate any conflict between the two sides, civil war is almost certainly going to break out.";
 					case 4:
-						return"Fact 5-L, temporary text";
+						return"Clifford Cox, the leader of the People's Party, was shot dead earlier today. A member of the Traditionalist Party has been taken into custody after he was seen leaving the scene of the crime with a gun. Law enforcement believes he was motivated to commit this crime by the increasing tension between the People's Party and the Traditionalist Party.";
 				}
 					break;
 			case 16:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 6-A, temporary text";
+						return "Clifford Cox, the leader of the People's Party, was shot dead this evening as he left his office. The assassin was immediately taken into custody. When he was questioned, the assassin stated that he was motivated by revenge. He believed that members of the People's Party were responsible for the attempt on Diana Dixon’s life and he wanted to get revenge on the behalf of Dixon and the entire Traditionalist Party.";
 					case 2:
-						return "Fact 6-B, temporary text";
+						return "Clifford Cox, the leader of the People's Party, was shot dead this evening as he left his office. The assassin was immediately taken into custody. When he was questioned, the assassin stated that he was motivated by revenge. He believed that members of the People's Party were responsible for the attempt on Diana Dixon’s life and he wanted to get revenge on the behalf of Dixon and the entire Traditionalist Party.";
 					case 3:
-						return "Fact 6-G, temporary text";
+						return "Several prominent world leaders have promised to send aid to the United Federation if civil war does break out. Some leaders have also sworn to take in any refugees from the United Federation. Victor von Speeshel has been very vocal in his support of the citizens of the United Federation. He said that all UF citizens are welcome in Anozia and that the UF can count on as much Anozian aid as they need to make it through these dark times.";
 					case 4:
-						return "Fact 6-L, temporary text";
+						return "Increasing political unrest has made the United Federation a dangerous place to be. Law enforcement is recommending citizens to stay home as much as possible. Areas with government buildings should be avoided.";
 				}
 					break;
 			case 17:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 7-A, temporary text";
+						return "This just in: A massive explosion has destroyed the Traditionalist Party’s office building. Several deaths and injuries have been reported but there is no official number yet. Emergency responders are currently on the scene. Several witnesses claimed to have seen a suspicious group of people running from the building shortly before the explosion. Some witnesses said they heard the group shout “For the People's Party!” The People's Party and its members have not claimed responsibility for this incident at this time.";
 					case 2:
-						return "Fact 7-B, temporary text";
+						return "This just in: A massive explosion has destroyed the Traditionalist Party’s office building. Several deaths and injuries have been reported but there is no official number yet. Emergency responders are currently on the scene. Several witnesses claimed to have seen a suspicious group of people running from the building shortly before the explosion. Some witnesses said they heard the group shout “For the People's Party!” The People's Party and its members have not claimed responsibility for this incident at this time.";
 					case 3:
-						return "Fact 7-G, temporary text";
+						return "This year’s International Leaders Conference was initially scheduled to take place in the United Federation. After recent events, the United Federation is now in the midst of a civil war. Due to this, the ILC is cancelled this year. World leaders are now focused on how to best help the UF but hope to reschedule the conference should current events allow it.";
 					case 4:
-						return "Fact 7-L, temporary text";
+						return "The United Federation is officially in the midst of a civil war. Several large-scale fights have broken out in major cities across the country. There is no official casualty report as of yet.";
 				}
 					break;
 			case 18:
 				switch(global.factsChannel[choiceValue]){
 					case 1:
-						return "Fact 8-A, temporary text";
+						return "Diana Dixon is nowhere to be found following the explosion at the Traditionalist Party’s headquarters. Reporters could get in contact with her personal assistant, who said she was not at the building when the explosion happened. However, no one is able to contact Dixon herself. No bodies matching her description have been found at the building either.";
 					case 2:
-						return "Fact 8-B, temporary text";
+						return "Diana Dixon is nowhere to be found following the explosion at the Traditionalist Party’s headquarters. Reporters could get in contact with her personal assistant, who said she was not at the building when the explosion happened. However, no one is able to contact Dixon herself. No bodies matching her description have been found at the building either.";
 					case 3:
-						return "Fact 8-G, temporary text";
+						return "Representatives from both the People's Party and the Traditionalist Party have spoken to world leaders about the ongoing civil war in the United Federation. Each representative was more focused on trying to tear down their opposer than trying to communicate with the world leaders. Several world leaders have declined to give specific comments on what happened during this interaction, but they all have confirmed that they are no longer sure what the best course of action is.";
 					case 4:
-						return"Fact 8-L, temporary text";
+						return"With conflicts in almost every major city in the United Federation, many business owners have had no choice but to shut down their businesses. Many people will lose their jobs as a result of the civil war.";
 				}
 					break;
 			case 19:
