@@ -1900,87 +1900,137 @@ switch(TextType){
 				switch(choiceValue){
 					case 1:
 						if(global.currentChoice == 3){
-												value = 1;
-					support = 1;
-							return "I saw that on the news earlier! I'll give them a call later and see how they're doing";
+							value = 0;
+							support = 3;
+							return "I saw that on the news earlier! I’ll give them a call later and see how they’re doing";
 						}else {
-							return "No, I didn't see that. I'm glad they're ok";
+							value = 0;
+							support = 1;
+							return "No, I didn’t see that. I’m glad they’re ok";
 						}
 					case 2:
 						if(global.currentChoice == 3){
-												value = 1;
-					support = 1;
-							return "I was just watching the footage of the earthquake. I'm going to donate to the relief fund";
+							value = 1;
+							support = 3;
+							return "I was just watching the footage of the earthquake. I’m going to donate to the relief fund";
 						}else{
-												value = 1;
-					support = 1;
-							return "Oh, I wasn't paying attention to the global news. Otherland is always dealing with earthquakes, I'm sure they'll be fine";
+							value = 0;
+							support = 1;
+							return "Oh, I wasn’t paying attention to the global news. Anozia is always dealing with earthquakes, I’m sure they’ll be fine";
 						}
 					case 3:
-										value = 1;
-					support = 1;
-						return "Well, they have a change to remodel now";
+					if(global.currentChoice == 3){
+						value = -1;
+						support = 3;
+						return "Yeah, I saw it on the news earlier. The earthquake didn’t seem that bad, I’m sure they’ll be fine";
+					}else{
+						value = 0;
+						support = 3;
+						return "I didn’t see that, I should have been paying closer attention to the global news! I’ll reach out to them and see how they’re doing";
+					}
 				}
 				break;
 			case 2:
 				switch(choiceValue){
 					case 1:
 						if(global.currentChoice == 4){
-												value = 1;
-					support = 1;
-							return "I'm not going to support that show. I don't like the way they treat the animals";
+							value = 1;
+							support = 4;
+							return "I’m not going to support that show. I don’t like the way they treat the animals";
 						}else{
-												value = 1;
-					support = 1;
-							return "Haven't watched it yet. How many episodes are out so far?";
+							value = 0;
+							support = 4;
+							return "Haven’t watched it yet. How many episodes are out so far?";
 						}
 					case 2:
 						if(global.currentChoice == 4){
-												value = 1;
-					support = 1;
-							return "I'm gonna start watching it soon. Have you seen all of the controversy about the show? Those animal rights activists are so annoying lmao";
+							value = -1;
+							support = 4;
+							return "I’m gonna start watching it soon. Have you seen all of the controversy about the show? Those animal rights activists are so annoying lmao";
 						}else{
-												value = 1;
-					support = 1;
-							return "I've heard a lot of great things about that show. It's on my to-watch list";
+							value = 0;
+							support = 4;
+							return "I’ve heard a lot of great things about that show. It’s on my to-watch list";
 						}
 					case 3:
-										value = 1;
-					support = 1;
-						return "If you like it, it's probably dumb";
+						if(global.currentChoice == 4){
+							value = 0;
+							support = 4;
+							return "I’ve heard about it but idk if I’m going to watch it because I saw some not so great things about it on the news";
+						}else{
+							value = 0;
+							support = 4;
+							return "I haven’t heard about that show. What’s it about?";
+						}
 				}
 				break;
 			case 3:
-				switch(choiceValue){
-					case 1:
-										value = 1;
-					support = 1;
-						return "Responce 3:1, temporary text";
-					case 2:
-										value = 1;
-					support = 1;
-						return "Responce 3:2, temporary text";
-					case 3:
-										value = 1;
-					support = 1;
-						return "Responce 3:3, temporary text";
+			switch(choiceValue){
+				case 1:
+					if(global.currentChoice == 3){
+						value = -1;
+						support = 3;
+						return "Yeah, I heard about it while I was watching the global news. I’m not going to get rid of my hats";
+					}else {
+						value = 0;
+						support = 1;
+						return "No, I must’ve missed that. Can you fill me in on what happened?";
+					}
+				case 2:
+					if(global.currentChoice == 3){
+						value = 1;
+						support = 3;
+						return "I saw the whole thing earlier. Idk, I think I’m gonna get rid of my hats. I don’t want to be associated with them at all :(";
+					}else{
+						value = 0;
+						support = 1;
+						return "Where’d you get this info from? Send me the link so I can look into it";
+					}
+				case 3:
+				if(global.currentChoice == 3){
+					value = -1;
+					support = 3;
+					return "Yep. I don’t know what I’m going to do yet. I’m waiting to see everyone else is going to do first before I get rid of all of my hats";
+				}else{
+					value = 0;
+					support = 3;
+					return "Getting rid of your hats? That sounds ridiculous lol";
 				}
+			}
 				break;
 			case 4:
-				switch(choiceValue){
-					case 1:
-										value = 1;
-					support = 1;
-						return "I'm sure she's guilty. Have you seen the way she's been acting recently?";
-					case 2:
-										value = 1;
-					support = 1;
-						return "I know, I can't believe it either! She really doesn't need to be dealing with this additional stress right now, I feel bad for her";
-					case 3:
-										value = 1;
-					support = 1;
-						return "No, I haven't been keeping up with politics. What happened?";
-				}
+			switch(choiceValue){
+				case 1:
+					if(global.currentChoice == 4){
+						value = 1;
+						support = 4;
+						return "I’m not going to support that show. I don’t like the way they treat the animals";
+					}else{
+						value = 0;
+						support = 4;
+						return "Haven’t watched it yet. How many episodes are out so far?";
+					}
+				case 2:
+					if(global.currentChoice == 4){
+						value = -1;
+						support = 4;
+						return "I’m gonna start watching it soon. Have you seen all of the controversy about the show? Those animal rights activists are so annoying lmao";
+					}else{
+						value = 0;
+						support = 4;
+						return "I’ve heard a lot of great things about that show. It’s on my to-watch list";
+					}
+				case 3:
+					if(global.currentChoice == 4){
+						value = 0;
+						support = 4;
+						return "I’ve heard about it but idk if I’m going to watch it because I saw some not so great things about it on the news";
+					}else{
+						value = 0;
+						support = 4;
+						return "I haven’t heard about that show. What’s it about?";
+					}
+			}
 				break;
 			case 5:
 				switch(choiceValue){
