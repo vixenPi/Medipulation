@@ -2147,17 +2147,17 @@ switch(TextType){
 				case 1:
 				//find max
 				//news a
-					if(global.currentChoice[1] > global.currentChoice[2] && global.currentChoice[1] > global.currentChoice[3] && global.currentChoice[1] > global.currentChoice[4]){
+					if(global.NewsA > global.NewsB && global.NewsA > global.NewsG && global.NewsA > global.NewsL){
 						value = 1;
 						support = 1;
 						return "I'm going to stay here and support the People's Party. Be careful when you travel to Anozia";
 				//news b
-					}else if(global.currentChoice[2] > global.currentChoice[1] && global.currentChoice[2] > global.currentChoice[3] && global.currentChoice[2] > global.currentChoice[4]){
+					}else if(global.NewsB > global.NewsA && global.NewsB > global.NewsG && global.NewsB > global.NewsL){
 						value = 1;
 						support = 2;
 						return "No, I didn't hear what he had to say. I'm guessing it's not too good based on your text";
 				//global
-					}else if(global.currentChoice[3] > global.currentChoice[1] && global.currentChoice[3] > global.currentChoice[2] && global.currentChoice[3] > global.currentChoice[4]){
+					}else if(global.NewsG > global.NewsA && global.NewsG > global.NewsB && global.NewsG > global.NewsL){
 					value = 1;
 					support = 3;
 						return "When are you leaving? I might come with you if there's enough room for all of us";
@@ -2183,17 +2183,17 @@ switch(TextType){
 				case 1:
 				//find max
 				//news a
-					if(global.currentChoice[1] > global.currentChoice[2] && global.currentChoice[1] > global.currentChoice[3] && global.currentChoice[1] > global.currentChoice[4]){
+					if(global.NewsA > global.NewsB && global.NewsA > global.NewsG && global.NewsA > global.NewsL){
 						value = 1;
 						support = 1;
 						return "You all should support the People's Party in the war. It's the best thing we could do for our country.";
 				//news b
-					}else if(global.currentChoice[2] > global.currentChoice[1] && global.currentChoice[2] > global.currentChoice[3] && global.currentChoice[2] > global.currentChoice[4]){
+					}else if(global.NewsB > global.NewsA && global.NewsB > global.NewsG && global.NewsB > global.NewsL){
 						value = 1;
 						support = 2;
 						return "You all should support the Traditionalist Party in the war. It's the best thing we could do for our country.";
 				//global
-					}else if(global.currentChoice[3] > global.currentChoice[1] && global.currentChoice[3] > global.currentChoice[2] && global.currentChoice[3] > global.currentChoice[4]){
+					}else if(global.NewsG > global.NewsA && global.NewsG > global.NewsB && global.NewsG > global.NewsL){
 					value = -1;
 					support = 3;
 						return "I know one thing for sure - we should all stay out of this civil war business";
