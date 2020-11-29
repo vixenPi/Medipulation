@@ -496,7 +496,7 @@ switch(TextType){
 								return "The World Council Negotiators have announced their agenda for the International Leaders Conference. The talking points are to direct attention to corruption in foreign powers that have strayed away from their political leadership values in favor of more corrupt regimes.";
 							case 4:
 							SetScreen(Sprite_NewsGlobal);
-								return "WCN representatives have made a statement stating that corruption in international governments has boiled over long ago and cannot be ignored any longer and this year's focus at the conference will be to re-enforce our original values that promote peace, prosperity, and philanthropy.";
+								return "WCN representatives have made a statement stating that \"corruption in international governments has boiled over long ago and cannot be ignored any longer as this year's focus at the conference will be to re-enforce our original values that promote peace, prosperity, and philanthropy.\"";
 							case 5:
 							SetScreen(Sprite_NewsGlobal);
 								return "What does your hat actually say about you? More global news at 8.";
@@ -643,14 +643,11 @@ switch(TextType){
 								return "Hit TV show Bungies and Bunnies has made a splash in the ratings among local television watchers as well as a stir in controversies among pet owners and animal rights activists.";
 							case 3:
 							SetScreen(Sprite_NewsLocal);
-								return "Hit TV show Bungies and Bunnies has made a splash in the ratings among local television watchers as well as a stir in controversies among pet owners and animal rights activists.";
+								return "Showrunner and host, Billie Bin Banister, says their show takes great care of their cast and show animals, but admits some accidents during the testing phases of the show \"could have been avoidable.\"";
 							case 4:
 							SetScreen(Sprite_NewsLocal);
-								return "Showrunner and host, Billie Bin Banister, says their show takes great care of their cast and show animals, but admits some accidents during the testing phases of the show \"could have been avoidable.\"";
-							case 5:
-							SetScreen(Sprite_NewsLocal);
 								return "The show's premise states they \"take bunnies and see where they will bungie\" and local tv watchers can't seem to get enough of the adorable cast. The show is scheduled to premier on the Entertainment Channel every week indefinitely.";
-							case 6:
+							case 5:
 							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
 						}
@@ -703,7 +700,7 @@ switch(TextType){
 								return "Local residents have gathered in front of town hall to display banners and picket signs to promote peace and prosperity in the community and possibly take the hat symbol back.";
 							case 4:
 							SetScreen(Sprite_NewsLocal);
-								return "We, the Local newscasters, commend our community for striving for peace in such strange and uncertain times.";
+								return "We, the Local Newscasters, commend our community for striving for peace in such strange and uncertain times.";
 							case 5:
 							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
