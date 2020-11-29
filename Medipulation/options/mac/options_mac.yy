@@ -6,7 +6,7 @@
   "option_mac_team_id": "",
   "option_mac_signing_identity": "",
   "option_mac_copyright": "",
-  "option_mac_splash_png": "${base_options_dir}\\mac\\splash\\splash.png",
+  "option_mac_splash_png": "${base_options_dir}/mac/splash/splash.png",
   "option_mac_icon_png": "${options_dir}/mac/icons/1024.png",
   "option_mac_menu_dock": false,
   "option_mac_display_cursor": true,

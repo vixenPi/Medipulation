@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"61bafe90-7ae1-470b-b017-d52edb715af8","path":"sprites/phone/phone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"61bafe90-7ae1-470b-b017-d52edb715af8","path":"sprites/phone/phone.yy",},"LayerId":{"name":"f6d24618-3df1-4d25-a12a-dcaa1d79135a","path":"sprites/phone/phone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"61bafe90-7ae1-470b-b017-d52edb715af8","path":"sprites/phone/phone.yy",},"LayerId":{"name":"01f75696-4a23-4fd1-807c-a47f7653e752","path":"sprites/phone/phone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"61bafe90-7ae1-470b-b017-d52edb715af8","path":"sprites/phone/phone.yy",},"LayerId":{"name":"f6d24618-3df1-4d25-a12a-dcaa1d79135a","path":"sprites/phone/phone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"phone","path":"sprites/phone/phone.yy",},"resourceVersion":"1.0","name":"61bafe90-7ae1-470b-b017-d52edb715af8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
