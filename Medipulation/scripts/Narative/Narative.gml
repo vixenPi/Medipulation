@@ -792,7 +792,7 @@ switch(TextType){
 					case 10:
 						switch(global.segmentCounter){
 							case 1:
-							SetScreen(Sprite_NewsBlack);
+							SetScreen(Sprite_NewsNoSignal);
 								return "There seems to be text scrolling along the bottom: We the Local News proclaim...The end is near.";
 						}
 				}
