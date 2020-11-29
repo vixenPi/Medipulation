@@ -2,8 +2,11 @@
 // You can write your code in this editor
 
 if(global.segmentCounter < maxSegment){
-global.segmentCounter ++;
-Obj_TextBox.index = 0;
+	global.segmentCounter ++;
+	Obj_TextBox.index = 0;
+	if(global.segmentCounter == 5 && global.currentCycle == 10 && global.currentChoice == 2){
+		audio_play_sound(snd_shot, 1, false);
+	}
 } else if (global.segmentCounter == maxSegment){
 	if(global.currentCycle >= global.numNewsCycle ){
 		global.state = -1;
