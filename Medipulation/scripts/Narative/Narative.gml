@@ -414,17 +414,14 @@ switch(TextType){
 								return "This just in - the president has declared a state of emergency as a civil war erupts. You know what to do, folks. It's time to wipe out that People's Party scum for good.";
 							case 3:
 							SetScreen(Sprite_NewsB);
-<<<<<<< Updated upstream
-=======
 								return "If you really care about the fate of this country, you will stay and fight for the Traditionalist Party.";
 							case 4:
 							SetScreen(Sprite_NewsB);
->>>>>>> Stashed changes
 								return "We can win this. They don't stand a chance against the strong people on our side.";
-							case 4:
+							case 5:
 							SetScreen(Sprite_NewsShot);
 								return "WAIT NO!";
-							case 5:
+							case 6:
 							SetScreen(Sprite_NewsBlack);
 								return "...";
 						}
