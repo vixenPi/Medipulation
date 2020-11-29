@@ -402,7 +402,7 @@ switch(TextType){
 								return "Keep watching the news, stay informed, and be prepared. Now is the time to get your children to a safe place. Good luck.";
 							case 5:
 							SetScreen(Sprite_NewsBlack);
-								return ".............";
+								return "...";
 						}
 					case 10:
 						switch(global.segmentCounter){
@@ -411,16 +411,22 @@ switch(TextType){
 								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
 							case 2:
 							SetScreen(Sprite_NewsB);
-								return "This just in - the president has declared a state of emergency as a civil war erupts. You know what to do, folks. It's time to wipe out that People's Party scum for good. If you really care about the fate of this country, you will stay and fight for the Traditionalist Party.";
+								return "This just in - the president has declared a state of emergency as a civil war erupts. You know what to do, folks. It's time to wipe out that People's Party scum for good.";
 							case 3:
 							SetScreen(Sprite_NewsB);
+<<<<<<< Updated upstream
+=======
+								return "If you really care about the fate of this country, you will stay and fight for the Traditionalist Party.";
+							case 4:
+							SetScreen(Sprite_NewsB);
+>>>>>>> Stashed changes
 								return "We can win this. They don't stand a chance against the strong people on our side.";
 							case 4:
 							SetScreen(Sprite_NewsShot);
 								return "WAIT NO!";
 							case 5:
 							SetScreen(Sprite_NewsBlack);
-								return "..........";
+								return "...";
 						}
 				}
 				break;
