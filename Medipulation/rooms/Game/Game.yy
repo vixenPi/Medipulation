@@ -75,6 +75,7 @@
           ],"isDnd":false,"objectId":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":12.333334,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":298.0,"y":768.0,"resourceVersion":"1.0","name":"Text3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_RecivedText","path":"objects/Obj_RecivedText/Obj_RecivedText.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":13.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":258.0,"y":768.0,"resourceVersion":"1.0","name":"TextR","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_ScrollImage","path":"objects/Obj_ScrollImage/Obj_ScrollImage.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":8.0,"scaleY":6.781609,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":712.0,"y":161.0,"resourceVersion":"1.0","name":"inst_6CC82BED","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_send","path":"objects/Obj_send/Obj_send.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.0,"scaleY":6.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":814.0,"y":858.0,"resourceVersion":"1.0","name":"inst_308DB25F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Messages_4","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_FactCheck_BG","path":"objects/Obj_FactCheck_BG/Obj_FactCheck_BG.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":18.0,"scaleY":23.9999981,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":272.0,"y":177.0,"resourceVersion":"1.0","name":"FactText","tags":[],"resourceType":"GMRInstance",},
@@ -228,6 +229,7 @@
     {"name":"inst_4E82432A","path":"rooms/Game/Game.yy",},
     {"name":"inst_576630D3","path":"rooms/Game/Game.yy",},
     {"name":"inst_6CC82BED","path":"rooms/Game/Game.yy",},
+    {"name":"inst_308DB25F","path":"rooms/Game/Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
