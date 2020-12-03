@@ -897,7 +897,7 @@ switch(TextType){
 					case 3:
 						return "Government Corruption Around the World";
 					case 4:
-						return"Main Street Construction Delays";
+						return "Main Street Construction Delays";
 				}
 					break;
 			case 9:
@@ -929,11 +929,11 @@ switch(TextType){
 					case 1:
 						return "Dixon v. Cox: What You Need to Know";
 					case 2:
-						return"Dixon v. Cox: What You Need to Know";
+						return "Dixon v. Cox: What You Need to Know";
 					case 3:
 						return "Student at the University of Anozia Expelled for Distributing Hate Symbols";
 					case 4:
-						return"Local Peace Nations Merch On Sale Now!";
+						return "Local Peace Nations Merch On Sale Now!";
 				}
 					break;
 			case 12:
@@ -981,7 +981,7 @@ switch(TextType){
 					case 3:
 						return "Can We Expect Civil War in the United Federation?";
 					case 4:
-						return"People's Party Leader Murdered in Broad Daylight";
+						return "People's Party Leader Murdered in Broad Daylight";
 				}
 					break;
 			case 16:
@@ -1017,7 +1017,7 @@ switch(TextType){
 					case 3:
 						return "New Information Confuses World Leaders";
 					case 4:
-						return"Local Businesses Shut Down as Civil War Begins";
+						return "Local Businesses Shut Down as Civil War Begins";
 				}
 					break;
 			case 19:
@@ -1056,11 +1056,11 @@ switch(TextType){
 					case 1:
 						return "At 10 o'clock this morning, several emergency services calls were made to report a fire in Oakvale. Firefighters quickly arrived at the scene and were eventually able to put out the fire, which burned 20 acres of land. The fire was reported to have started at a climate change rally";
 					case 2:
-						return"At 10 o'clock this morning, several emergency services calls were made to report a fire in Oakvale. Firefighters quickly arrived at the scene and were eventually able to put out the fire, which burned 20 acres of land. The fire was reported to have started at a climate change rally.";
+						return "At 10 o'clock this morning, several emergency services calls were made to report a fire in Oakvale. Firefighters quickly arrived at the scene and were eventually able to put out the fire, which burned 20 acres of land. The fire was reported to have started at a climate change rally.";
 					case 3:
 						return "At 6:00 this morning, Anozia was hit by a 7.1 earthquake. The earthquake could be felt throughout the entire country. Many of the country's buildings were badly damaged and several hundred deaths have been reported at this time.";
 					case 4:
-						return"Several sections of Main Street will be undergoing heavy construction. Expect Main Street to be closed for several weeks while construction is ongoing.";
+						return "Several sections of Main Street will be undergoing heavy construction. Expect Main Street to be closed for several weeks while construction is ongoing.";
 				}
 			break;
 			case 2:
@@ -1331,7 +1331,7 @@ switch(TextType){
 						case 2:
 							value = -1;
 							support = 1;
-							return "Of course A News is promoting those \"climate change\” protesters. I'm sure they're in league with Big Solar!";
+							return "Of course A News is promoting those \"climate change\" protesters. I'm sure they're in league with Big Solar!";
 						case 3:
 							value = 0;
 							support = 1;
@@ -1472,7 +1472,7 @@ switch(TextType){
 					case 2:
 						value = -1;
 						support = 2;
-						return " Channel B News is running some truly absurd stories on the People's Party right now. They're so obviously pushing the Traditionalist Party's agenda";
+						return "Channel B News is running some truly absurd stories on the People's Party right now. They're so obviously pushing the Traditionalist Party's agenda";
 					case 3:
 						value = 0;
 						support = 2;
@@ -1498,7 +1498,7 @@ switch(TextType){
 					case 1:
 						value = 1;
 						support = 4;
-						return " I can't wait for the United Federation's presidential debate! It's been so long since it was held in our town";
+						return "I can't wait for the United Federation's presidential debate! It's been so long since it was held in our town";
 					case 2:
 						value = -1;
 						support = 4;
@@ -1516,7 +1516,7 @@ switch(TextType){
 					case 1:
 						value = 1;
 						support = 1;
-						return " I can't believe Diana Dixon would launder money! I mean, I can believe it, she's awful. The audacity, though!";
+						return "I can't believe Diana Dixon would launder money! I mean, I can believe it, she's awful. The audacity, though!";
 					case 2:
 						value = -1;
 						support = 1;
@@ -1531,7 +1531,7 @@ switch(TextType){
 					case 1:
 						value = 1;
 						support = 2;
-						return " I feel so bad for Diana Dixon. Dealing with false accusations must suck :(";
+						return "I feel so bad for Diana Dixon. Dealing with false accusations must suck :(";
 					case 2:
 						value = -1;
 						support = 2;
@@ -1720,7 +1720,7 @@ switch(TextType){
 					case 1:
 						value = 1;
 						support = 2;
-						return " I'm so glad Diana Dixon is safe. What kind of awful person would try to kill someone else?";
+						return "I'm so glad Diana Dixon is safe. What kind of awful person would try to kill someone else?";
 					case 2:
 						value = -1;
 						support = 2;
@@ -1880,7 +1880,7 @@ switch(TextType){
 					case 2:
 						value = -1;
 						support = 4;
-						return "We cannot let those violent fools control our lives. Fleeing our town and abandoning our businesses only encourages those who are fighting in this \"civil war\”";
+						return "We cannot let those violent fools control our lives. Fleeing our town and abandoning our businesses only encourages those who are fighting in this \"civil war\"";
 					case 3:
 						value = 0;
 						support = 4;
