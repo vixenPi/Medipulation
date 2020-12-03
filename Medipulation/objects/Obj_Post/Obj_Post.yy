@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "tweetbutton",
-    "path": "sprites/tweetbutton/tweetbutton.yy",
+    "name": "sprite_social",
+    "path": "sprites/sprite_social/sprite_social.yy",
   },
   "solid": false,
   "visible": true,
