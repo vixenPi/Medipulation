@@ -941,7 +941,7 @@ switch(TextType){
 					case 1:
 						return "Dixon and Cox Supporters Clash Outside Courthouse?";
 					case 2:
-						return "Dixon and Cox Supporters Clash Outside Courthouse";
+						return "Dixon and Cox Supporters Clash Outside Courthouse?";
 					case 3:
 						return "Who is Jeb Dingus?";
 					case 4:
