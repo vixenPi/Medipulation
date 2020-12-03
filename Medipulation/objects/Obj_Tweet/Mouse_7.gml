@@ -1,4 +1,5 @@
-if(!global.sent){
+
+if(!global.post){
 	if(select){
 		select = false;
 		curFrame = 1;

@@ -59,6 +59,7 @@
             {"propertyId":{"name":"index","path":"objects/MasterText/MasterText.yy",},"objectId":{"name":"MasterText","path":"objects/MasterText/MasterText.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"Obj_Tweet","path":"objects/Obj_Tweet/Obj_Tweet.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":15.666667,"scaleY":2.33333325,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":768.0,"resourceVersion":"1.0","name":"Tweet3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_ScrollImage","path":"objects/Obj_ScrollImage/Obj_ScrollImage.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":8.0,"scaleY":6.781609,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":712.0,"y":161.0,"resourceVersion":"1.0","name":"inst_4B936CAB","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_postSocial","path":"objects/Obj_postSocial/Obj_postSocial.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.0,"scaleY":6.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":814.0,"y":858.0,"resourceVersion":"1.0","name":"inst_17E8EC6A","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":700,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Social_3","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
@@ -230,6 +231,7 @@
     {"name":"inst_576630D3","path":"rooms/Game/Game.yy",},
     {"name":"inst_6CC82BED","path":"rooms/Game/Game.yy",},
     {"name":"inst_308DB25F","path":"rooms/Game/Game.yy",},
+    {"name":"inst_17E8EC6A","path":"rooms/Game/Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

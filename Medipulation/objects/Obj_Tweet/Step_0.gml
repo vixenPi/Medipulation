@@ -1,4 +1,6 @@
-if(global.sent && !select){
+/// @description Insert description here
+// You can write your code in this editor
+if(global.post && !select){
 curFrame = 4;
 } else if(mouse_y < global.screenBottom && mouse_y > global.screenTop && mouse_x > x && mouse_x < x +sprite_width &&mouse_y > y && mouse_y < y +sprite_height && !select){
 	curFrame = 1;
