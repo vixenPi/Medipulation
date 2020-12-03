@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 10,
+  "bbox_right": 9,
   "bbox_top": 0,
   "bbox_bottom": 9,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 11,
+  "width": 10,
   "height": 10,
   "textureGroupId": {
     "name": "Default",
@@ -24,14 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bba87e0c-748c-4f2e-a672-1be776f694c2","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bba87e0c-748c-4f2e-a672-1be776f694c2","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":{"name":"7c2fa32a-ee54-4926-bfe6-ef3bbfbef0a0","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"bba87e0c-748c-4f2e-a672-1be776f694c2","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":{"name":"fc5edb35-bcb7-4543-9e00-259051a92892","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"tweetbutton","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"bba87e0c-748c-4f2e-a672-1be776f694c2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"99418efd-8911-475b-8baf-a271cc5dc751","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"99418efd-8911-475b-8baf-a271cc5dc751","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":{"name":"fc5edb35-bcb7-4543-9e00-259051a92892","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"99418efd-8911-475b-8baf-a271cc5dc751","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":{"name":"7c2fa32a-ee54-4926-bfe6-ef3bbfbef0a0","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"tweetbutton","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"99418efd-8911-475b-8baf-a271cc5dc751","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4beba1f6-ea8f-49a5-9f29-10497843972f","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4beba1f6-ea8f-49a5-9f29-10497843972f","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":{"name":"5d8c88fe-a921-408f-977c-361b39bc06d7","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"tweetbutton","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"4beba1f6-ea8f-49a5-9f29-10497843972f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"546d3bef-2c08-41ee-89f8-0ed5fd910e3a","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"546d3bef-2c08-41ee-89f8-0ed5fd910e3a","path":"sprites/tweetbutton/tweetbutton.yy",},"LayerId":{"name":"5d8c88fe-a921-408f-977c-361b39bc06d7","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"tweetbutton","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","name":"546d3bef-2c08-41ee-89f8-0ed5fd910e3a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"tweetbutton","path":"sprites/tweetbutton/tweetbutton.yy",},
@@ -46,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"566e51b7-9b41-4c5c-974a-48c948a1be99","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bba87e0c-748c-4f2e-a672-1be776f694c2","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"7319199e-7f06-4b2c-bf67-e990ee901b55","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"99418efd-8911-475b-8baf-a271cc5dc751","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f4f37254-d72a-4bbc-9e89-7515b2f29e4e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4beba1f6-ea8f-49a5-9f29-10497843972f","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5a4b23b1-a42e-4413-8a55-ac58abf14925","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"546d3bef-2c08-41ee-89f8-0ed5fd910e3a","path":"sprites/tweetbutton/tweetbutton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -71,8 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"fc5edb35-bcb7-4543-9e00-259051a92892","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7c2fa32a-ee54-4926-bfe6-ef3bbfbef0a0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5d8c88fe-a921-408f-977c-361b39bc06d7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "UI Buttons",

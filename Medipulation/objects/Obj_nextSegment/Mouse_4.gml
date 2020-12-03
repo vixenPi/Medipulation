@@ -4,7 +4,7 @@
 if(global.segmentCounter < maxSegment){
 	global.segmentCounter ++;
 	Obj_TextBox.index = 0;
-	if(global.segmentCounter == 5 && global.currentCycle == 10 && global.currentChoice == 2){
+	if(global.segmentCounter == 6 && global.currentCycle == 10 && global.currentChoice == 2){
 		audio_play_sound(snd_shot, 1, false);
 	}
 } else if (global.segmentCounter == maxSegment){

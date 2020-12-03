@@ -204,10 +204,10 @@ switch(TextType){
 							case 3:
 								SetScreen(Sprite_NewsA);
 								return "Flee if you must. Stay if you wish to fight.";
-							//case 4:
+							case 4:
 								SetScreen(Sprite_NewsA);
 								return "DUCK!";
-							//case 5:
+							case 5:
 								SetScreen(Sprite_NewsBlack);
 								return ".............";
 						}
@@ -401,8 +401,8 @@ switch(TextType){
 							SetScreen(Sprite_NewsB);
 								return "Keep watching the news, stay informed, and be prepared. Now is the time to get your children to a safe place. Good luck.";
 							case 5:
-							SetScreen(Sprite_NewsNoSignal);
-								return ". . .";
+							SetScreen(Sprite_NewsBlack);
+								return "...";
 						}
 					case 10:
 						switch(global.segmentCounter){
@@ -411,16 +411,19 @@ switch(TextType){
 								return "Good evening and thank you for tuning in to Channel B News. I'm your host Bart Barnes, here to bring you all the latest news.";
 							case 2:
 							SetScreen(Sprite_NewsB);
-								return "This just in - the president has declared a state of emergency as a civil war erupts. You know what to do, folks. It's time to wipe out that People's Party scum for good. If you really care about the fate of this country, you will stay and fight for the Traditionalist Party.";
+								return "This just in - the president has declared a state of emergency as a civil war erupts. You know what to do, folks. It's time to wipe out that People's Party scum for good.";
 							case 3:
 							SetScreen(Sprite_NewsB);
-								return "We can win this. They don't stand a chance against the strong people on our side.";
+								return "If you really care about the fate of this country, you will stay and fight for the Traditionalist Party.";
 							case 4:
-							SetScreen(Sprite_NewsShot);
-								return "Oh My God! He has a gun!";
+							SetScreen(Sprite_NewsB);
+								return "We can win this. They don't stand a chance against the strong people on our side.";
 							case 5:
+							SetScreen(Sprite_NewsShot);
+								return "WAIT NO!";
+							case 6:
 							SetScreen(Sprite_NewsBlack);
-								return ". . .";
+								return "...";
 						}
 				}
 				break;
@@ -493,7 +496,7 @@ switch(TextType){
 								return "The World Council Negotiators have announced their agenda for the International Leaders Conference. The talking points are to direct attention to corruption in foreign powers that have strayed away from their political leadership values in favor of more corrupt regimes.";
 							case 4:
 							SetScreen(Sprite_NewsGlobal);
-								return "WCN representatives have made a statement stating that corruption in international governments has boiled over long ago and cannot be ignored any longer and this year's focus at the conference will be to re-enforce our original values that promote peace, prosperity, and philanthropy.";
+								return "WCN representatives have made a statement stating that \"corruption in international governments has boiled over long ago and cannot be ignored any longer as this year's focus at the conference will be to re-enforce our original values that promote peace, prosperity, and philanthropy.\"";
 							case 5:
 							SetScreen(Sprite_NewsGlobal);
 								return "What does your hat actually say about you? More global news at 8.";
@@ -640,14 +643,11 @@ switch(TextType){
 								return "Hit TV show Bungies and Bunnies has made a splash in the ratings among local television watchers as well as a stir in controversies among pet owners and animal rights activists.";
 							case 3:
 							SetScreen(Sprite_NewsLocal);
-								return "Hit TV show Bungies and Bunnies has made a splash in the ratings among local television watchers as well as a stir in controversies among pet owners and animal rights activists.";
+								return "Showrunner and host, Billie Bin Banister, says their show takes great care of their cast and show animals, but admits some accidents during the testing phases of the show \"could have been avoidable.\"";
 							case 4:
 							SetScreen(Sprite_NewsLocal);
-								return "Showrunner and host, Billie Bin Banister, says their show takes great care of their cast and show animals, but admits some accidents during the testing phases of the show \"could have been avoidable.\"";
-							case 5:
-							SetScreen(Sprite_NewsLocal);
 								return "The show's premise states they \"take bunnies and see where they will bungie\" and local tv watchers can't seem to get enough of the adorable cast. The show is scheduled to premier on the Entertainment Channel every week indefinitely.";
-							case 6:
+							case 5:
 							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
 						}
@@ -700,7 +700,7 @@ switch(TextType){
 								return "Local residents have gathered in front of town hall to display banners and picket signs to promote peace and prosperity in the community and possibly take the hat symbol back.";
 							case 4:
 							SetScreen(Sprite_NewsLocal);
-								return "We, the Local newscasters, commend our community for striving for peace in such strange and uncertain times.";
+								return "We, the Local Newscasters, commend our community for striving for peace in such strange and uncertain times.";
 							case 5:
 							SetScreen(Sprite_Comm3);
 								return "Our broadcast is brought to you by the Local Broadcasting Institute and viewers like you. Thank you!";
@@ -792,7 +792,7 @@ switch(TextType){
 					case 10:
 						switch(global.segmentCounter){
 							case 1:
-							SetScreen(Sprite_NewsBlack);
+							SetScreen(Sprite_NewsNoSignal);
 								return "There seems to be text scrolling along the bottom: We the Local News proclaim...The end is near.";
 						}
 				}
@@ -941,7 +941,7 @@ switch(TextType){
 					case 1:
 						return "Dixon and Cox Supporters Clash Outside Courthouse?";
 					case 2:
-						return "Dixon and Cox Supporters Clash Outside Courthouse";
+						return "Dixon and Cox Supporters Clash Outside Courthouse?";
 					case 3:
 						return "Who is Jeb Dingus?";
 					case 4:
@@ -1889,393 +1889,394 @@ switch(TextType){
 			}
 				break;
 			case 10:
-
+				return "";
 			break;
 		}
 		break;
 	//message choices
-	case 6:
-		switch(global.currentCycle){
-			case 1:
+
+		case 6:
+			switch(global.currentCycle){
+				case 1:
+					switch(choiceValue){
+						case 1:
+							if(global.currentChoice == 3){
+								value = 0;
+								support = 3;
+								return "I saw that on the news earlier! I'll give them a call later and see how they're doing";
+							}else {
+								value = 0;
+								support = 1;
+								return "No, I didn't see that. I'm glad they're ok";
+							}
+						case 2:
+							if(global.currentChoice == 3){
+								value = 1;
+								support = 3;
+								return "I was just watching the footage of the earthquake. I'm going to donate to the relief fund";
+							}else{
+								value = 0;
+								support = 1;
+								return "Oh, I wasn't paying attention to the global news. Anozia is always dealing with earthquakes, I'm sure they'll be fine";
+							}
+						case 3:
+						if(global.currentChoice == 3){
+							value = -1;
+							support = 3;
+							return "Yeah, I saw it on the news earlier. The earthquake didn't seem that bad, I'm sure they'll be fine";
+						}else{
+							value = 0;
+							support = 3;
+							return "I didn't see that, I should have been paying closer attention to the global news! I'll reach out to them and see how they're doing";
+						}
+					}
+					break;
+				case 2:
+					switch(choiceValue){
+						case 1:
+							if(global.currentChoice == 4){
+								value = 1;
+								support = 4;
+								return "I'm not going to support that show. I don't like the way they treat the animals";
+							}else{
+								value = 0;
+								support = 4;
+								return "Haven't watched it yet. How many episodes are out so far?";
+							}
+						case 2:
+							if(global.currentChoice == 4){
+								value = -1;
+								support = 4;
+								return "I'm gonna start watching it soon. Have you seen all of the controversy about the show? Those animal rights activists are so annoying lmao";
+							}else{
+								value = 0;
+								support = 4;
+								return "I've heard a lot of great things about that show. It's on my to-watch list";
+							}
+						case 3:
+							if(global.currentChoice == 4){
+								value = 0;
+								support = 4;
+								return "I've heard about it but idk if I'm going to watch it because I saw some not so great things about it on the news";
+							}else{
+								value = 0;
+								support = 4;
+								return "I haven't heard about that show. What's it about?";
+							}
+					}
+					break;
+				case 3:
 				switch(choiceValue){
 					case 1:
 						if(global.currentChoice == 3){
-							value = 0;
+							value = -1;
 							support = 3;
-							return "I saw that on the news earlier! I'll give them a call later and see how they're doing";
+							return "Yeah, I heard about it while I was watching the global news. I'm not going to get rid of my hats";
 						}else {
 							value = 0;
 							support = 1;
-							return "No, I didn't see that. I'm glad they're ok";
+							return "No, I must've missed that. Can you fill me in on what happened?";
 						}
 					case 2:
 						if(global.currentChoice == 3){
 							value = 1;
 							support = 3;
-							return "I was just watching the footage of the earthquake. I'm going to donate to the relief fund";
+							return "I saw the whole thing earlier. Idk, I think I'm gonna get rid of my hats. I don't want to be associated with them at all :(";
 						}else{
 							value = 0;
 							support = 1;
-							return "Oh, I wasn't paying attention to the global news. Anozia is always dealing with earthquakes, I'm sure they'll be fine";
+							return "Where'd you get this info from? Send me the link so I can look into it";
 						}
 					case 3:
 					if(global.currentChoice == 3){
 						value = -1;
 						support = 3;
-						return "Yeah, I saw it on the news earlier. The earthquake didn't seem that bad, I'm sure they'll be fine";
+						return "Yep. I don't know what I'm going to do yet. I'm waiting to see everyone else is going to do first before I get rid of all of my hats";
 					}else{
 						value = 0;
 						support = 3;
-						return "I didn't see that, I should have been paying closer attention to the global news! I'll reach out to them and see how they're doing";
+						return "Getting rid of your hats? That sounds ridiculous lol";
 					}
 				}
-				break;
-			case 2:
+					break;
+				case 4:
 				switch(choiceValue){
 					case 1:
-						if(global.currentChoice == 4){
+						if(global.currentChoice == 1){
 							value = 1;
-							support = 4;
-							return "I'm not going to support that show. I don't like the way they treat the animals";
+							support = 1;
+							return "I'm sure she's guilty. Have you seen the way she's been acting recently?";
+						}else if(global.currentChoice == 2){
+							value = 1;
+							support = 2;
+							return "I know, I can't believe it either! She really doesn't need to be dealing with this additional stress right now, I feel bad for her";
 						}else{
 							value = 0;
 							support = 4;
-							return "Haven't watched it yet. How many episodes are out so far?";
+							return "No, I haven't been keeping up with politics. What happened?";
 						}
 					case 2:
 						if(global.currentChoice == 4){
 							value = -1;
-							support = 4;
-							return "I'm gonna start watching it soon. Have you seen all of the controversy about the show? Those animal rights activists are so annoying lmao";
+							support = 1;
+							return "I'm sure she's innocent. I was watching A News earlier and they're trying really hard to make her look bad";
+						}else if(global.currentChoice == 2){
+							value = -1;
+							support = 2;
+							return "Despite what Channel B News has to say, I think she's guilty. They're just trying to push a pro-Traditionalist Party narrative.";
 						}else{
 							value = 0;
 							support = 4;
-							return "I've heard a lot of great things about that show. It's on my to-watch list";
+							return "I was catching up on some other news today. What has she been accused of?";
 						}
 					case 3:
+						if(global.currentChoice == 1 || global.currentChoice == 2){
+							value = 0;
+							support = 4;
+							return "I don't know, I feel like I don't have enough information to say one way or another. I don't trust the news I've been watching about the situation";
+						}else{
+							value = 0;
+							support = 4;
+							return "There are accusations against Diana Dixon? That doesn't sound too good";
+						}
+				}
+					break;
+				case 5:
+				switch(choiceValue){
+					case 1:
+						if(global.currentChoice == 3){
+							value = 1;
+							support = 3;
+							return "I saw the news earlier! I'm so excited for you guys, I know the earthquake hit you hard";
+						}else {
+							value = 0;
+							support = 1;
+							return "I didn't see the news but that's great!";
+						}
+					case 2:
+						if(global.currentChoice == 3){
+							value = 0;
+							support = 3;
+							return "Yeah, I saw that earlier. I'm personally not a fan of von Speeshel but it's great that you're excited!";
+						}else{
+							value = 0;
+							support = 1;
+							return "This is the first I'm hearing about it. I'm not at all familiar with him but I'm glad you're happy about the outcome";
+						}
+					case 3:
+					if(global.currentChoice == 3){
+						value = -1;
+						support = 3;
+						return "Honestly, I'm not at all happy that von Speeshel won. His policies suck and I doubt he'll follow through with any of the promises he made";
+					}else{
+						value = 0;
+						support = 3;
+						return "Oh, I don't keep up with foreign politics at all. I hope he'll be a good president though!";
+					}
+				}
+					break;
+				case 6:
+				switch(choiceValue){
+					case 1:
+						if(global.currentChoice == 4){
+							value = 1;
+							support = 4;
+							return "Aww, I think it's cute. I'm probably gonna get a t-shirt or something";
+						}else {
+							value = 0;
+							support = 1;
+							return "No, I was paying attention to more important news stories";
+						}
+					case 2:
 						if(global.currentChoice == 4){
 							value = 0;
 							support = 4;
-							return "I've heard about it but idk if I'm going to watch it because I saw some not so great things about it on the news";
+							return "The local news station was covering it earlier. I don't plan on buying any but I don't see the harm in it";
 						}else{
 							value = 0;
-							support = 4;
-							return "I haven't heard about that show. What's it about?";
+							support = 1;
+							return "I haven't heard about it. Who's distributing the peace merch?";
 						}
-				}
-				break;
-			case 3:
-			switch(choiceValue){
-				case 1:
-					if(global.currentChoice == 3){
-						value = -1;
-						support = 3;
-						return "Yeah, I heard about it while I was watching the global news. I'm not going to get rid of my hats";
-					}else {
-						value = 0;
-						support = 1;
-						return "No, I must've missed that. Can you fill me in on what happened?";
-					}
-				case 2:
-					if(global.currentChoice == 3){
-						value = 1;
-						support = 3;
-						return "I saw the whole thing earlier. Idk, I think I'm gonna get rid of my hats. I don't want to be associated with them at all :(";
-					}else{
-						value = 0;
-						support = 1;
-						return "Where'd you get this info from? Send me the link so I can look into it";
-					}
-				case 3:
-				if(global.currentChoice == 3){
-					value = -1;
-					support = 3;
-					return "Yep. I don't know what I'm going to do yet. I'm waiting to see everyone else is going to do first before I get rid of all of my hats";
-				}else{
-					value = 0;
-					support = 3;
-					return "Getting rid of your hats? That sounds ridiculous lol";
-				}
-			}
-				break;
-			case 4:
-			switch(choiceValue){
-				case 1:
-					if(global.currentChoice == 1){
-						value = 1;
-						support = 1;
-						return "I'm sure she's guilty. Have you seen the way she's been acting recently?";
-					}else if(global.currentChoice == 2){
-						value = 1;
-						support = 2;
-						return "I know, I can't believe it either! She really doesn't need to be dealing with this additional stress right now, I feel bad for her";
-					}else{
-						value = 0;
-						support = 4;
-						return "No, I haven't been keeping up with politics. What happened?";
-					}
-				case 2:
+					case 3:
 					if(global.currentChoice == 4){
 						value = -1;
-						support = 1;
-						return "I'm sure she's innocent. I was watching A News earlier and they're trying really hard to make her look bad";
-					}else if(global.currentChoice == 2){
-						value = -1;
-						support = 2;
-						return "Despite what Channel B News has to say, I think she's guilty. They're just trying to push a pro-Traditionalist Party narrative.";
+						support = 4;
+						return "Yeah, I saw it. It's all just empty gestures and it won't solve any of our problems";
 					}else{
-						value = 0;
-						support = 4;
-						return "I was catching up on some other news today. What has she been accused of?";
-					}
-				case 3:
-					if(global.currentChoice == 1 || global.currentChoice == 2){
-						value = 0;
-						support = 4;
-						return "I don't know, I feel like I don't have enough information to say one way or another. I don't trust the news I've been watching about the situation";
-					}else{
-						value = 0;
-						support = 4;
-						return "There are accusations against Diana Dixon? That doesn't sound too good";
-					}
-			}
-				break;
-			case 5:
-			switch(choiceValue){
-				case 1:
-					if(global.currentChoice == 3){
-						value = 1;
-						support = 3;
-						return "I saw the news earlier! I'm so excited for you guys, I know the earthquake hit you hard";
-					}else {
-						value = 0;
-						support = 1;
-						return "I didn't see the news but that's great!";
-					}
-				case 2:
-					if(global.currentChoice == 3){
 						value = 0;
 						support = 3;
-						return "Yeah, I saw that earlier. I'm personally not a fan of von Speeshel but it's great that you're excited!";
-					}else{
-						value = 0;
-						support = 1;
-						return "This is the first I'm hearing about it. I'm not at all familiar with him but I'm glad you're happy about the outcome";
+						return "I didn't hear about it but it sounds interesting! Where can I find out more about it?";
 					}
-				case 3:
-				if(global.currentChoice == 3){
-					value = -1;
-					support = 3;
-					return "Honestly, I'm not at all happy that von Speeshel won. His policies suck and I doubt he'll follow through with any of the promises he made";
-				}else{
-					value = 0;
-					support = 3;
-					return "Oh, I don't keep up with foreign politics at all. I hope he'll be a good president though!";
 				}
-			}
-				break;
-			case 6:
-			switch(choiceValue){
-				case 1:
-					if(global.currentChoice == 4){
-						value = 1;
-						support = 4;
-						return "Aww, I think it's cute. I'm probably gonna get a t-shirt or something";
-					}else {
-						value = 0;
-						support = 1;
-						return "No, I was paying attention to more important news stories";
-					}
-				case 2:
-					if(global.currentChoice == 4){
-						value = 0;
-						support = 4;
-						return "The local news station was covering it earlier. I don't plan on buying any but I don't see the harm in it";
-					}else{
-						value = 0;
-						support = 1;
-						return "I haven't heard about it. Who's distributing the peace merch?";
-					}
-				case 3:
-				if(global.currentChoice == 4){
-					value = -1;
-					support = 4;
-					return "Yeah, I saw it. It's all just empty gestures and it won't solve any of our problems";
-				}else{
-					value = 0;
-					support = 3;
-					return "I didn't hear about it but it sounds interesting! Where can I find out more about it?";
-				}
-			}
-				break;
-			case 7:
-			switch(choiceValue){
-				case 1:
-					if(global.currentChoice == 3){
-						value = 1;
-						support = 3;
-						return "Yeah, but he's right about the United Federation. There's a lot of problems we need to address in this country";
-					}else {
-						value = 0;
-						support = 3;
-						return "No, I didn't hear what he had to say. I'm guessing it's not too good based on your text";
-					}
-				case 2:
-					if(global.currentChoice == 3){
-						value = 0;
-						support = 3;
-						return "I don't care too much about what other politicians have to say about our country";
-					}else{
-						value = 0;
-						support = 3;
-						return "Do you know where I can find his speech? I want to hear what he had to say for myself";
-					}
-				case 3:
-				if(global.currentChoice == 3){
-					value = -1;
-					support = 3;
-					return "Those comments were so inappropriate! He needs to keep his mouth shut and focus on his own country";
-				}else{
-					value = 0;
-					support = 3;
-					return "I've never liked that von Speeshel guy. I'm not surprised he's been bad mouthing Anozia";
-				}
-			}
-				break;
-			case 8:
-			switch(choiceValue){
-				case 1:
-				//find max
-				//news a
-					if(global.NewsA > global.NewsB && global.NewsA > global.NewsG && global.NewsA > global.NewsL){
-						value = 1;
-						support = 1;
-						return "I'm going to stay here and support the People's Party. Be careful when you travel to Anozia";
-				//news b
-					}else if(global.NewsB > global.NewsA && global.NewsB > global.NewsG && global.NewsB > global.NewsL){
-						value = 1;
-						support = 2;
-						return "No, I didn't hear what he had to say. I'm guessing it's not too good based on your text";
-				//global
-					}else if(global.NewsG > global.NewsA && global.NewsG > global.NewsB && global.NewsG > global.NewsL){
-					value = 1;
-					support = 3;
-						return "When are you leaving? I might come with you if there's enough room for all of us";
-
-				//local
-					}else{
-						value = 1;
-						support = 4;
-						return "When are you leaving? I might come with you if there's enough room for all of us";
-					}
-				case 2:
-						value = 0;
-						support = 3;
-						return "I'm going to wait a few days before I decide what to do";
-				case 3:
-					value = 0;
-					support = 3;
-					return " I'm not leaving the United Federation. I'm sure this will all blow over in a week";
-			}
-				break;
-			case 9:
-			switch(choiceValue){
-				case 1:
-				//find max
-				//news a
-					if(global.NewsA > global.NewsB && global.NewsA > global.NewsG && global.NewsA > global.NewsL){
-						value = 1;
-						support = 1;
-						return "You all should support the People's Party in the war. It's the best thing we could do for our country.";
-				//news b
-					}else if(global.NewsB > global.NewsA && global.NewsB > global.NewsG && global.NewsB > global.NewsL){
-						value = 1;
-						support = 2;
-						return "You all should support the Traditionalist Party in the war. It's the best thing we could do for our country.";
-				//global
-					}else if(global.NewsG > global.NewsA && global.NewsG > global.NewsB && global.NewsG > global.NewsL){
-					value = -1;
-					support = 3;
-						return "I know one thing for sure - we should all stay out of this civil war business";
-
-				//local
-					}else{
-						value = -1;
-						support = 4;
-						return "I know one thing for sure - we should all stay out of this civil war business";
-					}
-				case 2:
-					value = 0;
-					support = 3;
-					return "I'm doing fine. I've been putting together an emergency kit just in case, you all should do the same";
-				case 3:
-					value = 0;
-					support = 3;
-					return "Things are ok over here. I feel like I should be doing something but I'm just so lost at this point";
-			}
-				break;
-			case 10:
+					break;
+				case 7:
 				switch(choiceValue){
 					case 1:
-										value = 1;
-					support = 1;
-						return "Responce 10:1, temporary text";
+						if(global.currentChoice == 3){
+							value = 1;
+							support = 3;
+							return "Yeah, but he's right about the United Federation. There's a lot of problems we need to address in this country";
+						}else {
+							value = 0;
+							support = 3;
+							return "No, I didn't hear what he had to say. I'm guessing it's not too good based on your text";
+						}
 					case 2:
-										value = 1;
-					support = 1;
-						return "Responce 10:2, temporary text";
+						if(global.currentChoice == 3){
+							value = 0;
+							support = 3;
+							return "I don't care too much about what other politicians have to say about our country";
+						}else{
+							value = 0;
+							support = 3;
+							return "Do you know where I can find his speech? I want to hear what he had to say for myself";
+						}
 					case 3:
-										value = 1;
-					support = 1;
-						return "Responce 10:3, temporary text";
+					if(global.currentChoice == 3){
+						value = -1;
+						support = 3;
+						return "Those comments were so inappropriate! He needs to keep his mouth shut and focus on his own country";
+					}else{
+						value = 0;
+						support = 3;
+						return "I've never liked that von Speeshel guy. I'm not surprised he's been bad mouthing Anozia";
+					}
 				}
-			break;
+					break;
+				case 8:
+				switch(choiceValue){
+					case 1:
+					//find max
+					//news a
+						if(global.NewsA > global.NewsB && global.NewsA > global.NewsG && global.NewsA > global.NewsL){
+							value = 1;
+							support = 1;
+							return "I'm going to stay here and support the People's Party. Be careful when you travel to Anozia";
+					//news b
+						}else if(global.NewsB > global.NewsA && global.NewsB > global.NewsG && global.NewsB > global.NewsL){
+							value = 1;
+							support = 2;
+							return "No, I didn't hear what he had to say. I'm guessing it's not too good based on your text";
+					//global
+						}else if(global.NewsG > global.NewsA && global.NewsG > global.NewsB && global.NewsG > global.NewsL){
+						value = 1;
+						support = 3;
+							return "When are you leaving? I might come with you if there's enough room for all of us";
 
-		}
-	break;
+					//local
+						}else{
+							value = 1;
+							support = 4;
+							return "When are you leaving? I might come with you if there's enough room for all of us";
+						}
+					case 2:
+							value = 0;
+							support = 3;
+							return "I'm going to wait a few days before I decide what to do";
+					case 3:
+						value = 0;
+						support = 3;
+						return " I'm not leaving the United Federation. I'm sure this will all blow over in a week";
+				}
+					break;
+				case 9:
+				switch(choiceValue){
+					case 1:
+					//find max
+					//news a
+						if(global.NewsA > global.NewsB && global.NewsA > global.NewsG && global.NewsA > global.NewsL){
+							value = 1;
+							support = 1;
+							return "You all should support the People's Party in the war. It's the best thing we could do for our country.";
+					//news b
+						}else if(global.NewsB > global.NewsA && global.NewsB > global.NewsG && global.NewsB > global.NewsL){
+							value = 1;
+							support = 2;
+							return "You all should support the Traditionalist Party in the war. It's the best thing we could do for our country.";
+					//global
+						}else if(global.NewsG > global.NewsA && global.NewsG > global.NewsB && global.NewsG > global.NewsL){
+						value = -1;
+						support = 3;
+							return "I know one thing for sure - we should all stay out of this civil war business";
+
+					//local
+						}else{
+							value = -1;
+							support = 4;
+							return "I know one thing for sure - we should all stay out of this civil war business";
+						}
+					case 2:
+						value = 0;
+						support = 3;
+						return "I'm doing fine. I've been putting together an emergency kit just in case, you all should do the same";
+					case 3:
+						value = 0;
+						support = 3;
+						return "Things are ok over here. I feel like I should be doing something but I'm just so lost at this point";
+				}
+					break;
+				case 10:
+					switch(choiceValue){
+						case 1:
+											value = 1;
+						support = 1;
+							return "Responce 10:1, temporary text";
+						case 2:
+											value = 1;
+						support = 1;
+							return "Responce 10:2, temporary text";
+						case 3:
+											value = 1;
+						support = 1;
+							return "Responce 10:3, temporary text";
+					}
+				break;
+
+			}
+		break;
 	//endings
 	case 7:
-		switch(choiceValue){
-			case 1:
-				//end A
-				return "Your country is in danger. It is up to you, along with all of your fellow citizens, to protect your country and your future. You've decided to join the war and fight for the People's Party.";
-			case 2:
-				//end B
-				return "You know what you must do. Your country is being threatened by radicals. It is your duty as a citizen of the United Federation to join the Traditionalist Party and protect your country.";
-			case 3:
-				//end G
-				return "These are dangerous times. The United Federation is no longer safe. You've decided to flee to Anozia and stay with your family there before things get even worse.";
-			case 4:
-				//end L
-				return "You have no interest in fighting in the civil war but you're not ready to give up on the United Federation yet. You want to protect your home and the town you live in. You, along with several other members of your community, have formed a local militia and intend to keep your town safe while the war is ongoing.";
-			case 5:
-				//end N
-				return"Times are tough. Your country is now at war and you're not sure what to do. You're not going to risk your life to fight on either side, but you don't want to leave your home either. You suppose you'll just wait it out.";
-		}
-	break;
+	switch(choiceValue){
+		case 1:
+			//end A
+			return "Your country is in danger. It is up to you, along with all of your fellow citizens, to protect your country and your future. You've decided to join the war and fight for the People's Party.";
+		case 2:
+			//end B
+			return "You know what you must do. Your country is being threatened by radicals. It is your duty as a citizen of the United Federation to join the Traditionalist Party and protect your country.";
+		case 3:
+			//end G
+			return "These are dangerous times. The United Federation is no longer safe. You've decided to flee to Anozia and stay with your family there before things get even worse.";
+		case 4:
+			//end L
+			return "You have no interest in fighting in the civil war but you're not ready to give up on the United Federation yet. You want to protect your home and the town you live in. You, along with several other members of your community, have formed a local militia and intend to keep your town safe while the war is ongoing.";
+		case 5:
+			//end N
+			return"Times are tough. Your country is now at war and you're not sure what to do. You're not going to risk your life to fight on either side, but you don't want to leave your home either. You suppose you'll just wait it out.";
+	}
+break;
 	//next day text
 	case 8:
 		switch(global.currentCycle){
 		case 1:
-			return "You've gotten home from a very long day at work. You finally have some time to catch up on the news. So many channels, so little time. . . Which channel will you watch today?";
+			return "Day 1\nYou've gotten home from a very long day at work. You finally have some time to catch up on the news. So many channels, so little time. . . Which channel will you watch today?";
 		case 2:
-			return "Day 2";
+			return "Day 2\nDon't forget to fact check the news every day!\nYour fact check app is unbiased. In the real world, all sources are a little biased so be sure to check multiple sources.";
 		case 3:
-			return "Day 3";
+			return "Day 3\nYour family and friends may ask about events you haven't heard about. Watching a variety of news helps you respond to them and keeps you more informed in the game and real life.";
 		case 4:
-			return "Day 4";
+			return "Day 4\nYou can post on social media to tell people how you feel about the news or you can post about something else.\nIn real life, be careful what you post. On the internet, nothing goes away.";
 		case 5:
-			return "Day 5";
+			return "Day 5\nMake sure you check all of your apps before going to sleep!\nEven spending a few minutes each day can keep you more informed.";
 		case 6:
-			return "Day 6";
+			return "Day 6\nYou can choose to watch the same channel every day or you can pick different channels to watch.\nIn the real world, finding a trusted source is great, but keep in mind their biases.";
 		case 7:
-			return "Day 7";
+			return "Day 7\nAll news sources can be biased, even a trusted source.\nAlways try to question information and look at mutiple reliable sources";
 		case 8:
-			return "Day 8";
+			return "Day 8\nTelevision is not your only opption for information.\nOther types of sources can be an easy way to stay informed, such as listening to the radio, reading the news paper, or finding articles online.";
 		case 9:
-			return "Day 9";
+			return "Day 9\nYour family and friends may have differing opinions than you.\n You don't need to agree with them, but always try to be kind.";
 		case 10:
-			return "Day 10";
+			return "Day 10\nKeeping up on the news can be challenging.\nBut spending a bit of time gathering and checking information can make you more informed and less manipulatable.";
 		default:
 			return "error";
 		}

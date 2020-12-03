@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_hover.wav",
-  "duration": 0.144297,
+  "duration": 0.175884,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

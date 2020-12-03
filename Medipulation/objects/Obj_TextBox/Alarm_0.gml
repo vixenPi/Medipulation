@@ -1,5 +1,5 @@
 //typewriter sound effect variable
-var typewriter = audio_play_sound(snd_type1, 1, false);
+//var typewriter = audio_play_sound(snd_type1, 1, false);
 
 if (index < string_length(text))
 {
@@ -8,7 +8,7 @@ if (index < string_length(text))
 	
 	//play sound
 	randomize();
-	audio_sound_pitch(typewriter, random_range(1, 1.4));
+	//audio_sound_pitch(typewriter, random_range(1, 1.4));
 	//audio_play_sound(choose(snd_type1), 1, false);
 	
 	
