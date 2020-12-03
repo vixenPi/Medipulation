@@ -4,7 +4,7 @@ scrollValue = 0;
 
 //typewriter effect speed calc
 index = 0;
-var interval = random_range(0.08, 0.15);
+var interval = random_range(0.04, 0.07);
 alarm[0] = room_speed * interval;
 
 

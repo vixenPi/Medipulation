@@ -17,5 +17,5 @@ else
 {
 	audio_stop_sound(snd_type1);
 }
-var interval = random_range(0.06, 0.08);
+var interval = random_range(0.04, 0.07);
 alarm[0] = room_speed * interval;
