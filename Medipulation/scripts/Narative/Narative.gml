@@ -2264,19 +2264,19 @@ break;
 		case 3:
 			return "Day 3\nYour family and friends may ask about events you haven't heard about. Watching a variety of news helps you respond to them and keeps you more informed in the game and real life.";
 		case 4:
-			return "Day 4\nYou can post on social media to tell people how you feel about the news or you can post about something else.\nIn real life, be careful what you post. On the internet, nothing goes away.";
+			return "Day 4\nYou can post on social media to tell people how you feel about the news, or you can post about something else.\nIn real life, be careful what you post. On the internet, nothing goes away.";
 		case 5:
-			return "Day 5\nMake sure you check all of your apps before going to sleep!\nEven spending a few minutes each day can keep you more informed.";
+			return "Day 5\nMake sure you check all of your apps before going to sleep!\nSpending a few minutes each day checking sources can keep you more informed.";
 		case 6:
-			return "Day 6\nYou can choose to watch the same channel every day or you can pick different channels to watch.\nIn the real world, finding a trusted source is great, but keep in mind their biases.";
+			return "Day 6\nYou can choose to watch the same channel every day, or you can pick different channels to watch.\nIn the real world, finding a trusted source is great, but keep in mind their biases.";
 		case 7:
-			return "Day 7\nAll news sources can be biased, even a trusted source.\nAlways try to question information and look at mutiple reliable sources";
+			return "Day 7\nAll news sources can be biased, even a trusted source.\nAlways try to question information and look at multiple reliable sources";
 		case 8:
-			return "Day 8\nTelevision is not your only opption for information.\nOther types of sources can be an easy way to stay informed, such as listening to the radio, reading the news paper, or finding articles online.";
+			return "Day 8\nTelevision is not your only option for information.\nOther types of sources can be an easy way to stay informed, such as listening to the radio, reading the newspaper, or finding articles online.";
 		case 9:
 			return "Day 9\nYour family and friends may have differing opinions than you.\n You don't need to agree with them, but always try to be kind.";
 		case 10:
-			return "Day 10\nKeeping up on the news can be challenging.\nBut spending a bit of time gathering and checking information can make you more informed and less manipulatable.";
+			return "Day 10\nKeeping up on the news can be challenging.\nBut spending a bit of time gathering and checking information each day can make you more informed and less manipulable.";
 		default:
 			return "error";
 		}
